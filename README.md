@@ -63,5 +63,17 @@ Toda cifra/alerta/norma va con **fuente y fecha verificables, o se omite**. Un d
 inventado aquí no es ruido: es algo sobre lo que se podría actuar. Si una sección
 está delgada, se marca *estable* o *delgada* — jamás se rellena.
 
+## Prior art (proyectos similares)
+
+Escaneo de repos públicos comparables (jun-2026). Confirman el patrón y aportan ideas:
+
+- **[koala73/worldmonitor](https://github.com/koala73/worldmonitor)** (★56k) — dashboard de inteligencia global en tiempo real, agregación con IA, 23 fuentes. El más cercano y maduro.
+- **[hipcityreg/situation-monitor](https://github.com/hipcityreg/situation-monitor)** (★4.1k) — dashboard de noticias + mercados + geopolítica.
+- **[simplifaisoul/osiris](https://github.com/simplifaisoul/osiris)** (★5.3k) — OSINT dashboard estilo Palantir.
+- **[leiting-eric/DailyBrief](https://github.com/leiting-eric/DailyBrief)** (★255) — brief diario con LLM, deploy por GitHub Actions (patrón idéntico al nuestro).
+- **[zakirkun/blossom-terminal](https://github.com/zakirkun/blossom-terminal)** — terminal estilo Bloomberg; **[kevinho/clawfeed](https://github.com/kevinho/clawfeed)** — digest de noticias con IA.
+
+**Diferenciador de este repo:** foco Perú (BCRP/BVL/MINSA/DIGEMID/CDC Perú), capa de **salud + epidemiología + salud mental**, personalización a Javier, y regla anti-fabricación dura sobre datos accionables.
+
 ---
 *Parte del Jaflo Lab. Voz: Luci/Fable. Hermano del repo `jaflo-daily-intel` (inteligencia académica).*
