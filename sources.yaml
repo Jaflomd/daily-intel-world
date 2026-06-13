@@ -1,0 +1,76 @@
+# Daily Intel — Perú & World · Whitelist de fuentes confiables
+# Single source of truth para el prompt diario. Editar aquí cambia la prioridad
+# de sourcing. Orden = prioridad (primero = más confiable / preferido).
+# Regla: una cifra, alerta o norma SOLO entra al briefing si se ancla a una de
+# estas fuentes (o equivalente de igual nivel) con URL verificable.
+
+peru:
+  politica_economia:
+    - { name: "Gestión",          url: "https://gestion.pe",            tipo: "economía/negocios" }
+    - { name: "El Comercio",      url: "https://elcomercio.pe",         tipo: "generalista" }
+    - { name: "La República",     url: "https://larepublica.pe",        tipo: "generalista" }
+    - { name: "RPP",              url: "https://rpp.pe",                tipo: "generalista/última hora" }
+    - { name: "Andina",           url: "https://andina.pe",             tipo: "agencia oficial" }
+    - { name: "Infobae Perú",     url: "https://www.infobae.com/peru/", tipo: "generalista" }
+    - { name: "IDL-Reporteros",   url: "https://www.idl-reporteros.pe", tipo: "investigación" }
+    - { name: "Ojo Público",      url: "https://ojo-publico.com",       tipo: "investigación" }
+  macro_datos:
+    - { name: "BCRP",  url: "https://www.bcrp.gob.pe",  tipo: "banco central · tipo de cambio, tasas, inflación" }
+    - { name: "INEI",  url: "https://www.inei.gob.pe",  tipo: "estadística oficial · PBI, empleo, IPC" }
+    - { name: "MEF",   url: "https://www.gob.pe/mef",   tipo: "fiscal · presupuesto, deuda" }
+    - { name: "BVL",   url: "https://www.bvl.com.pe",   tipo: "bolsa · IGBVL/SPBVL" }
+  salud_epi_normativa:
+    - { name: "MINSA",            url: "https://www.gob.pe/minsa",                tipo: "rector salud · normas, comunicados" }
+    - { name: "CDC Perú",         url: "https://www.dge.gob.pe",                  tipo: "epidemiología · sala situacional, boletín, alertas" }
+    - { name: "DIGEMID",          url: "https://www.gob.pe/digemid",              tipo: "medicamentos · alertas, retiros, normas" }
+    - { name: "INS",              url: "https://www.gob.pe/ins",                  tipo: "instituto nacional de salud" }
+    - { name: "SUSALUD",          url: "https://www.gob.pe/susalud",              tipo: "regulación prestadores" }
+    - { name: "El Peruano",       url: "https://www.gob.pe/elperuano",            tipo: "diario oficial · normas legales/leyes" }
+
+usa:
+  noticias_mercados:
+    - { name: "Reuters",     url: "https://www.reuters.com",      tipo: "agencia" }
+    - { name: "Associated Press", url: "https://apnews.com",      tipo: "agencia" }
+    - { name: "Bloomberg",   url: "https://www.bloomberg.com",    tipo: "mercados/economía" }
+    - { name: "CNBC",        url: "https://www.cnbc.com",         tipo: "mercados" }
+    - { name: "Wall Street Journal", url: "https://www.wsj.com",  tipo: "mercados/negocios" }
+    - { name: "Politico",    url: "https://www.politico.com",     tipo: "política" }
+    - { name: "The Hill",    url: "https://thehill.com",          tipo: "política" }
+  datos_oficiales:
+    - { name: "Federal Reserve", url: "https://www.federalreserve.gov", tipo: "política monetaria · tasas, FOMC" }
+    - { name: "BLS",  url: "https://www.bls.gov",  tipo: "empleo, CPI, inflación" }
+    - { name: "BEA",  url: "https://www.bea.gov",  tipo: "PIB" }
+    - { name: "Treasury", url: "https://home.treasury.gov", tipo: "fiscal · rendimientos UST" }
+
+china:
+  noticias_geopolitica:
+    - { name: "Reuters",   url: "https://www.reuters.com/world/china/", tipo: "agencia" }
+    - { name: "Bloomberg", url: "https://www.bloomberg.com",            tipo: "economía/mercados" }
+    - { name: "South China Morning Post", url: "https://www.scmp.com",  tipo: "regional" }
+    - { name: "Caixin Global", url: "https://www.caixinglobal.com",     tipo: "economía (independiente)" }
+    - { name: "Xinhua",    url: "https://english.news.cn",  tipo: "oficial · leer con cautela, contraste obligatorio" }
+    - { name: "MOFCOM",    url: "http://english.mofcom.gov.cn", tipo: "comercio oficial" }
+    - { name: "PBoC",      url: "http://www.pbc.gov.cn/en",     tipo: "banco central" }
+
+global:
+  mercados_macro:
+    - { name: "Reuters Markets",   url: "https://www.reuters.com/markets/",   tipo: "mercados globales" }
+    - { name: "Bloomberg Markets", url: "https://www.bloomberg.com/markets",  tipo: "índices, FX, commodities" }
+    - { name: "Financial Times",   url: "https://www.ft.com",                 tipo: "macro global" }
+    - { name: "MarketWatch",       url: "https://www.marketwatch.com",        tipo: "cotizaciones" }
+  # Tickers de referencia para la franja de métricas:
+  #   USA: S&P 500, Nasdaq, Dow, VIX · FX: DXY, EUR/USD · Bonos: UST 10y
+  #   Commodities: Brent, WTI, oro · Perú: IGBVL/SPBVL, USD/PEN · Cripto: BTC
+
+salud_global_epi_mental:
+  - { name: "OMS / WHO",  url: "https://www.who.int/emergencies/disease-outbreak-news", tipo: "Disease Outbreak News · alertas globales" }
+  - { name: "OMS días sanitarios", url: "https://www.who.int/campaigns", tipo: "calendario días mundiales de la salud" }
+  - { name: "OPS / PAHO", url: "https://www.paho.org", tipo: "Américas · clave para Perú/Latam" }
+  - { name: "US CDC",     url: "https://www.cdc.gov",  tipo: "epidemiología EE.UU./global" }
+  - { name: "ECDC",       url: "https://www.ecdc.europa.eu", tipo: "Europa" }
+  - { name: "WHO Mental Health", url: "https://www.who.int/health-topics/mental-health", tipo: "salud mental global" }
+
+efemerides:
+  - { name: "ONU días internacionales", url: "https://www.un.org/es/observances", tipo: "días internacionales ONU" }
+  - { name: "OMS campañas/días",        url: "https://www.who.int/campaigns",     tipo: "días mundiales de la salud" }
+  # Perú: feriados y efemérides nacionales relevantes (gob.pe).

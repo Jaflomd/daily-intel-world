@@ -1,0 +1,40 @@
+name: Rebuild manifest
+
+# Cuando llega un briefing nuevo (data/**) regenera manifest.json y el index.
+# [skip ci] en el commit evita el loop.
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'data/**'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: rebuild
+  cancel-in-progress: false
+
+jobs:
+  rebuild:
+    if: "!contains(github.event.head_commit.message, '[skip ci]')"
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Regenerar index + manifest
+        run: |
+          node scripts/build.mjs --latest
+      - name: Commit si hay cambios
+        run: |
+          git config user.name "jaflo-bot"
+          git config user.email "actions@github.com"
+          if [ -n "$(git status --porcelain index.html manifest.json archive)" ]; then
+            git add index.html manifest.json archive
+            git commit -m "rebuild index + manifest [skip ci]"
+            git push
+          else
+            echo "sin cambios"
+          fi
