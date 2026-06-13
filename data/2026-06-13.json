@@ -12,7 +12,8 @@
           "source": "Infobae Perú / El Comercio",
           "url": "https://www.infobae.com/peru/2026/06/12/asi-se-procesan-las-actas-observadas-de-las-elecciones-2026-el-mecanismo-que-puede-definir-al-proximo-presidente-del-peru/",
           "category": "política",
-          "date": "2026-06-12"
+          "date": "2026-06-12",
+          "hook": "Tema obligado en toda reunión: ¿proclaman a Keiko o se cae en el JNE?"
         },
         {
           "headline": "Congreso aprueba ley que retira a FF.AA. y PNP del fuero ordinario",
@@ -20,7 +21,8 @@
           "source": "La República",
           "url": "https://larepublica.pe/politica/2026/06/12/congreso-aprueba-ley-que-evita-que-policias-y-miltares-sean-procesados-por-la-justicia-ordinaria-hnews-194412",
           "category": "política",
-          "date": "2026-06-12"
+          "date": "2026-06-12",
+          "hook": "Para debatir: ¿blindaje necesario o impunidad disfrazada?"
         },
         {
           "headline": "Emergencia sanitaria activa por sarampión — DS 008-2026-SA, 501 casos en 8 regiones",
@@ -28,7 +30,8 @@
           "source": "El Peruano / CDC-MINSA",
           "url": "https://busquedas.elperuano.pe/dispositivo/NL/2516187-1",
           "category": "salud",
-          "date": "2026-06-06"
+          "date": "2026-06-06",
+          "hook": "Dato para alarmar al grupo: el sarampión volvió y Puno arde — ¿ya revisaste tus vacunas?"
         },
         {
           "headline": "Inflación fuera del rango meta: 4.01% interanual en abril, subyacente 4.4%",
@@ -36,7 +39,8 @@
           "source": "BCRP / Infobae",
           "url": "https://gestion.pe/tu-dinero/bcrp-mantiene-tasa-de-referencia-en-425-en-junio-noticia/",
           "category": "economía",
-          "date": "2026-06-01"
+          "date": "2026-06-01",
+          "hook": "Por qué tu mercado semanal se siente más caro: el sol y la inflación."
         },
         {
           "headline": "Dengue activo: 7.457 casos y 12 muertes acumuladas a SE08-2026",
@@ -44,7 +48,8 @@
           "source": "DGE-CDC MINSA / Peru21",
           "url": "https://epipublic.dge.gob.pe/uploads/alertas/alertas_20261_09_145341.pdf",
           "category": "salud",
-          "date": "2026-06-01"
+          "date": "2026-06-01",
+          "hook": "Recordatorio veraniego: repelente y baldes tapados — el dengue sigue activo."
         }
       ]
     },
@@ -59,7 +64,8 @@
           "source": "Axios / NBC News",
           "url": "https://www.axios.com/2026/06/11/fisa-section-702-expiration-pulte-trump-johnson",
           "category": "política",
-          "date": "2026-06-11"
+          "date": "2026-06-11",
+          "hook": "Bomba de sobremesa: EE.UU. se quedó sin su programa estrella de espionaje."
         },
         {
           "headline": "EE.UU.–China: acuerdo mantiene aranceles en 30% con pausa de 60 días",
@@ -67,7 +73,8 @@
           "source": "Tax Foundation / Trade Compliance Resource Hub",
           "url": "https://taxfoundation.org/research/all/federal/trump-tariffs-trade-war/",
           "category": "economía",
-          "date": "2026-06-11"
+          "date": "2026-06-11",
+          "hook": "¿Tregua real o pausa para tomar aire? La guerra comercial sigue viva."
         },
         {
           "headline": "EE.UU.–Taiwán formalizan acuerdo comercial con aranceles al 15%",
@@ -75,7 +82,8 @@
           "source": "Trading Economics / News on Air",
           "url": "https://tradingeconomics.com/united-states/balance-of-trade/news/525539",
           "category": "geopolítica",
-          "date": "2026-02-13"
+          "date": "2026-02-13",
+          "hook": "Taiwán se alinea con Washington — y Beijing tomando nota."
         },
         {
           "headline": "Sarampión en Américas amenaza status de eliminación en EE.UU.: 2.073 casos al 11-jun",
@@ -83,7 +91,8 @@
           "source": "PAHO / CDC",
           "url": "https://www.paho.org/en/documents/situation-report-4-measles-americas-region-4-june-2026",
           "category": "salud",
-          "date": "2026-06-11"
+          "date": "2026-06-11",
+          "hook": "El sarampión amenaza el Mundial: salud pública choca con el fútbol."
         }
       ]
     },
@@ -98,7 +107,8 @@
           "source": "CNBC / China Global South",
           "url": "https://www.cnbc.com/2026/06/09/china-trade-exports-imports-iran-war.html",
           "category": "economía",
-          "date": "2026-06-09"
+          "date": "2026-06-09",
+          "hook": "China exporta como nunca pese a los aranceles — ¿quién pierde la guerra?"
         },
         {
           "headline": "China lanza operación marítima al este de Taiwán tras pacto Japón–Filipinas",
@@ -106,7 +116,8 @@
           "source": "Bloomberg / militarnyi.com",
           "url": "https://www.bloomberg.com/news/articles/2026-06-06/china-escalates-patrols-near-taiwan-over-japan-philippines-talks",
           "category": "geopolítica",
-          "date": "2026-06-06"
+          "date": "2026-06-06",
+          "hook": "Mapa caliente: maniobras chinas junto a Taiwán, otra vez."
         },
         {
           "headline": "Xi Jinping concluye visita de Estado a Corea del Norte (6–9 jun)",
@@ -114,7 +125,8 @@
           "source": "USCC China Bulletin / SCMP",
           "url": "https://www.uscc.gov/trade-bulletins/china-bulletin-june-9-2026",
           "category": "política",
-          "date": "2026-06-09"
+          "date": "2026-06-09",
+          "hook": "Xi en Pyongyang: el eje que incomoda a Occidente."
         },
         {
           "headline": "15.° Plan Quinquenal (2026–2030): tecnología, autosuficiencia y seguridad como pilares",
@@ -122,7 +134,8 @@
           "source": "FPRI / IISS / Xinhua",
           "url": "https://www.fpri.org/article/2026/05/decoding-chinas-15th-five-year-plan/",
           "category": "política",
-          "date": "2026-03-12"
+          "date": "2026-03-12",
+          "hook": "Para nerds de geopolítica: el plan a 5 años que 'arma' la economía china."
         }
       ]
     },
@@ -137,7 +150,8 @@
           "source": "WHO",
           "url": "https://www.who.int/news/item/17-05-2026-epidemic-of-ebola-disease-in-the-democratic-republic-of-the-congo-and-uganda-determined-a-public-health-emergency-of-international-concern",
           "category": "salud",
-          "date": "2026-06-09"
+          "date": "2026-06-09",
+          "hook": "Ébola con PHEIC y CFR 17%: lejano pero fascinante de conversar."
         },
         {
           "headline": "Shock petróleo: Brent -4.06% a $86.71/bbl por señales de desescalada EE.UU.–Irán",
@@ -145,7 +159,8 @@
           "source": "Trading Economics / CNBC",
           "url": "https://tradingeconomics.com/commodity/brent-crude-oil",
           "category": "commodities",
-          "date": "2026-06-12"
+          "date": "2026-06-12",
+          "hook": "¿Baja la gasolina? El crudo se desploma por la posible paz EE.UU.–Irán."
         },
         {
           "headline": "BCE sube tasas a 2.25% — primer ciclo contractivo en 3 años",
@@ -153,7 +168,8 @@
           "source": "CNBC / ECB",
           "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.mp260611~4d41bd5e83.en.html",
           "category": "economía",
-          "date": "2026-06-11"
+          "date": "2026-06-11",
+          "hook": "Europa sube tasas con la economía floja — manual de cómo no quieres estar."
         },
         {
           "headline": "Sarampión en Américas: 20.521 casos en semana 20, Copa del Mundo 2026 como factor de riesgo",
@@ -161,7 +177,8 @@
           "source": "PAHO / CDC",
           "url": "https://www.paho.org/en/documents/situation-report-4-measles-americas-region-4-june-2026",
           "category": "salud",
-          "date": "2026-06-11"
+          "date": "2026-06-11",
+          "hook": "El sarampión vuelve a las Américas justo en año mundialista."
         }
       ]
     }
@@ -466,7 +483,7 @@
     "thin_sections": [
       "health.mental_health (referencia de pipeline Q1, no breaking de hoy)"
     ],
-    "notes": "Sábado 13-jun-2026: mercados USA, Europa y Perú cerrados; todas las métricas corresponden al cierre del viernes 12-jun. La elección presidencial peruana domina el contexto político local con resultado aún sin proclamar."
+    "notes": "Sábado 13-jun-2026: mercados USA, Europa y Perú cerrados; todas las métricas corresponden al cierre del viernes 12-jun. La elección presidencial peruana domina el contexto político local con resultado aún sin proclamar. Farándula = prensa de espectáculos (chismes por naturaleza no 100% confirmados)."
   },
   "generated_at_utc": "2026-06-13 11:30 UTC",
   "good_news": [
@@ -523,6 +540,62 @@
       "source": "Kennedy Center / BET",
       "url": "https://www.kennedy-center.org/whats-on/marktwain/",
       "date": "2026-06-28"
+    }
+  ],
+  "farandula": [
+    {
+      "headline": "Ariana Grande y Ethan Slater confirmaron su ruptura",
+      "scope": "mundial",
+      "summary": "Los excoprotagonistas de 'Wicked' terminaron tras casi tres años; una fuente la describió como 'amistosa' y dijo que llevaban meses separados.",
+      "hook": "El romance que nació en Oz se acabó — ¿lo veías venir o te sorprendió?",
+      "source": "E! News / W Magazine",
+      "url": "https://www.wmagazine.com/culture/celebrity-breakups-divorce-2026",
+      "date": "2026-06"
+    },
+    {
+      "headline": "Dua Lipa le dijo que sí a Callum Turner",
+      "scope": "mundial",
+      "summary": "La cantante confirmó su compromiso con el actor británico, uno de los anuncios de pareja más comentados de la temporada.",
+      "hook": "Más madera para el 'celebrity wedding watch' del año.",
+      "source": "AOL",
+      "url": "https://www.aol.com/articles/celebrity-couples-announced-engagements-2026-194600133.html",
+      "date": "2026-06"
+    },
+    {
+      "headline": "Show de apertura del Mundial: Shakira, J Balvin, Belinda, Maná, LISA y Anitta",
+      "scope": "regional",
+      "summary": "La inauguración del Mundial 2026 reunió un cartelazo latino e internacional en el Estadio Ciudad de México (más Burna Boy, Danny Ocean y Lila Downs).",
+      "hook": "¿Viste el show? ¿Quién se lució más y quién sobró?",
+      "source": "El Universal",
+      "url": "https://www.eluniversal.com.co/farandula/2026/06/11/mundial-2026-las-celebridades-y-artistas-que-asistieron-a-la-inauguracion/",
+      "date": "2026-06-11"
+    },
+    {
+      "headline": "Festival Cordillera 2026 ya tiene cartel: Ricky Martin, Calamaro, Caifanes y Kany García",
+      "scope": "regional",
+      "summary": "El festival bogotano soltó su line-up oficial; uno de los carteles más fuertes de la región para el segundo semestre.",
+      "hook": "Plan de viaje musical: ¿armamos data para Bogotá?",
+      "source": "Farándula.CO",
+      "url": "https://farandula.co/festival-cordillera-2026-ya-tiene-cartel-oficial/",
+      "date": "2026-06"
+    },
+    {
+      "headline": "Christian Domínguez se casó con Karla Tarazona — y el 'ampay' del mismo día quedó en nada",
+      "scope": "peru",
+      "summary": "Se anunció un supuesto ampay de Magaly justo el día de la boda civil; Magaly Medina negó tener imágenes comprometedoras del cantante.",
+      "hook": "Chollywood en estado puro: boda y amenaza de ampay el mismo día.",
+      "source": "El Popular / El Comercio",
+      "url": "https://elpopular.pe/espectaculos/2026/06/02/bomba-anuncian-ampay-de-magaly-medina-que-involucraria-a-christian-dominguez-el-mismo-dia-de-su-boda-con-karla-tarazona-44212",
+      "date": "2026-06-02"
+    },
+    {
+      "headline": "Reportan fin de la relación entre Mario Hart y Korina Rivadeneira",
+      "scope": "peru",
+      "summary": "Versiones de prensa señalan que la pareja terminó, en medio de rumores —no confirmados— que rozan a Paloma Fiuza.",
+      "hook": "¿Crisis de pareja o solo ruido de farándula? El clásico debate de sobremesa.",
+      "source": "La República",
+      "url": "https://larepublica.pe/espectaculos/farandula/2026/05/07/revelan-fin-de-la-relacion-entre-mario-hart-y-korina-rivadeneira-tras-rumores-de-romance-con-paloma-fiuza-esta-soltero-374311",
+      "date": "2026-05-07"
     }
   ]
 }

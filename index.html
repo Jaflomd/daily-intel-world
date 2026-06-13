@@ -34,6 +34,7 @@ a{color:inherit;text-decoration:none}
 .tb-sep{color:var(--accent)}
 .tb-clock{font:700 13px/1 var(--mono);letter-spacing:.08em;color:var(--txt);font-variant-numeric:tabular-nums}
 .tb-tz{font:600 10px/1 var(--mono);color:var(--dim2);letter-spacing:.1em}
+.tb-date{font:700 12px/1 var(--mono);letter-spacing:.08em;color:var(--accent)}
 .tb-theme{background:var(--panel);border:1px solid var(--line2);color:var(--dim);border-radius:8px;width:30px;height:26px;cursor:pointer;font-size:14px}
 .tb-theme:hover{color:var(--accent);border-color:var(--accent)}
 /* ticker */
@@ -122,6 +123,12 @@ a.src:hover{color:var(--accent)}
 .gn-emoji{font-size:16px}
 .gn-title{font-weight:700;font-size:15px;line-height:1.34;margin-top:2px}
 .gn-hook{margin-top:10px;font:600 12.5px/1.45 var(--mono);color:var(--accent);background:color-mix(in srgb,var(--accent) 9%,transparent);border:1px solid color-mix(in srgb,var(--accent) 28%,transparent);border-radius:8px;padding:7px 11px}
+/* conversable (noticias normales) */
+.conv{margin-top:8px;font:600 12px/1.45 var(--mono);color:var(--accent);background:color-mix(in srgb,var(--accent) 8%,transparent);border-left:2px solid color-mix(in srgb,var(--accent) 45%,transparent);border-radius:4px;padding:5px 9px}
+/* farándula */
+.fr-card{background:linear-gradient(180deg,color-mix(in srgb,#FF6FB0 7%,var(--panel)),var(--panel));border:1px solid var(--line);border-left:3px solid #FF6FB0;border-radius:12px;padding:14px 16px;transition:transform .12s,box-shadow .12s}
+.fr-card:hover{transform:translateY(-2px);box-shadow:0 10px 30px -14px rgba(255,111,176,.5)}
+.fr-hook{color:#FF6FB0;background:color-mix(in srgb,#FF6FB0 9%,transparent);border-color:color-mix(in srgb,#FF6FB0 28%,transparent)}
 /* footer */
 .foot{margin-top:46px;padding-top:18px;border-top:1px solid var(--line);color:var(--dim2);font:500 12px/1.7 var(--mono)}
 .foot-k{color:var(--accent)}
@@ -139,6 +146,7 @@ a.src:hover{color:var(--accent)}
       <span class="tb-brand">DAILY INTEL <span class="tb-sep">//</span> PERÚ &amp; WORLD</span>
     </div>
     <div class="tb-right">
+      <span class="tb-date">SÁB 13 JUN 2026</span>
       <span class="tb-clock" id="clk">--:--:--</span><span class="tb-tz">LIM</span>
       <button class="tb-theme" id="theme" aria-label="Tema" title="Cambiar tema">◑</button>
     </div>
@@ -154,7 +162,7 @@ a.src:hover{color:var(--accent)}
     <span class="tl-level" style="--c:#FF4D6D">CRÍTICO</span>
     <span class="tl-chips"><span class="tl-chip" style="--c:#FF4D6D">3 CRÍTICO</span><span class="tl-chip" style="--c:#FFA92E">7 ALTO</span><span class="tl-chip" style="--c:#5BC8FF">1 VIGILAR</span></span>
   </div>
-  <nav class="nav"><div class="nav-in"><a href="#señales" data-sec="señales">🚩 Señales</a><a href="#mercados" data-sec="mercados">📊 Mercados</a><a href="#regiones" data-sec="regiones">🌐 Regiones</a><a href="#salud" data-sec="salud">🩺 Salud</a><a href="#agenda" data-sec="agenda">📅 Agenda</a><a href="#buenas" data-sec="buenas">✨ Buenas</a></div></nav>
+  <nav class="nav"><div class="nav-in"><a href="#señales" data-sec="señales">🚩 Señales</a><a href="#mercados" data-sec="mercados">📊 Mercados</a><a href="#regiones" data-sec="regiones">🌐 Regiones</a><a href="#salud" data-sec="salud">🩺 Salud</a><a href="#agenda" data-sec="agenda">📅 Agenda</a><a href="#farandula" data-sec="farandula">💋 Farándula</a><a href="#buenas" data-sec="buenas">✨ Buenas</a></div></nav>
   <section id="señales" class="block flags-block"><h2 class="h2">🚩 Señales <span class="h2-n">11</span></h2><div class="flags"><div class="flag" style="--sv:#FF4D6D;--svbg:rgba(255,77,109,0.10);--svbd:rgba(255,77,109,0.42)">
       <div class="flag-top"><span class="flag-sev">▮ CRÍTICO</span><span class="flag-region">Puno (epicentro), Lima Metropolitana, Callao, Arequipa, Cusco, Moquegua, Madre de Dios, Tacna, Lambayeque</span></div>
       <div class="flag-title">EMERGENCIA SANITARIA ACTIVA: Brote de sarampión — DS 008-2026-SA</div>
@@ -220,22 +228,27 @@ a.src:hover{color:var(--accent)}
     <div class="item-head"><span class="cat" style="--cat:#B79CFF">política</span><a class="src" href="https://www.infobae.com/peru/2026/06/12/asi-se-procesan-las-actas-observadas-de-las-elecciones-2026-el-mecanismo-que-puede-definir-al-proximo-presidente-del-peru/" target="_blank" rel="noopener">Infobae Perú / El Comercio · 2026-06-12 ↗</a></div>
     <div class="item-headline">Elección presidencial sin proclamar: ~3.500 votos de diferencia con 1.600+ actas en disputa</div>
     <div class="item-summary">La segunda vuelta del 7-jun no tiene ganador oficial. Keiko Fujimori lidera por margen ínfimo. Actas observadas en revisión ante JEE; posibles impugnaciones en JNE pueden invertir resultado. Proclamación estimada: mediados de julio. Alta tensión política y riesgo de movilizaciones.</div>
+    <div class="conv">💬 Tema obligado en toda reunión: ¿proclaman a Keiko o se cae en el JNE?</div>
   </div><div class="item">
     <div class="item-head"><span class="cat" style="--cat:#B79CFF">política</span><a class="src" href="https://larepublica.pe/politica/2026/06/12/congreso-aprueba-ley-que-evita-que-policias-y-miltares-sean-procesados-por-la-justicia-ordinaria-hnews-194412" target="_blank" rel="noopener">La República · 2026-06-12 ↗</a></div>
     <div class="item-headline">Congreso aprueba ley que retira a FF.AA. y PNP del fuero ordinario</div>
     <div class="item-summary">Aprobada en primera votación (12-jun). Prohíbe procesos paralelos en justicia ordinaria cuando exista causa activa en fuero militar-policial. Organismos de DDHH advierten riesgo de impunidad en casos de abuso de fuerza. Requiere segunda votación aún no programada.</div>
+    <div class="conv">💬 Para debatir: ¿blindaje necesario o impunidad disfrazada?</div>
   </div><div class="item">
     <div class="item-head"><span class="cat" style="--cat:#5BC8FF">salud</span><a class="src" href="https://busquedas.elperuano.pe/dispositivo/NL/2516187-1" target="_blank" rel="noopener">El Peruano / CDC-MINSA · 2026-06-06 ↗</a></div>
     <div class="item-headline">Emergencia sanitaria activa por sarampión — DS 008-2026-SA, 501 casos en 8 regiones</div>
     <div class="item-summary">501 casos confirmados al 4-jun (SE22). Puno concentra 96.6% de casos. Alerta AE-CDC N°006-2026 emitida el 6-jun. Emergencia de 90 días declarada el 16-may. Alto riesgo de dispersión por eventos masivos próximos.</div>
+    <div class="conv">💬 Dato para alarmar al grupo: el sarampión volvió y Puno arde — ¿ya revisaste tus vacunas?</div>
   </div><div class="item">
     <div class="item-head"><span class="cat" style="--cat:#37E0A8">economía</span><a class="src" href="https://gestion.pe/tu-dinero/bcrp-mantiene-tasa-de-referencia-en-425-en-junio-noticia/" target="_blank" rel="noopener">BCRP / Infobae · 2026-06-01 ↗</a></div>
     <div class="item-headline">Inflación fuera del rango meta: 4.01% interanual en abril, subyacente 4.4%</div>
     <div class="item-summary">Ambas cifras superan el rango meta BCRP (1-3%). El BCRP mantiene tasa en 4.25% sin señales de ajuste inmediato. Riesgo de desanclaje de expectativas si la tendencia continúa.</div>
+    <div class="conv">💬 Por qué tu mercado semanal se siente más caro: el sol y la inflación.</div>
   </div><div class="item">
     <div class="item-head"><span class="cat" style="--cat:#5BC8FF">salud</span><a class="src" href="https://epipublic.dge.gob.pe/uploads/alertas/alertas_20261_09_145341.pdf" target="_blank" rel="noopener">DGE-CDC MINSA / Peru21 · 2026-06-01 ↗</a></div>
     <div class="item-headline">Dengue activo: 7.457 casos y 12 muertes acumuladas a SE08-2026</div>
     <div class="item-summary">Alerta AE-CDC N°001-2026 vigente. San Martín, Ucayali, Loreto y Piura como regiones prioritarias. Sin declaratoria de emergencia sanitaria por dengue en 2026 hasta la fecha.</div>
+    <div class="conv">💬 Recordatorio veraniego: repelente y baldes tapados — el dengue sigue activo.</div>
   </div></div>
     </section><section class="region" style="--rg:#4B8BF5">
       <h2 class="region-h"><span class="region-ic">🇺🇸</span>USA
@@ -245,18 +258,22 @@ a.src:hover{color:var(--accent)}
     <div class="item-head"><span class="cat" style="--cat:#B79CFF">política</span><a class="src" href="https://www.axios.com/2026/06/11/fisa-section-702-expiration-pulte-trump-johnson" target="_blank" rel="noopener">Axios / NBC News · 2026-06-11 ↗</a></div>
     <div class="item-headline">FISA §702 expirado — programa de vigilancia exterior sin autorización legal por primera vez desde 2008</div>
     <div class="item-summary">Bloqueo demócrata en represalia por nombramiento de Pulte dejó sin autoridad legal el principal programa de inteligencia de señales extranjeras. Riesgo operativo real para inteligencia y contraterrorismo hasta alcanzar acuerdo.</div>
+    <div class="conv">💬 Bomba de sobremesa: EE.UU. se quedó sin su programa estrella de espionaje.</div>
   </div><div class="item">
     <div class="item-head"><span class="cat" style="--cat:#37E0A8">economía</span><a class="src" href="https://taxfoundation.org/research/all/federal/trump-tariffs-trade-war/" target="_blank" rel="noopener">Tax Foundation / Trade Compliance Resource Hub · 2026-06-11 ↗</a></div>
     <div class="item-headline">EE.UU.–China: acuerdo mantiene aranceles en 30% con pausa de 60 días</div>
     <div class="item-summary">Trump anunció el 11-jun un acuerdo que preserva 20% &#39;fentanyl&#39; + 10% &#39;recíproco&#39;. USTR propone además 12.5% adicional por investigación de trabajo forzado (Sección 301). Ventana de negociación estrecha.</div>
+    <div class="conv">💬 ¿Tregua real o pausa para tomar aire? La guerra comercial sigue viva.</div>
   </div><div class="item">
     <div class="item-head"><span class="cat" style="--cat:#FFC24B">geopolítica</span><a class="src" href="https://tradingeconomics.com/united-states/balance-of-trade/news/525539" target="_blank" rel="noopener">Trading Economics / News on Air · 2026-02-13 ↗</a></div>
     <div class="item-headline">EE.UU.–Taiwán formalizan acuerdo comercial con aranceles al 15%</div>
     <div class="item-summary">Taipei igualará aranceles con Japón y Corea. Taiwán eliminará 99% de barreras a bienes estadounidenses y comprará más de USD 84 mil millones en energía y aeronaves (2025–2029). El acuerdo tensiona la postura de Beijing.</div>
+    <div class="conv">💬 Taiwán se alinea con Washington — y Beijing tomando nota.</div>
   </div><div class="item">
     <div class="item-head"><span class="cat" style="--cat:#5BC8FF">salud</span><a class="src" href="https://www.paho.org/en/documents/situation-report-4-measles-americas-region-4-june-2026" target="_blank" rel="noopener">PAHO / CDC · 2026-06-11 ↗</a></div>
     <div class="item-headline">Sarampión en Américas amenaza status de eliminación en EE.UU.: 2.073 casos al 11-jun</div>
     <div class="item-summary">PAHO reporta 20.521 casos en la región al cierre de semana 20. EE.UU. con 2.073 casos; evaluación formal de status de eliminación en curso. Copa del Mundo 2026 identificada como factor de riesgo de amplificación transfronteriza.</div>
+    <div class="conv">💬 El sarampión amenaza el Mundial: salud pública choca con el fútbol.</div>
   </div></div>
     </section><section class="region" style="--rg:#E0A93B">
       <h2 class="region-h"><span class="region-ic">🇨🇳</span>China
@@ -266,18 +283,22 @@ a.src:hover{color:var(--accent)}
     <div class="item-head"><span class="cat" style="--cat:#37E0A8">economía</span><a class="src" href="https://www.cnbc.com/2026/06/09/china-trade-exports-imports-iran-war.html" target="_blank" rel="noopener">CNBC / China Global South · 2026-06-09 ↗</a></div>
     <div class="item-headline">Exportaciones de mayo baten récord: +19.4% interanual, superávit de USD 105 mil millones</div>
     <div class="item-summary">Exportaciones chinas de mayo: USD 376.78 mil millones (+19.4% YoY), superando previsión del 15%. Envíos a EE.UU. +35.4% — máximo en 5 años —, impulsados por semiconductores e IA. Importaciones +27.4%. Superávit récord de USD 105.43 mil millones.</div>
+    <div class="conv">💬 China exporta como nunca pese a los aranceles — ¿quién pierde la guerra?</div>
   </div><div class="item">
     <div class="item-head"><span class="cat" style="--cat:#FFC24B">geopolítica</span><a class="src" href="https://www.bloomberg.com/news/articles/2026-06-06/china-escalates-patrols-near-taiwan-over-japan-philippines-talks" target="_blank" rel="noopener">Bloomberg / militarnyi.com · 2026-06-06 ↗</a></div>
     <div class="item-headline">China lanza operación marítima al este de Taiwán tras pacto Japón–Filipinas</div>
     <div class="item-summary">Tras el anuncio de delimitación marítima bilateral Japón–Filipinas, China desplegó &#39;operación especial de control marítimo&#39; invocando jurisdicción administrativa. Bloomberg la califica como la respuesta más firme de Beijing a la cooperación de defensa Tokio–Manila. Taiwán envió guardacostas.</div>
+    <div class="conv">💬 Mapa caliente: maniobras chinas junto a Taiwán, otra vez.</div>
   </div><div class="item">
     <div class="item-head"><span class="cat" style="--cat:#B79CFF">política</span><a class="src" href="https://www.uscc.gov/trade-bulletins/china-bulletin-june-9-2026" target="_blank" rel="noopener">USCC China Bulletin / SCMP · 2026-06-09 ↗</a></div>
     <div class="item-headline">Xi Jinping concluye visita de Estado a Corea del Norte (6–9 jun)</div>
     <div class="item-summary">Primera visita en años a Pyongyang. Medios estatales la calificaron de &#39;exitosa&#39; y anunciaron nuevas perspectivas bilaterales, sin revelar acuerdos concretos. Busca consolidar eje China–RPDC en contexto de reordenamiento geopolítico regional.</div>
+    <div class="conv">💬 Xi en Pyongyang: el eje que incomoda a Occidente.</div>
   </div><div class="item">
     <div class="item-head"><span class="cat" style="--cat:#B79CFF">política</span><a class="src" href="https://www.fpri.org/article/2026/05/decoding-chinas-15th-five-year-plan/" target="_blank" rel="noopener">FPRI / IISS / Xinhua · 2026-03-12 ↗</a></div>
     <div class="item-headline">15.° Plan Quinquenal (2026–2030): tecnología, autosuficiencia y seguridad como pilares</div>
     <div class="item-summary">Aprobado en las &#39;Dos Sesiones&#39; de marzo. Prioriza supremacía tecnológica, autosuficiencia industrial, transición verde y seguridad nacional. Analistas del FPRI e IISS señalan que &#39;weaponiza&#39; la economía para competencia sistémica con Occidente.</div>
+    <div class="conv">💬 Para nerds de geopolítica: el plan a 5 años que &#39;arma&#39; la economía china.</div>
   </div></div>
     </section><section class="region" style="--rg:#35D0B6">
       <h2 class="region-h"><span class="region-ic">🌍</span>Global
@@ -287,18 +308,22 @@ a.src:hover{color:var(--accent)}
     <div class="item-head"><span class="cat" style="--cat:#5BC8FF">salud</span><a class="src" href="https://www.who.int/news/item/17-05-2026-epidemic-of-ebola-disease-in-the-democratic-republic-of-the-congo-and-uganda-determined-a-public-health-emergency-of-international-concern" target="_blank" rel="noopener">WHO · 2026-06-09 ↗</a></div>
     <div class="item-headline">PHEIC declarado — Ebola Bundibugyo (DRC + Uganda): 635 casos, 127 muertes, CFR 17%</div>
     <div class="item-summary">PHEIC declarado el 17-may-2026. Al 9-jun: 635 casos y 127 muertes. Plan continental OMS + Africa CDC lanzado el 5-jun busca USD 518M. PAHO activó preparación en Américas el 4-jun. Riesgo global bajo pero con monitoreo activo.</div>
+    <div class="conv">💬 Ébola con PHEIC y CFR 17%: lejano pero fascinante de conversar.</div>
   </div><div class="item">
     <div class="item-head"><span class="cat" style="--cat:#37E0A8">commodities</span><a class="src" href="https://tradingeconomics.com/commodity/brent-crude-oil" target="_blank" rel="noopener">Trading Economics / CNBC · 2026-06-12 ↗</a></div>
     <div class="item-headline">Shock petróleo: Brent -4.06% a $86.71/bbl por señales de desescalada EE.UU.–Irán</div>
     <div class="item-summary">WTI cayó a ~$84/bbl en una sola sesión. Si la paz se confirma, el techo geopolítico al crudo colapsa. Si el acuerdo fracasa, rebote violento. Alta incertidumbre activa.</div>
+    <div class="conv">💬 ¿Baja la gasolina? El crudo se desploma por la posible paz EE.UU.–Irán.</div>
   </div><div class="item">
     <div class="item-head"><span class="cat" style="--cat:#37E0A8">economía</span><a class="src" href="https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.mp260611~4d41bd5e83.en.html" target="_blank" rel="noopener">CNBC / ECB · 2026-06-11 ↗</a></div>
     <div class="item-headline">BCE sube tasas a 2.25% — primer ciclo contractivo en 3 años</div>
     <div class="item-summary">Inflación europea en 3.2%, impulsada por conflicto de Medio Oriente, forzó endurecimiento cuando la economía ya estaba debilitada. Presión sobre bonos europeos y EUR.</div>
+    <div class="conv">💬 Europa sube tasas con la economía floja — manual de cómo no quieres estar.</div>
   </div><div class="item">
     <div class="item-head"><span class="cat" style="--cat:#5BC8FF">salud</span><a class="src" href="https://www.paho.org/en/documents/situation-report-4-measles-americas-region-4-june-2026" target="_blank" rel="noopener">PAHO / CDC · 2026-06-11 ↗</a></div>
     <div class="item-headline">Sarampión en Américas: 20.521 casos en semana 20, Copa del Mundo 2026 como factor de riesgo</div>
     <div class="item-summary">México, Guatemala, EE.UU., Canadá y 12+ países afectados. EE.UU. con 2.073 casos al 11-jun. PAHO identifica el torneo como amplificador transfronterizo clave.</div>
+    <div class="conv">💬 El sarampión vuelve a las Américas justo en año mundialista.</div>
   </div></div>
     </section></div></section>
   <section id="salud" class="block"><h2 class="h2">🩺 Salud · Epidemiología · Salud mental</h2><div class="health-grid"><div class="hgroup"><h3 class="h3">⚖️ Normativas de salud</h3><div class="item"><div class="item-head"><span class="cat" style="--cat:#7A879B">Perú</span><a class="src" href="https://busquedas.elperuano.pe/dispositivo/NL/2516187-1" target="_blank" rel="noopener">El Peruano / CDC-MINSA · 2026-05-16 ↗</a></div>
@@ -315,6 +340,37 @@ a.src:hover{color:var(--accent)}
       <div class="item-headline">Pipeline psiquiátrico Q1-2026: psilocibina COMP360 (fase 3) y neuromodulación domiciliaria ProlivRX (FDA)</div>
       <div class="item-summary">Revisión del pipeline: eficacia en fase 3 de COMP360 (psilocibina) para depresión resistente y aprobación FDA de ProlivRX como neuromodulación domiciliaria adjunta en MDD. Señal de mecanismos novedosos en trastornos del ánimo.</div></div></div></div></section>
   <section id="agenda" class="block"><h2 class="h2">📅 Efemérides &amp; días mundiales</h2><div class="obs-row"><div class="obs"><span class="obs-scope">ONU</span><span class="obs-name">Día Internacional de Concienciación sobre el Albinismo</span><span class="obs-note">Res. 69/170. Derechos humanos de personas con albinismo; el 13-jun por la 1ª resolución de la ONU sobre albinismo (2013).</span></div></div></section>
+  <section id="farandula" class="block"><h2 class="h2">💋 Farándula &amp; chismes <span class="h2-n">6</span></h2><div class="goodnews farandula"><div class="fr-card">
+      <div class="item-head"><span class="gn-emoji">🌍</span><span class="cat" style="--cat:#FF6FB0">MUNDIAL</span><a class="src" href="https://www.wmagazine.com/culture/celebrity-breakups-divorce-2026" target="_blank" rel="noopener">E! News / W Magazine · 2026-06 ↗</a></div>
+      <div class="gn-title">Ariana Grande y Ethan Slater confirmaron su ruptura</div>
+      <div class="item-summary">Los excoprotagonistas de &#39;Wicked&#39; terminaron tras casi tres años; una fuente la describió como &#39;amistosa&#39; y dijo que llevaban meses separados.</div>
+      <div class="gn-hook fr-hook">💬 El romance que nació en Oz se acabó — ¿lo veías venir o te sorprendió?</div>
+    </div><div class="fr-card">
+      <div class="item-head"><span class="gn-emoji">🌍</span><span class="cat" style="--cat:#FF6FB0">MUNDIAL</span><a class="src" href="https://www.aol.com/articles/celebrity-couples-announced-engagements-2026-194600133.html" target="_blank" rel="noopener">AOL · 2026-06 ↗</a></div>
+      <div class="gn-title">Dua Lipa le dijo que sí a Callum Turner</div>
+      <div class="item-summary">La cantante confirmó su compromiso con el actor británico, uno de los anuncios de pareja más comentados de la temporada.</div>
+      <div class="gn-hook fr-hook">💬 Más madera para el &#39;celebrity wedding watch&#39; del año.</div>
+    </div><div class="fr-card">
+      <div class="item-head"><span class="gn-emoji">🌎</span><span class="cat" style="--cat:#C58BFF">REGIONAL</span><a class="src" href="https://www.eluniversal.com.co/farandula/2026/06/11/mundial-2026-las-celebridades-y-artistas-que-asistieron-a-la-inauguracion/" target="_blank" rel="noopener">El Universal · 2026-06-11 ↗</a></div>
+      <div class="gn-title">Show de apertura del Mundial: Shakira, J Balvin, Belinda, Maná, LISA y Anitta</div>
+      <div class="item-summary">La inauguración del Mundial 2026 reunió un cartelazo latino e internacional en el Estadio Ciudad de México (más Burna Boy, Danny Ocean y Lila Downs).</div>
+      <div class="gn-hook fr-hook">💬 ¿Viste el show? ¿Quién se lució más y quién sobró?</div>
+    </div><div class="fr-card">
+      <div class="item-head"><span class="gn-emoji">🌎</span><span class="cat" style="--cat:#C58BFF">REGIONAL</span><a class="src" href="https://farandula.co/festival-cordillera-2026-ya-tiene-cartel-oficial/" target="_blank" rel="noopener">Farándula.CO · 2026-06 ↗</a></div>
+      <div class="gn-title">Festival Cordillera 2026 ya tiene cartel: Ricky Martin, Calamaro, Caifanes y Kany García</div>
+      <div class="item-summary">El festival bogotano soltó su line-up oficial; uno de los carteles más fuertes de la región para el segundo semestre.</div>
+      <div class="gn-hook fr-hook">💬 Plan de viaje musical: ¿armamos data para Bogotá?</div>
+    </div><div class="fr-card">
+      <div class="item-head"><span class="gn-emoji">🇵🇪</span><span class="cat" style="--cat:#FF8A5B">PERÚ</span><a class="src" href="https://elpopular.pe/espectaculos/2026/06/02/bomba-anuncian-ampay-de-magaly-medina-que-involucraria-a-christian-dominguez-el-mismo-dia-de-su-boda-con-karla-tarazona-44212" target="_blank" rel="noopener">El Popular / El Comercio · 2026-06-02 ↗</a></div>
+      <div class="gn-title">Christian Domínguez se casó con Karla Tarazona — y el &#39;ampay&#39; del mismo día quedó en nada</div>
+      <div class="item-summary">Se anunció un supuesto ampay de Magaly justo el día de la boda civil; Magaly Medina negó tener imágenes comprometedoras del cantante.</div>
+      <div class="gn-hook fr-hook">💬 Chollywood en estado puro: boda y amenaza de ampay el mismo día.</div>
+    </div><div class="fr-card">
+      <div class="item-head"><span class="gn-emoji">🇵🇪</span><span class="cat" style="--cat:#FF8A5B">PERÚ</span><a class="src" href="https://larepublica.pe/espectaculos/farandula/2026/05/07/revelan-fin-de-la-relacion-entre-mario-hart-y-korina-rivadeneira-tras-rumores-de-romance-con-paloma-fiuza-esta-soltero-374311" target="_blank" rel="noopener">La República · 2026-05-07 ↗</a></div>
+      <div class="gn-title">Reportan fin de la relación entre Mario Hart y Korina Rivadeneira</div>
+      <div class="item-summary">Versiones de prensa señalan que la pareja terminó, en medio de rumores —no confirmados— que rozan a Paloma Fiuza.</div>
+      <div class="gn-hook fr-hook">💬 ¿Crisis de pareja o solo ruido de farándula? El clásico debate de sobremesa.</div>
+    </div></div></section>
   <section id="buenas" class="block"><h2 class="h2">✨ Good News Worldwide <span class="h2-n">6</span></h2><div class="goodnews"><div class="gn-card">
       <div class="item-head"><span class="gn-emoji">⚽</span><span class="cat" style="--cat:#37E0A8">deporte</span><a class="src" href="https://www.britannica.com/event/2026-FIFA-World-Cup" target="_blank" rel="noopener">Britannica / Demócrata · 2026-06-11 ↗</a></div>
       <div class="gn-title">Arrancó el Mundial FIFA 2026 (USA · México · Canadá)</div>
@@ -346,7 +402,7 @@ a.src:hover{color:var(--accent)}
       <div class="item-summary">El Kennedy Center premia el humor estadounidense a Bill Maher; los BET Awards celebran música, cine y deporte en Los Ángeles. Misma noche.</div>
       <div class="gn-hook">💬 Plan para fin de mes si quieres algo ligero que comentar.</div>
     </div></div></section>
-  <footer class="foot"><div class="foot-sources"><span class="foot-k">FEED //</span> Infobae Perú · El Comercio · La República · El Peruano · CDC-MINSA / DGE · BCRP · Gestion.pe · Altavoz.pe · CNBC · Tax Foundation · Trading Economics · Bloomberg · Bloomberg Línea · TheStreet · Yahoo Finance · WHO · PAHO / CDC · FPRI · IISS · Xinhua · USCC China Bulletin · ECB · Axios · cuantoestaeldolar.pe · CoinGabbar · BBN Times · Psychiatric Times · ONU / un.org</div><div class="foot-thin">⚠︎ delgado: health.mental_health (referencia de pipeline Q1, no breaking de hoy)</div><div class="foot-notes">Sábado 13-jun-2026: mercados USA, Europa y Perú cerrados; todas las métricas corresponden al cierre del viernes 12-jun. La elección presidencial peruana domina el contexto político local con resultado aún sin proclamar.</div>
+  <footer class="foot"><div class="foot-sources"><span class="foot-k">FEED //</span> Infobae Perú · El Comercio · La República · El Peruano · CDC-MINSA / DGE · BCRP · Gestion.pe · Altavoz.pe · CNBC · Tax Foundation · Trading Economics · Bloomberg · Bloomberg Línea · TheStreet · Yahoo Finance · WHO · PAHO / CDC · FPRI · IISS · Xinhua · USCC China Bulletin · ECB · Axios · cuantoestaeldolar.pe · CoinGabbar · BBN Times · Psychiatric Times · ONU / un.org</div><div class="foot-thin">⚠︎ delgado: health.mental_health (referencia de pipeline Q1, no breaking de hoy)</div><div class="foot-notes">Sábado 13-jun-2026: mercados USA, Europa y Perú cerrados; todas las métricas corresponden al cierre del viernes 12-jun. La elección presidencial peruana domina el contexto político local con resultado aún sin proclamar. Farándula = prensa de espectáculos (chismes por naturaleza no 100% confirmados).</div>
     <div class="foot-meta">Generado 2026-06-13 11:30 UTC · Regla anti-fabricación: cifras, alertas y normas solo con fuente verificada · <a href="archive/">archivo</a></div>
     <div class="foot-meta">Daily Intel — Perú &amp; World · Jaflo Lab · voz Luci/Fable</div></footer>
 </div>

@@ -59,10 +59,23 @@ const esc = (s = '') => String(s)
 
 const MESES = ['enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio', 'julio', 'agosto', 'septiembre', 'octubre', 'noviembre', 'diciembre']
 const DIAS = ['domingo', 'lunes', 'martes', 'miércoles', 'jueves', 'viernes', 'sábado']
+const DIAS_ABBR = ['DOM', 'LUN', 'MAR', 'MIÉ', 'JUE', 'VIE', 'SÁB']
+const MESES_ABBR = ['ENE', 'FEB', 'MAR', 'ABR', 'MAY', 'JUN', 'JUL', 'AGO', 'SEP', 'OCT', 'NOV', 'DIC']
 function fechaLarga(dateStr) {
   const [y, m, d] = dateStr.split('-').map(Number)
   const wd = new Date(dateStr + 'T12:00:00').getDay()
   return `${DIAS[wd]} ${d} de ${MESES[m - 1]} de ${y}`
+}
+function fechaCorta(dateStr) {
+  const [y, m, d] = dateStr.split('-').map(Number)
+  const wd = new Date(dateStr + 'T12:00:00').getDay()
+  return `${DIAS_ABBR[wd]} ${d} ${MESES_ABBR[m - 1]} ${y}`
+}
+
+const FAR_SCOPE = {
+  mundial:  { label: 'MUNDIAL',  color: '#FF6FB0', emoji: '🌍' },
+  regional: { label: 'REGIONAL', color: '#C58BFF', emoji: '🌎' },
+  peru:     { label: 'PERÚ',     color: '#FF8A5B', emoji: '🇵🇪' },
 }
 
 function host(url) {
@@ -102,6 +115,7 @@ function renderTopbar(data) {
       <span class="tb-brand">DAILY INTEL <span class="tb-sep">//</span> PERÚ &amp; WORLD</span>
     </div>
     <div class="tb-right">
+      <span class="tb-date">${esc(fechaCorta(data.date))}</span>
       <span class="tb-clock" id="clk">--:--:--</span><span class="tb-tz">LIM</span>
       <button class="tb-theme" id="theme" aria-label="Tema" title="Cambiar tema">◑</button>
     </div>
@@ -135,7 +149,7 @@ function renderThreatBar(flags = []) {
 function renderNav() {
   const links = [
     ['señales', '🚩 Señales'], ['mercados', '📊 Mercados'], ['regiones', '🌐 Regiones'],
-    ['salud', '🩺 Salud'], ['agenda', '📅 Agenda'], ['buenas', '✨ Buenas'],
+    ['salud', '🩺 Salud'], ['agenda', '📅 Agenda'], ['farandula', '💋 Farándula'], ['buenas', '✨ Buenas'],
   ]
   return `<nav class="nav"><div class="nav-in">${links.map(([h, t]) => `<a href="#${h}" data-sec="${h}">${t}</a>`).join('')}</div></nav>`
 }
@@ -174,6 +188,7 @@ function renderItem(it) {
     <div class="item-head">${cat}${srcTag(it)}</div>
     <div class="item-headline">${esc(it.headline)}</div>
     ${it.summary ? `<div class="item-summary">${esc(it.summary)}</div>` : ''}
+    ${it.hook ? `<div class="conv">💬 ${esc(it.hook)}</div>` : ''}
   </div>`
 }
 
@@ -245,6 +260,23 @@ function renderGoodNews(list = []) {
   return `<section id="buenas" class="block"><h2 class="h2">✨ Good News Worldwide <span class="h2-n">${list.length}</span></h2><div class="goodnews">${cards}</div></section>`
 }
 
+function renderFarandula(list = []) {
+  if (!list || !list.length) return ''
+  const order = { mundial: 0, regional: 1, peru: 2 }
+  const sorted = [...list].sort((a, b) => (order[(a.scope || '').toLowerCase()] ?? 9) - (order[(b.scope || '').toLowerCase()] ?? 9))
+  const cards = sorted.map(f => {
+    const s = FAR_SCOPE[(f.scope || '').toLowerCase()] || { label: (f.scope || '—').toUpperCase(), color: '#FF6FB0', emoji: '📸' }
+    const hook = f.hook ? `<div class="gn-hook fr-hook">💬 ${esc(f.hook)}</div>` : ''
+    return `<div class="fr-card">
+      <div class="item-head"><span class="gn-emoji">${s.emoji}</span><span class="cat" style="--cat:${s.color}">${s.label}</span>${srcTag(f)}</div>
+      <div class="gn-title">${esc(f.headline)}</div>
+      ${f.summary ? `<div class="item-summary">${esc(f.summary)}</div>` : ''}
+      ${hook}
+    </div>`
+  }).join('')
+  return `<section id="farandula" class="block"><h2 class="h2">💋 Farándula &amp; chismes <span class="h2-n">${list.length}</span></h2><div class="goodnews farandula">${cards}</div></section>`
+}
+
 function renderFooter(data) {
   const used = data.meta?.sources_used || []
   const thin = data.meta?.thin_sections || []
@@ -287,6 +319,7 @@ a{color:inherit;text-decoration:none}
 .tb-sep{color:var(--accent)}
 .tb-clock{font:700 13px/1 var(--mono);letter-spacing:.08em;color:var(--txt);font-variant-numeric:tabular-nums}
 .tb-tz{font:600 10px/1 var(--mono);color:var(--dim2);letter-spacing:.1em}
+.tb-date{font:700 12px/1 var(--mono);letter-spacing:.08em;color:var(--accent)}
 .tb-theme{background:var(--panel);border:1px solid var(--line2);color:var(--dim);border-radius:8px;width:30px;height:26px;cursor:pointer;font-size:14px}
 .tb-theme:hover{color:var(--accent);border-color:var(--accent)}
 /* ticker */
@@ -375,6 +408,12 @@ a.src:hover{color:var(--accent)}
 .gn-emoji{font-size:16px}
 .gn-title{font-weight:700;font-size:15px;line-height:1.34;margin-top:2px}
 .gn-hook{margin-top:10px;font:600 12.5px/1.45 var(--mono);color:var(--accent);background:color-mix(in srgb,var(--accent) 9%,transparent);border:1px solid color-mix(in srgb,var(--accent) 28%,transparent);border-radius:8px;padding:7px 11px}
+/* conversable (noticias normales) */
+.conv{margin-top:8px;font:600 12px/1.45 var(--mono);color:var(--accent);background:color-mix(in srgb,var(--accent) 8%,transparent);border-left:2px solid color-mix(in srgb,var(--accent) 45%,transparent);border-radius:4px;padding:5px 9px}
+/* farándula */
+.fr-card{background:linear-gradient(180deg,color-mix(in srgb,#FF6FB0 7%,var(--panel)),var(--panel));border:1px solid var(--line);border-left:3px solid #FF6FB0;border-radius:12px;padding:14px 16px;transition:transform .12s,box-shadow .12s}
+.fr-card:hover{transform:translateY(-2px);box-shadow:0 10px 30px -14px rgba(255,111,176,.5)}
+.fr-hook{color:#FF6FB0;background:color-mix(in srgb,#FF6FB0 9%,transparent);border-color:color-mix(in srgb,#FF6FB0 28%,transparent)}
 /* footer */
 .foot{margin-top:46px;padding-top:18px;border-top:1px solid var(--line);color:var(--dim2);font:500 12px/1.7 var(--mono)}
 .foot-k{color:var(--accent)}
@@ -431,6 +470,7 @@ ${renderTicker(data.metrics)}
   ${renderRegions(data)}
   ${renderHealth(data.health)}
   ${renderObservances(data.observances)}
+  ${renderFarandula(data.farandula)}
   ${renderGoodNews(data.good_news)}
   ${renderFooter(data)}
 </div>

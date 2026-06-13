@@ -42,6 +42,7 @@ Corre WebSearch/WebFetch reales por cada bloque. Sugerido (adapta queries a la f
 6. `WHO disease outbreak news <mes año>` + `mental health news <mes año>`.
 7. `international day <fecha>` + `día mundial OMS <fecha>` + `efeméride Perú <fecha>`.
 8. **Good news** (antídoto al tono pesado): `good news <fecha>` + `award winners <mes año>` + `new movie box office <mes año>` + `sports victory <fecha>` + `positive science breakthrough <mes año>`. Busca premiaciones, estrenos, victorias deportivas, descubrimientos feel-good, nuevos eventos/festivales. Tono hedonista y conversable.
+9. **Farándula / chismes** (3 niveles): `celebrity news <mes año>` (mundial) + `farándula latinoamérica <mes año>` (regional) + `farándula Perú <fecha> Magaly América Hoy ampay` (Perú). Fuentes Perú: Trome, La República/El Comercio espectáculos, Infobae Perú, El Popular, PulsoPerú. Rupturas, romances, bodas, ampays, música, alfombras rojas.
 
 Marca cada bloque con **flag** si hay: caída/salto de mercado fuerte (>1.5% en un índice mayor, salto del sol), anuncio de política (tasa, arancel, ley), tensión geopolítica, indicador económico sorpresa, o alerta epidemiológica activa.
 
@@ -65,7 +66,7 @@ Escribe `data/<YYYY-MM-DD>.json` con EXACTAMENTE esta forma (campos vacíos como
     { "severity": "critical|high|watch", "title": "", "detail": "1-2 frases", "region": "Perú|USA|China|Global|Salud", "source": "", "url": "" }
   ],
   "regions": [
-    { "key": "peru",   "title": "Perú",   "stable": false, "items": [ { "headline": "", "summary": "1-2 frases", "category": "política|economía|social", "source": "", "url": "", "date": "" } ] },
+    { "key": "peru",   "title": "Perú",   "stable": false, "items": [ { "headline": "", "summary": "1-2 frases", "category": "política|economía|social", "hook": "versión conversable: 1 frase para iniciar conversación", "source": "", "url": "", "date": "" } ] },
     { "key": "usa",    "title": "USA",    "stable": false, "items": [ { "headline": "", "summary": "", "category": "política|economía|mercados", "source": "", "url": "", "date": "" } ] },
     { "key": "china",  "title": "China",  "stable": false, "items": [ { "headline": "", "summary": "", "category": "política|economía|geopolítica", "source": "", "url": "", "date": "" } ] },
     { "key": "global", "title": "Global", "stable": false, "items": [ { "headline": "", "summary": "", "category": "mercados|economía|geopolítica", "source": "", "url": "", "date": "" } ] }
@@ -78,6 +79,9 @@ Escribe `data/<YYYY-MM-DD>.json` con EXACTAMENTE esta forma (campos vacíos como
   "good_news": [
     { "headline": "", "summary": "1-2 frases", "category": "deporte|cine|cultura|premiación|ciencia|curiosidad|evento|salud", "hook": "rompehielos: 1 frase para iniciar conversación", "source": "", "url": "", "date": "" }
   ],
+  "farandula": [
+    { "headline": "", "summary": "1-2 frases", "scope": "mundial|regional|peru", "hook": "rompehielos / chisme conversable", "source": "", "url": "", "date": "" }
+  ],
   "meta": { "sources_used": [], "thin_sections": [], "notes": "" }
 }
 ```
@@ -89,6 +93,8 @@ Escribe `data/<YYYY-MM-DD>.json` con EXACTAMENTE esta forma (campos vacíos como
 - **Salud:** Perú primero (MINSA/DIGEMID/CDC Perú), luego global (OMS/OPS). Salud mental siempre que haya señal real. Si vacío, omite el subgrupo.
 - **Efemérides:** los días mundiales/internacionales reales de HOY (verifica la fecha exacta; no la inventes).
 - **Good news:** 4-7 ítems positivos REALES con `url` (premiaciones, cine/cultura, deporte, ciencia feel-good, eventos). Cada uno con un `hook` (rompehielos para conversar). Prioriza lo global y comentable; un guiño a Perú/Latam y a los intereses de Javier (fitness, longevidad, neurociencia) suma. Mismo rigor anti-fabricación.
+- **Farándula:** 4-6 chismes REALES con `url`, balanceados entre `scope` mundial / regional (Latam) / Perú (idealmente ≥1 de cada). Cada uno con un `hook` conversable. Es prensa de espectáculos (chismes por naturaleza no 100% confirmados): atribuye siempre la fuente y no afirmes como hecho lo que es rumor.
+- **Hook conversable:** cada ítem de `regions` lleva un `hook` (1 frase: el ángulo para iniciar conversación con otros). Mismo espíritu en good_news y farandula.
 - Todo en **español**, escaneable, frases cortas.
 
 ## Construir y publicar
