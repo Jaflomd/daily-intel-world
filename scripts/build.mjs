@@ -42,6 +42,14 @@ const CATEGORY = {
   'social': '#FF8FB6',
   'geopolítica': '#FFC24B', 'geopolitica': '#FFC24B',
   'salud': '#5BC8FF',
+  // good news
+  'deporte': '#37E0A8', 'cine': '#B79CFF', 'cultura': '#FFC24B',
+  'premiación': '#FFD166', 'premiacion': '#FFD166', 'ciencia': '#5BC8FF',
+  'curiosidad': '#FF8FB6', 'evento': '#FFA92E',
+}
+const GN_EMOJI = {
+  deporte: '⚽', cine: '🎬', cultura: '🎭', 'premiación': '🏆', 'premiacion': '🏆',
+  ciencia: '🔬', curiosidad: '✨', evento: '🎉', salud: '💪',
 }
 
 // ---- helpers ---------------------------------------------------------------
@@ -127,7 +135,7 @@ function renderThreatBar(flags = []) {
 function renderNav() {
   const links = [
     ['señales', '🚩 Señales'], ['mercados', '📊 Mercados'], ['regiones', '🌐 Regiones'],
-    ['salud', '🩺 Salud'], ['agenda', '📅 Agenda'],
+    ['salud', '🩺 Salud'], ['agenda', '📅 Agenda'], ['buenas', '✨ Buenas'],
   ]
   return `<nav class="nav"><div class="nav-in">${links.map(([h, t]) => `<a href="#${h}" data-sec="${h}">${t}</a>`).join('')}</div></nav>`
 }
@@ -217,6 +225,24 @@ function renderObservances(list = []) {
   }).join('')
   const body = chips || `<div class="stable">Sin efemérides destacadas hoy.</div>`
   return `<section id="agenda" class="block"><h2 class="h2">📅 Efemérides &amp; días mundiales</h2><div class="obs-row">${body}</div></section>`
+}
+
+function renderGoodNews(list = []) {
+  if (!list || !list.length) return ''
+  const cards = list.map(g => {
+    const catKey = (g.category || '').toLowerCase()
+    const color = CATEGORY[catKey] || '#37E0A8'
+    const em = GN_EMOJI[catKey] || '🌟'
+    const cat = g.category ? `<span class="cat" style="--cat:${color}">${esc(g.category)}</span>` : ''
+    const hook = g.hook ? `<div class="gn-hook">💬 ${esc(g.hook)}</div>` : ''
+    return `<div class="gn-card">
+      <div class="item-head"><span class="gn-emoji">${em}</span>${cat}${srcTag(g)}</div>
+      <div class="gn-title">${esc(g.headline)}</div>
+      ${g.summary ? `<div class="item-summary">${esc(g.summary)}</div>` : ''}
+      ${hook}
+    </div>`
+  }).join('')
+  return `<section id="buenas" class="block"><h2 class="h2">✨ Good News Worldwide <span class="h2-n">${list.length}</span></h2><div class="goodnews">${cards}</div></section>`
 }
 
 function renderFooter(data) {
@@ -342,6 +368,13 @@ a.src:hover{color:var(--accent)}
 .obs-scope{font:700 9.5px/1 var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--accent)}
 .obs-name{font-weight:650}
 .obs-note{color:var(--dim);font-size:12px}
+/* good news */
+.goodnews{display:grid;grid-template-columns:repeat(auto-fill,minmax(290px,1fr));gap:12px}
+.gn-card{background:linear-gradient(180deg,color-mix(in srgb,#37E0A8 7%,var(--panel)),var(--panel));border:1px solid var(--line);border-left:3px solid #37E0A8;border-radius:12px;padding:14px 16px;transition:transform .12s,box-shadow .12s}
+.gn-card:hover{transform:translateY(-2px);box-shadow:0 10px 30px -14px rgba(55,224,168,.5)}
+.gn-emoji{font-size:16px}
+.gn-title{font-weight:700;font-size:15px;line-height:1.34;margin-top:2px}
+.gn-hook{margin-top:10px;font:600 12.5px/1.45 var(--mono);color:var(--accent);background:color-mix(in srgb,var(--accent) 9%,transparent);border:1px solid color-mix(in srgb,var(--accent) 28%,transparent);border-radius:8px;padding:7px 11px}
 /* footer */
 .foot{margin-top:46px;padding-top:18px;border-top:1px solid var(--line);color:var(--dim2);font:500 12px/1.7 var(--mono)}
 .foot-k{color:var(--accent)}
@@ -398,6 +431,7 @@ ${renderTicker(data.metrics)}
   ${renderRegions(data)}
   ${renderHealth(data.health)}
   ${renderObservances(data.observances)}
+  ${renderGoodNews(data.good_news)}
   ${renderFooter(data)}
 </div>
 <script>${JS}</script>

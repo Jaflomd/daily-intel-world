@@ -468,5 +468,61 @@
     ],
     "notes": "Sábado 13-jun-2026: mercados USA, Europa y Perú cerrados; todas las métricas corresponden al cierre del viernes 12-jun. La elección presidencial peruana domina el contexto político local con resultado aún sin proclamar."
   },
-  "generated_at_utc": "2026-06-13 11:30 UTC"
+  "generated_at_utc": "2026-06-13 11:30 UTC",
+  "good_news": [
+    {
+      "headline": "Arrancó el Mundial FIFA 2026 (USA · México · Canadá)",
+      "category": "deporte",
+      "summary": "El torneo más grande de la historia (48 selecciones, 3 países sede) ya rueda. Gol de Quiñones y exhibición de Hwang In-beom marcaron el inicio.",
+      "hook": "¿A quién le vas? ¿Ya viste algún partido del debut?",
+      "source": "Britannica / Demócrata",
+      "url": "https://www.britannica.com/event/2026-FIFA-World-Cup",
+      "date": "2026-06-11"
+    },
+    {
+      "headline": "\"Avatar: Fire and Ash\" superó USD 1.400 millones en taquilla mundial",
+      "category": "cine",
+      "summary": "La tercera de James Cameron se volvió un fenómeno; Variety la elogió como más audaz y mejor armada que \"The Way of Water\".",
+      "hook": "¿Team Avatar o ya te aburrió Pandora? Buen tema para romper el hielo.",
+      "source": "Variety",
+      "url": "https://variety.com/lists/best-movies-streaming-june-2026/",
+      "date": "2026-06"
+    },
+    {
+      "headline": "Women’s Prize for Fiction 2026 → Virginia Evans por \"The Correspondent\"",
+      "category": "premiación",
+      "summary": "La estadounidense ganó con su debut por GBP 30.000 (la estatuilla \"Bessie\"), anunciado el 11-jun en Londres. Novela sobre juventud y vejez.",
+      "hook": "Recomendación de lectura lista para una sobremesa.",
+      "source": "Women’s Prize",
+      "url": "https://womensprize.com/announcing-the-2026-winners-of-the-womens-prizes/",
+      "date": "2026-06-11"
+    },
+    {
+      "headline": "Ciencia feel-good: 90–120 min/semana de fuerza = de los mayores premios de salud a largo plazo",
+      "category": "salud",
+      "summary": "Estudio que siguió a +147.000 personas durante 30 años halló un \"punto dulce\" del entrenamiento de fuerza para vivir más y mejor.",
+      "hook": "Justo tu apuesta Kinobody/Ironman: la fuerza 2×/sem rinde más de lo que parece.",
+      "source": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/06/260611024609.htm",
+      "date": "2026-06-12"
+    },
+    {
+      "headline": "Stanford regenera cartílago y revierte artritis (en ratones)",
+      "category": "ciencia",
+      "summary": "Un tratamiento que bloquea una proteína del envejecimiento restauró cartílago perdido y previno artritis tras lesión de rodilla.",
+      "hook": "¿El fin de la artrosis? Conversación de sobremesa con cualquiera mayor de 40.",
+      "source": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/06/260612021604.htm",
+      "date": "2026-06-12"
+    },
+    {
+      "headline": "Agenda cultural: Bill Maher recibe el Mark Twain Prize y los BET Awards 2026 (ambos 28-jun)",
+      "category": "cultura",
+      "summary": "El Kennedy Center premia el humor estadounidense a Bill Maher; los BET Awards celebran música, cine y deporte en Los Ángeles. Misma noche.",
+      "hook": "Plan para fin de mes si quieres algo ligero que comentar.",
+      "source": "Kennedy Center / BET",
+      "url": "https://www.kennedy-center.org/whats-on/marktwain/",
+      "date": "2026-06-28"
+    }
+  ]
 }

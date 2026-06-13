@@ -41,6 +41,7 @@ Corre WebSearch/WebFetch reales por cada bloque. Sugerido (adapta queries a la f
 5. `global markets today Brent oil gold <fecha>` + `world news major events <fecha>`.
 6. `WHO disease outbreak news <mes año>` + `mental health news <mes año>`.
 7. `international day <fecha>` + `día mundial OMS <fecha>` + `efeméride Perú <fecha>`.
+8. **Good news** (antídoto al tono pesado): `good news <fecha>` + `award winners <mes año>` + `new movie box office <mes año>` + `sports victory <fecha>` + `positive science breakthrough <mes año>`. Busca premiaciones, estrenos, victorias deportivas, descubrimientos feel-good, nuevos eventos/festivales. Tono hedonista y conversable.
 
 Marca cada bloque con **flag** si hay: caída/salto de mercado fuerte (>1.5% en un índice mayor, salto del sol), anuncio de política (tasa, arancel, ley), tensión geopolítica, indicador económico sorpresa, o alerta epidemiológica activa.
 
@@ -74,6 +75,9 @@ Escribe `data/<YYYY-MM-DD>.json` con EXACTAMENTE esta forma (campos vacíos como
     "epi_alerts":    [ { "headline": "", "summary": "", "severity": "critical|high|watch", "region": "", "source": "", "url": "", "date": "" } ],
     "mental_health": [ { "headline": "", "summary": "", "source": "", "url": "", "date": "" } ]
   },
+  "good_news": [
+    { "headline": "", "summary": "1-2 frases", "category": "deporte|cine|cultura|premiación|ciencia|curiosidad|evento|salud", "hook": "rompehielos: 1 frase para iniciar conversación", "source": "", "url": "", "date": "" }
+  ],
   "meta": { "sources_used": [], "thin_sections": [], "notes": "" }
 }
 ```
@@ -84,6 +88,7 @@ Escribe `data/<YYYY-MM-DD>.json` con EXACTAMENTE esta forma (campos vacíos como
 - **Regiones:** 3-6 ítems por región. Si una región no tuvo nada, `stable:true` + `items:[]`.
 - **Salud:** Perú primero (MINSA/DIGEMID/CDC Perú), luego global (OMS/OPS). Salud mental siempre que haya señal real. Si vacío, omite el subgrupo.
 - **Efemérides:** los días mundiales/internacionales reales de HOY (verifica la fecha exacta; no la inventes).
+- **Good news:** 4-7 ítems positivos REALES con `url` (premiaciones, cine/cultura, deporte, ciencia feel-good, eventos). Cada uno con un `hook` (rompehielos para conversar). Prioriza lo global y comentable; un guiño a Perú/Latam y a los intereses de Javier (fitness, longevidad, neurociencia) suma. Mismo rigor anti-fabricación.
 - Todo en **español**, escaneable, frases cortas.
 
 ## Construir y publicar

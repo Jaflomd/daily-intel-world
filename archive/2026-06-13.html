@@ -115,6 +115,13 @@ a.src:hover{color:var(--accent)}
 .obs-scope{font:700 9.5px/1 var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--accent)}
 .obs-name{font-weight:650}
 .obs-note{color:var(--dim);font-size:12px}
+/* good news */
+.goodnews{display:grid;grid-template-columns:repeat(auto-fill,minmax(290px,1fr));gap:12px}
+.gn-card{background:linear-gradient(180deg,color-mix(in srgb,#37E0A8 7%,var(--panel)),var(--panel));border:1px solid var(--line);border-left:3px solid #37E0A8;border-radius:12px;padding:14px 16px;transition:transform .12s,box-shadow .12s}
+.gn-card:hover{transform:translateY(-2px);box-shadow:0 10px 30px -14px rgba(55,224,168,.5)}
+.gn-emoji{font-size:16px}
+.gn-title{font-weight:700;font-size:15px;line-height:1.34;margin-top:2px}
+.gn-hook{margin-top:10px;font:600 12.5px/1.45 var(--mono);color:var(--accent);background:color-mix(in srgb,var(--accent) 9%,transparent);border:1px solid color-mix(in srgb,var(--accent) 28%,transparent);border-radius:8px;padding:7px 11px}
 /* footer */
 .foot{margin-top:46px;padding-top:18px;border-top:1px solid var(--line);color:var(--dim2);font:500 12px/1.7 var(--mono)}
 .foot-k{color:var(--accent)}
@@ -147,7 +154,7 @@ a.src:hover{color:var(--accent)}
     <span class="tl-level" style="--c:#FF4D6D">CRÍTICO</span>
     <span class="tl-chips"><span class="tl-chip" style="--c:#FF4D6D">3 CRÍTICO</span><span class="tl-chip" style="--c:#FFA92E">7 ALTO</span><span class="tl-chip" style="--c:#5BC8FF">1 VIGILAR</span></span>
   </div>
-  <nav class="nav"><div class="nav-in"><a href="#señales" data-sec="señales">🚩 Señales</a><a href="#mercados" data-sec="mercados">📊 Mercados</a><a href="#regiones" data-sec="regiones">🌐 Regiones</a><a href="#salud" data-sec="salud">🩺 Salud</a><a href="#agenda" data-sec="agenda">📅 Agenda</a></div></nav>
+  <nav class="nav"><div class="nav-in"><a href="#señales" data-sec="señales">🚩 Señales</a><a href="#mercados" data-sec="mercados">📊 Mercados</a><a href="#regiones" data-sec="regiones">🌐 Regiones</a><a href="#salud" data-sec="salud">🩺 Salud</a><a href="#agenda" data-sec="agenda">📅 Agenda</a><a href="#buenas" data-sec="buenas">✨ Buenas</a></div></nav>
   <section id="señales" class="block flags-block"><h2 class="h2">🚩 Señales <span class="h2-n">11</span></h2><div class="flags"><div class="flag" style="--sv:#FF4D6D;--svbg:rgba(255,77,109,0.10);--svbd:rgba(255,77,109,0.42)">
       <div class="flag-top"><span class="flag-sev">▮ CRÍTICO</span><span class="flag-region">Puno (epicentro), Lima Metropolitana, Callao, Arequipa, Cusco, Moquegua, Madre de Dios, Tacna, Lambayeque</span></div>
       <div class="flag-title">EMERGENCIA SANITARIA ACTIVA: Brote de sarampión — DS 008-2026-SA</div>
@@ -308,6 +315,37 @@ a.src:hover{color:var(--accent)}
       <div class="item-headline">Pipeline psiquiátrico Q1-2026: psilocibina COMP360 (fase 3) y neuromodulación domiciliaria ProlivRX (FDA)</div>
       <div class="item-summary">Revisión del pipeline: eficacia en fase 3 de COMP360 (psilocibina) para depresión resistente y aprobación FDA de ProlivRX como neuromodulación domiciliaria adjunta en MDD. Señal de mecanismos novedosos en trastornos del ánimo.</div></div></div></div></section>
   <section id="agenda" class="block"><h2 class="h2">📅 Efemérides &amp; días mundiales</h2><div class="obs-row"><div class="obs"><span class="obs-scope">ONU</span><span class="obs-name">Día Internacional de Concienciación sobre el Albinismo</span><span class="obs-note">Res. 69/170. Derechos humanos de personas con albinismo; el 13-jun por la 1ª resolución de la ONU sobre albinismo (2013).</span></div></div></section>
+  <section id="buenas" class="block"><h2 class="h2">✨ Good News Worldwide <span class="h2-n">6</span></h2><div class="goodnews"><div class="gn-card">
+      <div class="item-head"><span class="gn-emoji">⚽</span><span class="cat" style="--cat:#37E0A8">deporte</span><a class="src" href="https://www.britannica.com/event/2026-FIFA-World-Cup" target="_blank" rel="noopener">Britannica / Demócrata · 2026-06-11 ↗</a></div>
+      <div class="gn-title">Arrancó el Mundial FIFA 2026 (USA · México · Canadá)</div>
+      <div class="item-summary">El torneo más grande de la historia (48 selecciones, 3 países sede) ya rueda. Gol de Quiñones y exhibición de Hwang In-beom marcaron el inicio.</div>
+      <div class="gn-hook">💬 ¿A quién le vas? ¿Ya viste algún partido del debut?</div>
+    </div><div class="gn-card">
+      <div class="item-head"><span class="gn-emoji">🎬</span><span class="cat" style="--cat:#B79CFF">cine</span><a class="src" href="https://variety.com/lists/best-movies-streaming-june-2026/" target="_blank" rel="noopener">Variety · 2026-06 ↗</a></div>
+      <div class="gn-title">&quot;Avatar: Fire and Ash&quot; superó USD 1.400 millones en taquilla mundial</div>
+      <div class="item-summary">La tercera de James Cameron se volvió un fenómeno; Variety la elogió como más audaz y mejor armada que &quot;The Way of Water&quot;.</div>
+      <div class="gn-hook">💬 ¿Team Avatar o ya te aburrió Pandora? Buen tema para romper el hielo.</div>
+    </div><div class="gn-card">
+      <div class="item-head"><span class="gn-emoji">🏆</span><span class="cat" style="--cat:#FFD166">premiación</span><a class="src" href="https://womensprize.com/announcing-the-2026-winners-of-the-womens-prizes/" target="_blank" rel="noopener">Women’s Prize · 2026-06-11 ↗</a></div>
+      <div class="gn-title">Women’s Prize for Fiction 2026 → Virginia Evans por &quot;The Correspondent&quot;</div>
+      <div class="item-summary">La estadounidense ganó con su debut por GBP 30.000 (la estatuilla &quot;Bessie&quot;), anunciado el 11-jun en Londres. Novela sobre juventud y vejez.</div>
+      <div class="gn-hook">💬 Recomendación de lectura lista para una sobremesa.</div>
+    </div><div class="gn-card">
+      <div class="item-head"><span class="gn-emoji">💪</span><span class="cat" style="--cat:#5BC8FF">salud</span><a class="src" href="https://www.sciencedaily.com/releases/2026/06/260611024609.htm" target="_blank" rel="noopener">ScienceDaily · 2026-06-12 ↗</a></div>
+      <div class="gn-title">Ciencia feel-good: 90–120 min/semana de fuerza = de los mayores premios de salud a largo plazo</div>
+      <div class="item-summary">Estudio que siguió a +147.000 personas durante 30 años halló un &quot;punto dulce&quot; del entrenamiento de fuerza para vivir más y mejor.</div>
+      <div class="gn-hook">💬 Justo tu apuesta Kinobody/Ironman: la fuerza 2×/sem rinde más de lo que parece.</div>
+    </div><div class="gn-card">
+      <div class="item-head"><span class="gn-emoji">🔬</span><span class="cat" style="--cat:#5BC8FF">ciencia</span><a class="src" href="https://www.sciencedaily.com/releases/2026/06/260612021604.htm" target="_blank" rel="noopener">ScienceDaily · 2026-06-12 ↗</a></div>
+      <div class="gn-title">Stanford regenera cartílago y revierte artritis (en ratones)</div>
+      <div class="item-summary">Un tratamiento que bloquea una proteína del envejecimiento restauró cartílago perdido y previno artritis tras lesión de rodilla.</div>
+      <div class="gn-hook">💬 ¿El fin de la artrosis? Conversación de sobremesa con cualquiera mayor de 40.</div>
+    </div><div class="gn-card">
+      <div class="item-head"><span class="gn-emoji">🎭</span><span class="cat" style="--cat:#FFC24B">cultura</span><a class="src" href="https://www.kennedy-center.org/whats-on/marktwain/" target="_blank" rel="noopener">Kennedy Center / BET · 2026-06-28 ↗</a></div>
+      <div class="gn-title">Agenda cultural: Bill Maher recibe el Mark Twain Prize y los BET Awards 2026 (ambos 28-jun)</div>
+      <div class="item-summary">El Kennedy Center premia el humor estadounidense a Bill Maher; los BET Awards celebran música, cine y deporte en Los Ángeles. Misma noche.</div>
+      <div class="gn-hook">💬 Plan para fin de mes si quieres algo ligero que comentar.</div>
+    </div></div></section>
   <footer class="foot"><div class="foot-sources"><span class="foot-k">FEED //</span> Infobae Perú · El Comercio · La República · El Peruano · CDC-MINSA / DGE · BCRP · Gestion.pe · Altavoz.pe · CNBC · Tax Foundation · Trading Economics · Bloomberg · Bloomberg Línea · TheStreet · Yahoo Finance · WHO · PAHO / CDC · FPRI · IISS · Xinhua · USCC China Bulletin · ECB · Axios · cuantoestaeldolar.pe · CoinGabbar · BBN Times · Psychiatric Times · ONU / un.org</div><div class="foot-thin">⚠︎ delgado: health.mental_health (referencia de pipeline Q1, no breaking de hoy)</div><div class="foot-notes">Sábado 13-jun-2026: mercados USA, Europa y Perú cerrados; todas las métricas corresponden al cierre del viernes 12-jun. La elección presidencial peruana domina el contexto político local con resultado aún sin proclamar.</div>
     <div class="foot-meta">Generado 2026-06-13 11:30 UTC · Regla anti-fabricación: cifras, alertas y normas solo con fuente verificada · <a href="archive/">archivo</a></div>
     <div class="foot-meta">Daily Intel — Perú &amp; World · Jaflo Lab · voz Luci/Fable</div></footer>

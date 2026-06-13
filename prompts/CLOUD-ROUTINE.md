@@ -20,7 +20,7 @@ Abre `prompts/briefing.md` y **síguelo al pie de la letra**. Resumen operativo:
 - **Ventana:** últimas 24-48 h. Hoy = `$TODAY` (zona `America/Lima`).
 - **Regla #0 anti-fabricación:** tu conocimiento NO cubre hoy. Todo sale de WebSearch/WebFetch reales. Cifras de mercado, alertas epi y normas SOLO con `url` verificada; si no la tienes, omite. Nada inventado, jamás.
 - **Fuentes:** prioriza `sources.yaml`. Contraste obligatorio para oficiales sesgadas (Xinhua, comunicados).
-- **Cobertura:** Perú (política/economía/social + macro BCRP/BVL), USA (política/mercados/Fed/BLS), China (política/economía/geopolítica), Global (mercados/eventos), Salud (normativas MINSA/DIGEMID, alertas epi CDC Perú/OPS/OMS, salud mental), Efemérides (días mundiales reales de hoy).
+- **Cobertura:** Perú (política/economía/social + macro BCRP/BVL), USA (política/mercados/Fed/BLS), China (política/economía/geopolítica), Global (mercados/eventos), Salud (normativas MINSA/DIGEMID, alertas epi CDC Perú/OPS/OMS, salud mental), Efemérides (días mundiales reales de hoy), **Good News Worldwide** (premiaciones, cine/cultura, deporte, ciencia feel-good, eventos — cada uno con un `hook` rompehielos; antídoto al tono pesado).
 - Si una sección está delgada → `stable:true` o `meta.thin_sections`. Si el día es plano → `flags:[]`.
 
 Escribe `data/$TODAY.json` con el contrato JSON exacto de `prompts/briefing.md`.
