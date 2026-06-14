@@ -1,0 +1,679 @@
+{
+  "date": "2026-06-14",
+  "generated_at_utc": "2026-06-14T12:17:49.558Z",
+  "observances": [
+    {
+      "name": "Día Mundial del Donante de Sangre",
+      "scope": "OMS",
+      "note": "Cada 14-jun desde 2004; tema 2026: 'One Drop of Humanity. Give Blood. Save Lives'. La fecha honra a Karl Landsteiner, descubridor del sistema ABO."
+    },
+    {
+      "name": "132° aniversario del nacimiento de José Carlos Mariátegui (1894)",
+      "scope": "Perú",
+      "note": "Fundador del Partido Socialista Peruano y autor de los '7 Ensayos de Interpretación de la Realidad Peruana'."
+    }
+  ],
+  "metrics": [
+    {
+      "label": "S&P 500",
+      "value": "7,431.46",
+      "change": "+0,5%",
+      "direction": "up",
+      "asof": "cierre vie 12-jun-2026",
+      "source": "The Street / CNBC",
+      "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-12-2026"
+    },
+    {
+      "label": "Nasdaq Composite",
+      "value": "25,888.84",
+      "change": "+0,31%",
+      "direction": "up",
+      "asof": "cierre vie 12-jun-2026",
+      "source": "The Street",
+      "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-12-2026"
+    },
+    {
+      "label": "Dow Jones",
+      "value": "51,202.26",
+      "change": "+0,7%",
+      "direction": "up",
+      "asof": "cierre vie 12-jun-2026",
+      "source": "The Street",
+      "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-12-2026"
+    },
+    {
+      "label": "VIX",
+      "value": "~19.25",
+      "change": "-0,98%",
+      "direction": "down",
+      "asof": "vie 12-jun-2026 (estimado intradía)",
+      "source": "StreetStats",
+      "url": "https://streetstats.finance/markets/volatility"
+    },
+    {
+      "label": "UST 10y",
+      "value": "4.49%",
+      "change": "",
+      "direction": "flat",
+      "asof": "cierre vie 12-jun-2026",
+      "source": "Federal Reserve H.15",
+      "url": "https://www.federalreserve.gov/releases/h15/"
+    },
+    {
+      "label": "DXY (índice dólar)",
+      "value": "99.81",
+      "change": "-0,05%",
+      "direction": "down",
+      "asof": "cierre vie 12-jun-2026",
+      "source": "CNBC / TradingEconomics",
+      "url": "https://www.cnbc.com/quotes/.DXY"
+    },
+    {
+      "label": "EUR/USD",
+      "value": "1.1565",
+      "change": "-0,07%",
+      "direction": "down",
+      "asof": "cierre vie 12-jun-2026",
+      "source": "TradingEconomics",
+      "url": "https://tradingeconomics.com/euro-area/currency"
+    },
+    {
+      "label": "USD/PEN (interbancario)",
+      "value": "S/ 3.3900",
+      "change": "promedio S/ 3.3846; rango 3.379–3.391",
+      "direction": "flat",
+      "asof": "cierre vie 12-jun-2026",
+      "source": "BCRP vía El Comercio",
+      "url": "https://elcomercio.pe/economia/mercados/precio-del-dolar-hoy-en-peru-2026-a-cuanto-esta-el-tipo-de-cambio-de-este-sabado-13-de-junio-sunat-tasa-cotizacion-compra-y-venta-segun-bcrp-dolares-a-soles-sbs-ocona-lbposting-noticia/"
+    },
+    {
+      "label": "USD/CNY",
+      "value": "6.7634",
+      "change": "0,00%",
+      "direction": "flat",
+      "asof": "cierre vie 12-jun-2026",
+      "source": "TradingEconomics",
+      "url": "https://tradingeconomics.com/china/currency"
+    },
+    {
+      "label": "Brent",
+      "value": "87.33 USD/bbl",
+      "change": "-3,37%",
+      "direction": "down",
+      "asof": "cierre vie 12-jun-2026",
+      "source": "TradingEconomics",
+      "url": "https://tradingeconomics.com/commodity/brent-crude-oil"
+    },
+    {
+      "label": "WTI",
+      "value": "84.73 USD/bbl",
+      "change": "-4%+",
+      "direction": "down",
+      "asof": "cierre vie 12-jun-2026",
+      "source": "TradingEconomics",
+      "url": "https://tradingeconomics.com/commodity/crude-oil"
+    },
+    {
+      "label": "Oro",
+      "value": "~4,222 USD/oz",
+      "change": "+0,22%",
+      "direction": "up",
+      "asof": "cierre vie 12-jun-2026",
+      "source": "TradingEconomics / CNBC",
+      "url": "https://www.cnbc.com/amp/select/the-price-of-gold-today-june-12-2026/"
+    },
+    {
+      "label": "Bitcoin",
+      "value": "63,877 USD",
+      "change": "al alza vs jueves",
+      "direction": "up",
+      "asof": "13-jun-2026",
+      "source": "LatestLY / Fortune",
+      "url": "https://www.latestly.com/business/bitcoin-price-today-june-12-2026-btc-price-holds-near-usd-63458-amid-liquidity-shift-ahead-of-spacex-listing-7469755.html/amp"
+    },
+    {
+      "label": "CSI 300",
+      "value": "4,748.59",
+      "change": "n/d",
+      "direction": "flat",
+      "asof": "10-jun-2026 (dato más reciente)",
+      "source": "GuruFocus",
+      "url": "https://www.gurufocus.com/economic_indicators/4424/csi-300-index"
+    }
+  ],
+  "flags": [
+    {
+      "severity": "critical",
+      "title": "Segunda vuelta sin ganador proclamado: margen de 18k votos y actas observadas pendientes",
+      "detail": "Con 98,55% procesado, Fujimori lidera por 18.488 votos (50,01% vs 49,99%). Restan 908 actas observadas en el JNE/JEE, 126 derivadas a reconteo físico. El margen es matemáticamente reversible. Proclamación: mediados de julio; cambio de mando 28-jul.",
+      "region": "Perú",
+      "source": "ONPE / El Comercio / Infobae Perú",
+      "url": "https://elcomercio.pe/politica/elecciones/cual-es-la-cantidad-de-votos-que-separa-a-keiko-fujimori-y-roberto-sanchez-segun-ultimos-resultados-onpe-de-la-segunda-vuelta-elecciones-peru-2026-noticia/"
+    },
+    {
+      "severity": "critical",
+      "title": "Sarampión Perú: emergencia sanitaria activa, 548 casos, cobertura vacunal en 18%",
+      "detail": "Transmisión comunitaria concentrada en Puno (96,6% de casos), riesgo alto a 8+ regiones. Cobertura 2026 colapsada al 18% nacional. Alerta AE-CDC-006-2026 (8-jun); emergencia sanitaria de 90 días desde 17-may. Eventos masivos próximos (Inti Raymi, elecciones, Mundial) elevan el riesgo.",
+      "region": "Salud",
+      "source": "MINSA / CDC Perú",
+      "url": "https://epipublic.dge.gob.pe/uploads/alertas/alertas_20265_07_234809.pdf"
+    },
+    {
+      "severity": "critical",
+      "title": "Ébola Bundibugyo (RDC/Uganda): PHEIC vigente, 676+ casos al 10-jun, expansión a Uganda",
+      "detail": "Emergencia de Salud Pública Internacional declarada por OMS el 17-may. Al 10-jun: 676 casos en RDC (136 muertes) y 19 en Uganda (2). Transmisión sostenida en Ituri. EEUU comprometió +USD 200M; plan continental Africa CDC-OMS pide USD 518M. Riesgo global: bajo; riesgo en África: alto.",
+      "region": "Salud",
+      "source": "OMS / CDC EEUU",
+      "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON606"
+    },
+    {
+      "severity": "high",
+      "title": "CPI mayo 2026: inflación EE.UU. sube a 4,2% — máximo en 3 años",
+      "detail": "IPC anual 4,2% (vs 3,8% en abril), impulsado por energía: gasolina +40,5% YoY por tensiones con Irán. IPC núcleo +2,9% YoY. Presiona a la Fed entrante de Warsh antes del FOMC del 16-17 jun. Mercados lo absorbieron con calma gracias al rally de SpaceX.",
+      "region": "USA",
+      "source": "CNBC / BLS",
+      "url": "https://www.bls.gov/news.release/archives/cpi_06102026.htm"
+    },
+    {
+      "severity": "high",
+      "title": "BCE sube tasas 25 pb — primera alza desde 2023 por la guerra Irán-EE.UU.",
+      "detail": "Tasa de depósito a 2,25% el 11-jun. Inflación de la eurozona en 3,2% (mayo), muy sobre el objetivo del 2%. Mercados asignan ~50% a otra alza en septiembre. El EUR/USD cayó a 1,1565.",
+      "region": "Global",
+      "source": "CNBC / Euronews / ECB",
+      "url": "https://www.cnbc.com/2026/06/11/ecb-hikes-interest-rates.html"
+    },
+    {
+      "severity": "high",
+      "title": "China intensifica operaciones marítimas al este de Taiwán",
+      "detail": "Del 6 al 10-jun, China condujo una 'operación especial de aplicación de ley marítima' al este de Taiwán, extendiendo patrullas hasta 200 mn. El 11-jun dos buques gubernamentales chinos ingresaron por primera vez a aguas cerca de la isla Itu Aba. Riesgo de presencia permanente en Scarborough Shoal.",
+      "region": "China",
+      "source": "AEI China & Taiwan Update",
+      "url": "https://www.aei.org/articles/china-taiwan-update-june-12-2026/"
+    },
+    {
+      "severity": "high",
+      "title": "USTR propone arancel adicional 12,5% a China por trabajo forzado (Sección 301)",
+      "detail": "El 2-jun, USTR emitió determinaciones en 60 investigaciones 301. China enfrenta arancel adicional de 12,5%; comentarios hasta el 7-jul. Se apilaría sobre el 30% vigente (fentanilo + recíproco), llevando la carga total a ~42,5%. China rechaza restricciones unilaterales.",
+      "region": "China",
+      "source": "USTR / CNBC",
+      "url": "https://www.cnbc.com/2026/06/03/us-tariffs-60-economies-dection-301-forced-labor-trade-practices-.html"
+    },
+    {
+      "severity": "high",
+      "title": "FISA Sección 702 vence — primer lapso desde 2018",
+      "detail": "El Congreso no renovó la autoridad de vigilancia exterior antes del deadline del 12-jun; la Cámara bloqueó la extensión. Operaciones siguen bajo certificaciones del FISA Court vigentes hasta marzo 2027. Tensión política alta entre reformistas y la Casa Blanca.",
+      "region": "USA",
+      "source": "CNBC / NPR",
+      "url": "https://www.npr.org/2026/06/12/nx-s1-5856291/fisa-702-surveillance-expiration-bill-pulte"
+    },
+    {
+      "severity": "high",
+      "title": "Riesgo fiscal Perú: IGV a la baja + déficit 3% + ISC en alza",
+      "detail": "La reducción gradual del IGV (18%→14% hasta 2029) implica ~S/ 10.000M anuales menos al fisco; en paralelo el MEF busca subir el ISC a bebidas para compensar. Déficit 2026 proyectado en 3%, con alertas del FMI sobre la calificación crediticia soberana. El próximo gobierno recibe la cuenta.",
+      "region": "Perú",
+      "source": "Infobae Perú / RPP / Gestión",
+      "url": "https://www.infobae.com/peru/2025/06/17/peru-mef-reduce-el-igv-al-14-desde-2026-en-favor-de-municipios-pese-cuestionamientos-del-fondo-monetario-internacional/"
+    },
+    {
+      "severity": "watch",
+      "title": "Acuerdo EE.UU.–Irán inminente pero no cerrado — Estrecho de Ormuz en juego",
+      "detail": "Pakistán confirmó 'texto final acordado' el 12-jun; Irán no ratifica el cierre. Incluiría cese al fuego de 60 días, reapertura del Estrecho de Ormuz y bloqueo del enriquecimiento de uranio 15-20 años. El Brent ya cayó >3% el viernes anticipando el acuerdo; Israel exige garantías adicionales.",
+      "region": "Global",
+      "source": "CBS News / CNN",
+      "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-peace-deal-agreement/"
+    }
+  ],
+  "regions": [
+    {
+      "key": "peru",
+      "title": "Perú",
+      "stable": false,
+      "items": [
+        {
+          "headline": "Keiko Fujimori lidera por 18.488 votos con 98,55% de actas; proclamación en julio",
+          "summary": "Fujimori acumula 9.072.686 votos (50,01%) vs 9.054.196 de Roberto Sánchez (49,99%). El JNE procesará 908 actas observadas; la proclamación oficial está fijada para mediados de julio.",
+          "category": "política",
+          "hook": "La elección más apretada de la historia reciente peruana: 18 mil votos de diferencia con actas aún en juego.",
+          "source": "El Comercio / Gestión",
+          "url": "https://elcomercio.pe/politica/elecciones/cual-es-la-cantidad-de-votos-que-separa-a-keiko-fujimori-y-roberto-sanchez-segun-ultimos-resultados-onpe-de-la-segunda-vuelta-elecciones-peru-2026-noticia/",
+          "date": "2026-06-14"
+        },
+        {
+          "headline": "JNE y JEE procesan 908 actas observadas que podrían revertir el resultado",
+          "summary": "Los 60 Jurados Electorales Especiales realizan audiencias públicas simultáneas para resolver actas con errores. Más de 126 actas fueron derivadas a reconteo físico de votos, mecanismo que puede alterar el marcador final.",
+          "category": "política",
+          "hook": "Por primera vez en Perú se aplica reconteo físico de votos a escala: cada urna abierta puede mover el resultado.",
+          "source": "Infobae Perú",
+          "url": "https://www.infobae.com/peru/2026/06/12/asi-se-procesan-las-actas-observadas-de-las-elecciones-2026-el-mecanismo-que-puede-definir-al-proximo-presidente-del-peru/",
+          "date": "2026-06-12"
+        },
+        {
+          "headline": "Gobierno alista decreto ISC: la cerveza subiría S/ 0,44 por litro antes del cambio de mando",
+          "summary": "El MEF prepara un decreto que elevaría el ISC a cervezas de S/ 2,50 a S/ 2,94 por litro, junto a alzas en gaseosas y cigarrillos, para reforzar recaudación en las últimas semanas del gobierno Boluarte.",
+          "category": "economía",
+          "hook": "El gobierno saliente sube impuestos al consumo masivo justo cuando el Mundial dispara la demanda de bebidas.",
+          "source": "RPP Noticias",
+          "url": "https://rpp.pe/economia/economia/precio-de-cervezas-y-gaseosas-aumentaria-gobierno-alista-incremento-impuesto-isc-antes-cambio-de-mando-noticia-1692759",
+          "date": "2026-06-12"
+        },
+        {
+          "headline": "El Mundial 2026 movería entre S/ 800 y S/ 1.200 millones en consumo peruano",
+          "summary": "Expertos de la Universidad de Lima proyectan que la fiebre mundialista casi duplicará el gasto de Qatar 2022 (S/ 500M), impulsado por electrodomésticos, delivery, bebidas y streaming, coincidiendo con la gratificación de julio.",
+          "category": "economía",
+          "hook": "El Mundial llega justo con gratificación en mano: el mercado interno tiene su catalizador del segundo semestre.",
+          "source": "RPP Noticias",
+          "url": "https://rpp.pe/economia/economia/mundial-2026-fiebre-mundialista-moveria-en-el-peru-mas-de-s-800-millones-por-consumo-segun-experto-noticia-1692880",
+          "date": "2026-06-13"
+        },
+        {
+          "headline": "Denuncias por minería ilegal crecieron 53% en lo que va de 2026",
+          "summary": "Entre enero y abril de 2026 se registraron 1.025 denuncias por minería ilegal, 53% más que en el mismo periodo de 2025. El oro ilegal exportado en 2025 superó las 100 toneladas, casi igualando las exportaciones formales.",
+          "category": "economía",
+          "hook": "El próximo presidente hereda un sector minero donde lo ilegal casi pesa tanto como lo formal: la bomba de tiempo del nuevo ciclo.",
+          "source": "RPP / Instituto Peruano de Economía",
+          "url": "https://rpp.pe/columnistas/institutoperuanodeeconomia/denuncias-por-mineria-ilegal-crecieron-53-lo-que-va-del-2026-noticia-1690017",
+          "date": "2026-06-13"
+        },
+        {
+          "headline": "IGV baja a 14% desde 2026: FMI y Consejo Fiscal advierten riesgo de S/ 10.000 millones",
+          "summary": "La Ley 32387 reduce el IGV 0,5 puntos por año hasta 14% en 2029, con compensación vía IPM al FONCOMUN. El FMI, el Consejo Fiscal y gremios privados alertan sobre el riesgo a la calificación crediticia del país.",
+          "category": "economía",
+          "hook": "Perú recortó su principal impuesto justo cuando enfrenta déficit fiscal del 3%: el siguiente gobierno recibe la cuenta.",
+          "source": "Infobae Perú / Gestión",
+          "url": "https://www.infobae.com/peru/2025/06/17/peru-mef-reduce-el-igv-al-14-desde-2026-en-favor-de-municipios-pese-cuestionamientos-del-fondo-monetario-internacional/",
+          "date": "2026-06-01"
+        }
+      ]
+    },
+    {
+      "key": "usa",
+      "title": "USA",
+      "stable": false,
+      "items": [
+        {
+          "headline": "CPI mayo 2026: inflación sube a 4,2% anual, máximo en 3 años; la energía dispara el dato",
+          "summary": "El IPC de mayo aceleró a 4,2% YoY (vs 3,8% en abril), sobre lo estimado. Energía +23,5% YoY; gasolina +40,5% por tensiones con Irán. IPC núcleo +2,9%. Primer gran reto macro para Kevin Warsh antes del FOMC del 16-17 jun.",
+          "category": "economía",
+          "hook": "Inflación en máximo de 3 años justo antes del primer FOMC de Warsh.",
+          "source": "CNBC / BLS",
+          "url": "https://www.bls.gov/news.release/archives/cpi_06102026.htm",
+          "date": "2026-06-10"
+        },
+        {
+          "headline": "SpaceX debuta en Nasdaq con el mayor IPO de la historia: +19% el primer día",
+          "summary": "SPCX abrió a 150 USD (precio IPO 135) y cerró en ~161, +19%. La oferta recaudó ~75.000M a una valuación sobre 2 billones. El rally de SpaceX fue el principal driver del alza de índices el viernes 12-jun.",
+          "category": "mercados",
+          "hook": "El mayor IPO de la historia en un solo día — y Musk ya es trillonario.",
+          "source": "CNBC / NPR / NBC News",
+          "url": "https://www.cnbc.com/2026/06/12/spacex-ipo-spcx-live-updates.html",
+          "date": "2026-06-12"
+        },
+        {
+          "headline": "FISA Sección 702 vence por primera vez desde 2018; la Cámara bloquea la extensión",
+          "summary": "El programa de vigilancia exterior más amplio de EE.UU. llegó a su sunset el 12-jun sin reautorización. En paralelo, Trump nombró a Bill Pulte como director interino de inteligencia nacional, generando protesta bipartidista. Las operaciones continúan bajo certificaciones vigentes hasta marzo 2027.",
+          "category": "política",
+          "hook": "Primer vencimiento de la ley de vigilancia central de EE.UU. — por la disputa entre reforma y ejecutivo.",
+          "source": "CNBC / NPR",
+          "url": "https://www.npr.org/2026/06/12/nx-s1-5856291/fisa-702-surveillance-expiration-bill-pulte",
+          "date": "2026-06-12"
+        },
+        {
+          "headline": "Kevin Warsh enfrenta su primer FOMC con inflación en 4,2% y un comité históricamente dividido",
+          "summary": "Warsh asumió el 22-may. El meeting del 16-17 jun se espera sin movimiento de tasas (3,5-3,75%), pero con cambio de sesgo de easing a neutral. Hubo 4 disidentes en abril, la mayor división desde 1992. Trump presiona públicamente contra alzas.",
+          "category": "economía",
+          "hook": "Nuevo chair, inflación disparada y la Fed más dividida en 30 años — debut bajo fuego.",
+          "source": "CBS News / Chase",
+          "url": "https://www.cbsnews.com/news/kevin-warsh-federal-reserve-chair-interest-rates/",
+          "date": "2026-06-12"
+        }
+      ]
+    },
+    {
+      "key": "china",
+      "title": "China",
+      "stable": false,
+      "items": [
+        {
+          "headline": "Los eléctricos capturan 66,7% de las ventas de autos nuevos en China en la primera semana de junio",
+          "summary": "Récord histórico pese a la reducción de subsidios. BYD lideró con 376.990 unidades en mayo; Leapmotor creció 81% interanual. El mercado doméstico NEV cayó 25% en Q1, pero las exportaciones más que se duplicaron.",
+          "category": "economía",
+          "hook": "Dos de cada tres autos vendidos en China ya son eléctricos — y sin subsidios máximos.",
+          "source": "South China Morning Post / CarNewsChina",
+          "url": "https://www.scmp.com/economy/china-economy",
+          "date": "2026-06-12"
+        },
+        {
+          "headline": "China y EE.UU. mantienen aranceles del 30% en una tregua de 60 días; USTR apila una capa del 12,5%",
+          "summary": "El 11-jun, Trump anunció un acuerdo que deja vigentes aranceles de 20% (fentanilo) + 10% (recíproco), con pausa de 60 días para los más altos. En paralelo, el 2-jun USTR propuso un arancel adicional del 12,5% por trabajo forzado.",
+          "category": "geopolítica",
+          "hook": "La tregua arancelaria dura 60 días — mientras llega una nueva capa del 12,5% por trabajo forzado.",
+          "source": "Tax Foundation / CNBC / USTR",
+          "url": "https://taxfoundation.org/research/all/federal/trump-tariffs-trade-war/",
+          "date": "2026-06-11"
+        },
+        {
+          "headline": "95% de firmas extranjeras planean mantener o aumentar el uso del yuan, según el Bank of China",
+          "summary": "Una encuesta publicada el 12-jun encontró que el 95% de las empresas extranjeras consultadas esperan mantener o incrementar su uso del renminbi, reflejo del avance de la de-dolarización en el comercio internacional.",
+          "category": "economía",
+          "hook": "El yuan gana terreno silenciosamente: casi todas las firmas extranjeras planean usarlo más.",
+          "source": "South China Morning Post",
+          "url": "https://www.scmp.com/economy/china-economy",
+          "date": "2026-06-12"
+        },
+        {
+          "headline": "China en camino de superar a EE.UU. como líder en energía nuclear, impulsada por la IA",
+          "summary": "El impulso proviene principalmente de la demanda de infraestructura de inteligencia artificial. El PBoC y cinco ministerios emitieron en junio lineamientos para reforzar el apoyo financiero al consumo, la innovación tecnológica y las PYMES.",
+          "category": "economía",
+          "hook": "La IA china no solo consume datos — consume energía nuclear a escala sin precedentes.",
+          "source": "South China Morning Post / Central Banking",
+          "url": "https://www.scmp.com/economy/china-economy",
+          "date": "2026-06-09"
+        },
+        {
+          "headline": "China conduce operación marítima al este de Taiwán; buques ingresan por primera vez a aguas de Itu Aba",
+          "summary": "Del 6 al 10-jun, China condujo una operación de ley marítima al este de Taiwán. El 11-jun, dos buques gubernamentales chinos ingresaron por primera vez a aguas de Itu Aba según la Guardia Costera taiwanesa. La fragata holandesa De Ruyter transitó el Estrecho pese a interferencia electrónica china.",
+          "category": "geopolítica",
+          "hook": "China amplía su perímetro marítimo: primer ingreso a aguas de Itu Aba el 11-jun.",
+          "source": "AEI China & Taiwan Update",
+          "url": "https://www.aei.org/articles/china-taiwan-update-june-12-2026/",
+          "date": "2026-06-12"
+        }
+      ]
+    },
+    {
+      "key": "global",
+      "title": "Global",
+      "stable": false,
+      "items": [
+        {
+          "headline": "El BCE sube tasas 25 pb — primera alza desde 2023 por la presión inflacionaria del conflicto con Irán",
+          "summary": "El Banco Central Europeo subió su tasa de depósito a 2,25% el 11-jun, citando explícitamente la guerra EE.UU.–Irán como fuente de presión inflacionaria. La inflación de la eurozona llegó a 3,2% en mayo. Se anticipa una posible segunda alza en septiembre.",
+          "category": "economía",
+          "hook": "El BCE rompe tres años de pausa: la guerra en Oriente Medio le devolvió el problema de inflación que creía resuelto.",
+          "source": "CNBC / Euronews / ECB",
+          "url": "https://www.cnbc.com/2026/06/11/ecb-hikes-interest-rates.html",
+          "date": "2026-06-11"
+        },
+        {
+          "headline": "EE.UU. e Irán cerca de un acuerdo de paz — la firma podría ser esta semana",
+          "summary": "Pakistán confirmó el 12-jun un 'texto final acordado'. El acuerdo incluiría cese al fuego de 60 días, reapertura del Estrecho de Ormuz y bloqueo del enriquecimiento de uranio 15-20 años. Irán no confirma el cierre; Israel exige garantías. El optimismo hundió el Brent más de 3% el viernes.",
+          "category": "geopolítica",
+          "hook": "Si el Estrecho de Ormuz reabre, los precios de energía globales tienen margen de caída adicional significativo.",
+          "source": "CBS News / CNN",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-peace-deal-agreement/",
+          "date": "2026-06-12"
+        },
+        {
+          "headline": "El Mundial 2026 arranca y se convierte en el evento económico del verano para Norteamérica",
+          "summary": "El torneo se disputa en EE.UU., México y Canadá con 48 selecciones. El anfitrión EE.UU. goleó 4-1 a Paraguay en el debut. Se proyecta un impacto económico masivo en turismo, hospitalidad y consumo a lo largo del continente.",
+          "category": "economía",
+          "hook": "El mayor torneo deportivo del año ya genera millones en turismo y atención mediática — y apenas empieza.",
+          "source": "GMA News / FIFA",
+          "url": "https://www.gmanetwork.com/news/sports/football/991362/2026-fifa-world-cup-updates-and-results-june-13-2026/story/",
+          "date": "2026-06-13"
+        }
+      ]
+    }
+  ],
+  "health": {
+    "normativas": [
+      {
+        "headline": "MINSA aprueba nuevo Esquema Nacional de Vacunación (RM N.° 561-2026/MINSA)",
+        "summary": "La RM aprueba la NTS N.° 246-MINSA/DGIESP-2026 que establece el nuevo Esquema Nacional de Vacunación, reemplazando el de 2022 y dejando sin efecto modificaciones previas. Refuerza prevención, control y erradicación de enfermedades prevenibles por vacunación en todas las etapas de vida.",
+        "region": "Perú",
+        "source": "El Peruano / MINSA",
+        "url": "https://www.elperuano.pe/noticia/297877-el-peruano-te-informa-consulta-aqui-las-principales-normas-legales-para-hoy-sabado-13-de-junio-del-2026",
+        "date": "2026-06-13"
+      },
+      {
+        "headline": "Alerta Epidemiológica AE-CDC N.° 006-2026 por sarampión (MINSA/CDC Perú)",
+        "summary": "El CDC Perú emitió la alerta el 8-jun ante 548 casos confirmados hasta la SE 23. Instruye a fortalecer la vigilancia, cerrar brechas de vacunación e intensificar campañas. Advierte riesgo elevado por eventos masivos próximos: elecciones, Inti Raymi y Fiesta de San Juan.",
+        "region": "Perú",
+        "source": "MINSA / CDC Perú (DGE)",
+        "url": "https://larepublica.pe/sociedad/2026/06/07/sarampion-en-peru-minsa-lanza-alerta-nacional-ante-aumento-de-casos-y-alto-riesgo-de-contagio-256795",
+        "date": "2026-06-08"
+      },
+      {
+        "headline": "Alerta Epidemiológica OPS: difteria en la Región de las Américas (11-jun-2026)",
+        "summary": "La OPS alertó ante nuevos casos de difteria en Brasil, Haití, Venezuela y República Dominicana. Llama a cerrar brechas de vacunación, fortalecer la vigilancia y asegurar abastecimiento de antitoxina diftérica, en un contexto de coberturas por debajo de niveles óptimos.",
+        "region": "Global",
+        "source": "OPS/OMS",
+        "url": "https://www.paho.org/es/documentos/alerta-epidemiologica-difteria-region-americas-11-junio-2026",
+        "date": "2026-06-11"
+      },
+      {
+        "headline": "Ley 32575: el diagnóstico de salud mental ya no es exclusivo de psiquiatras (Perú)",
+        "summary": "Promulgada el 8-abr-2026, modifica el artículo 25 de la Ley 30947. Establece que el diagnóstico de salud mental es un proceso integral y multidisciplinario; habilita a los 67.700 psicólogos colegiados a participar, ampliando cobertura en regiones con escasez de psiquiatras. Aprobada con 90 votos.",
+        "region": "Perú",
+        "source": "El Peruano / Congreso del Perú",
+        "url": "https://www.infobae.com/peru/2026/04/08/es-oficial-el-diagnostico-de-salud-mental-en-peru-dejara-de-ser-exclusivo-de-psiquiatras/",
+        "date": "2026-04-08"
+      }
+    ],
+    "epi_alerts": [
+      {
+        "headline": "Brote de sarampión en Perú: 548 casos confirmados, emergencia sanitaria activa",
+        "summary": "Al corte SE 23 (8-jun), 548 casos en 41 distritos de 8 regiones; Puno concentra el 96,6%. Estado de emergencia sanitaria de 90 días desde el 17-may para Lima, Callao y 12 regiones. Cobertura vacunal 2026 en 18% nacional (Puno: 16%). Riesgo elevado por eventos masivos y el Mundial.",
+        "severity": "critical",
+        "region": "Perú",
+        "source": "MINSA / CDC Perú / La República",
+        "url": "https://larepublica.pe/sociedad/2026/06/07/sarampion-en-peru-minsa-lanza-alerta-nacional-ante-aumento-de-casos-y-alto-riesgo-de-contagio-256795",
+        "date": "2026-06-08"
+      },
+      {
+        "headline": "Ébola Bundibugyo: PHEIC declarada, 676+ casos en RDC y Uganda",
+        "summary": "Brote por virus Bundibugyo en RDC (≈676 casos, 136 muertes) y Uganda (19 casos, 2 muertes). Ituri es la provincia más afectada. OMS declaró PHEIC el 17-may; Africa CDC y OMS lanzaron el 5-jun un plan continental con solicitud de USD 518M. Riesgo global: bajo; riesgo en África: alto.",
+        "severity": "critical",
+        "region": "Global",
+        "source": "OMS / CDC EEUU / US State Dept.",
+        "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON606",
+        "date": "2026-06-08"
+      },
+      {
+        "headline": "OPS: el sarampión en las Américas se cuadruplica, riesgo por el Mundial FIFA 2026",
+        "summary": "La OPS reporta que los casos de sarampión en la región superan los niveles de los últimos 22 años; Perú es uno de los países con mayor transmisión activa. La movilización de aficionados al Mundial eleva el riesgo de importación y reexportación. OPS emitió recomendaciones para viajeros el 2-jun.",
+        "severity": "high",
+        "region": "Global",
+        "source": "OPS/PAHO",
+        "url": "https://www.paho.org/en/news/2-6-2026-countries-prepare-2026-fifa-world-cuptm-paho-issues-recommendations-strengthen",
+        "date": "2026-06-02"
+      },
+      {
+        "headline": "DIGEMID: alertas por productos falsificados y fallas críticas de calidad (jun 2026)",
+        "summary": "Entre el 2 y el 12-jun, DIGEMID emitió 7 alertas (N.° 59 al 65). Destacan NIFEMEDIC (nifedipino) falsificado, APRONAX 550 mg (naproxeno) y POLCEM (ivermectina), además de DOLOFLAM (ibuprofeno) y nitroprusiato de sodio. Se ordena el retiro inmediato de los lotes observados.",
+        "severity": "watch",
+        "region": "Perú",
+        "source": "DIGEMID / MINSA",
+        "url": "https://www.digemid.minsa.gob.pe/webDigemid/publicaciones/alertas-modificaciones/alertas/",
+        "date": "2026-06-12"
+      }
+    ],
+    "mental_health": [
+      {
+        "headline": "Ley 32575 expande el diagnóstico de salud mental a psicólogos en Perú",
+        "summary": "Vigente desde abril 2026, modifica la Ley 30947 para habilitar a 67.700 psicólogos colegiados en el proceso diagnóstico. Busca reducir la brecha: 8 de cada 10 peruanos que necesitan atención no la reciben, con solo 294 psiquiatras para 33 millones de habitantes y 42% concentrados en Lima.",
+        "source": "Infobae Perú / El Peruano",
+        "url": "https://www.infobae.com/peru/2026/04/08/es-oficial-el-diagnostico-de-salud-mental-en-peru-dejara-de-ser-exclusivo-de-psiquiatras/",
+        "date": "2026-04-08"
+      },
+      {
+        "headline": "Sapien Labs 2026: 40% de jóvenes peruanos (18-24) con dificultades clínicas de salud mental",
+        "summary": "El Global Mind Project ubica al 40% de peruanos de 18-24 años con dificultades clínicas en 2026. Perú destina menos del 3% del presupuesto de salud a salud mental. Loreto, Ucayali y Madre de Dios tienen menos de 5 psicólogos clínicos por 100.000 habitantes.",
+        "source": "CHNM / Origen.pe",
+        "url": "https://chnm.com.pe/2026/03/06/crisis-de-salud-mental-en-peru-2026-40-de-los-jovenes-presentan-dificultades-clinicas-segun-estudio-global/",
+        "date": "2026-03-06"
+      },
+      {
+        "headline": "La salud mental emerge como tema de voto en EE.UU. (estudio U. Missouri, jun 2026)",
+        "summary": "Investigación en PLOS One (Haselswerdt) concluye que las políticas de salud mental son un factor determinante en decisiones de voto, sobre una muestra del Cooperative Election Study 2024. NAMI reporta 1 de cada 6 adultos con salud mental deficiente; 44 de las 50 mayores ciudades de EE.UU. tienen equipos de respuesta a crisis.",
+        "source": "University of Missouri / PLOS One",
+        "url": "https://showme.missouri.edu/2026/study-suggests-mental-health-policy-is-emerging-as-a-key-voting-issue-for-americans/",
+        "date": "2026-06-01"
+      }
+    ]
+  },
+  "good_news": [
+    {
+      "headline": "USMNT arrasa 4-1 a Paraguay en su debut mundialista en casa",
+      "summary": "EE.UU. marcó tres goles en el primer tiempo con un doblete de Balogun y gol de Gio Reyna. Es su primera victoria mundialista por más de un gol en 24 años.",
+      "category": "deporte",
+      "hook": "El anfitrión salió a jugar como si el torneo ya fuera suyo.",
+      "source": "Yahoo Sports / ESPN",
+      "url": "https://sports.yahoo.com/soccer/live/usmnt-vs-paraguay-score-live-updates-where-to-watch-box-score-214536754.html",
+      "date": "2026-06-12"
+    },
+    {
+      "headline": "Australia aplasta a Turquía 2-0 en su debut en el Mundial 2026",
+      "summary": "Los Socceroos sorprendieron con goles de Nestory Irankunda y Connor Metcalfe. Turquía volvía al Mundial por primera vez en 24 años y se fue en blanco.",
+      "category": "deporte",
+      "hook": "Australia llegó, vio y aplastó — y ni siquiera necesitó tiempo extra.",
+      "source": "ESPN / FIFA.com",
+      "url": "https://www.espn.com/soccer/match/_/gameId/760421/turkiye-australia",
+      "date": "2026-06-13"
+    },
+    {
+      "headline": "Daraxonrasib casi duplica la supervivencia en cáncer de páncreas metastásico",
+      "summary": "El fármaco de Revolution Medicines extiende la supervivencia mediana de 6,7 a 13,2 meses y reduce el riesgo de muerte un 60%. Publicado en NEJM y presentado en ASCO 2026.",
+      "category": "ciencia",
+      "hook": "El cáncer 'indrogable' por fin tiene un rival serio — y los números son históricos.",
+      "source": "New England Journal of Medicine / ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/06/260604044247.htm",
+      "date": "2026-06-04"
+    },
+    {
+      "headline": "La energía solar supera al carbón en generación eléctrica en EE.UU. por primera vez",
+      "summary": "En mayo 2026 la solar aportó el 12,8% de la electricidad de EE.UU. mientras el carbón cayó al 12,2%, un hito histórico de la transición energética.",
+      "category": "ciencia",
+      "hook": "El sol acaba de dejar al carbón en segundo lugar — y no hay eclipse a la vista.",
+      "source": "Good Good Good",
+      "url": "https://www.goodgoodgood.co/articles/good-news-this-week-june-13-2026",
+      "date": "2026-06-13"
+    },
+    {
+      "headline": "¡Schmigadoon! gana el Tony a Mejor Musical en la 79.ª edición de Broadway",
+      "summary": "La ceremonia en Radio City Music Hall, conducida por P!nk, coronó a ¡Schmigadoon! con cuatro Tonys, incluido el mayor. Death of a Salesman fue la producción más premiada con seis estatuillas.",
+      "category": "cultura",
+      "hook": "Broadway apostó por la parodia del musical clásico — y ganó a lo grande.",
+      "source": "NPR / Playbill",
+      "url": "https://www.npr.org/2026/06/07/nx-s1-5843086/tony-awards-winners-list-2026",
+      "date": "2026-06-07"
+    },
+    {
+      "headline": "82% de adultos en 138 países se sienten libres de elegir su propia vida",
+      "summary": "Gallup reporta que la satisfacción global con la libertad personal subió de 71% en 2006 a 82% en 2026, el mayor nivel registrado en dos décadas.",
+      "category": "curiosidad",
+      "hook": "Pese a todo el ruido global, las personas se sienten más libres que nunca — dato Gallup.",
+      "source": "Good Good Good",
+      "url": "https://www.goodgoodgood.co/articles/good-news-this-week-june-13-2026",
+      "date": "2026-06-13"
+    },
+    {
+      "headline": "Dos estudiantes kenianas de 17 años ganan un premio ambiental con filtros de residuos agrícolas",
+      "summary": "HewaSafi, su invención, reduce emisiones dañinas hasta un 93% usando residuos agrícolas como materia prima. Fueron premiadas en una competencia internacional de innovación juvenil.",
+      "category": "premiación",
+      "hook": "Diecisiete años, cero presupuesto y 93% menos de contaminación — eso es leverage de verdad.",
+      "source": "Good Good Good",
+      "url": "https://www.goodgoodgood.co/articles/good-news-this-week-june-13-2026",
+      "date": "2026-06-13"
+    }
+  ],
+  "farandula": [
+    {
+      "headline": "Ariana Grande y Ethan Slater se separan tras casi 3 años de relación",
+      "summary": "Según TMZ (8-jun), la pareja que se conoció en el set de 'Wicked' terminó de forma amistosa y 'siguen siendo amigos'. Slater estuvo ausente del arranque de la gira 'Eternal Sunshine' en Oakland.",
+      "scope": "mundial",
+      "hook": "Dos años de romance de 'Wicked' y se acabó: Ariana libre antes del verano, y la gira sigue igual.",
+      "source": "TMZ",
+      "url": "https://www.tmz.com/2026/06/08/ariana-grande-and-ethan-slater-split/",
+      "date": "2026-06-08"
+    },
+    {
+      "headline": "James Harden arrestado en Houston por portar un arma ilegalmente",
+      "summary": "Según CBS Sports y ESPN (13-jun), el base de los Cleveland Cavaliers fue detenido de madrugada por una pistola visible sin funda en su auto; pagó fianza de 100 USD y tiene audiencia el 22-jun.",
+      "scope": "mundial",
+      "hook": "La 'Barba' cambió la cancha por la comisaría de Houston, madrugada del sábado.",
+      "source": "CBS Sports / ESPN",
+      "url": "https://www.cbssports.com/nba/news/james-harden-arrest-unlawful-carrying-of-a-weapon/",
+      "date": "2026-06-13"
+    },
+    {
+      "headline": "Paolo Guerrero y Ana Paula Consorte confirman reconciliación con beso apasionado",
+      "summary": "Según La República (13-jun), el delantero de Alianza Lima y la modelo brasileña reaparecieron juntos con fotos de un viaje familiar a Miami, meses después de que Consorte confirmara su separación en marzo.",
+      "scope": "regional",
+      "hook": "Dijeron que era definitivo en marzo; en junio ya hay beso en público. Chollywood clásico.",
+      "source": "La República",
+      "url": "https://larepublica.pe/espectaculos/2026/06/13/paolo-guerrero-grita-su-amor-por-ana-paula-consorte-y-confirma-reconciliacion-tras-superar-crisis-enamorados-1062412",
+      "date": "2026-06-13"
+    },
+    {
+      "headline": "Mark Vito y Leslie Echevarría se casan en una boda ancestral en el Callao",
+      "summary": "Según Trome y La República (12-jun), el ex esposo de Keiko Fujimori se casó con la tiktoker de 28 años en una ceremonia dirigida por el chamán 'Supay', con vistas al mar; la pareja declaró querer tener hijos.",
+      "scope": "peru",
+      "hook": "Segunda vuelta electoral y Mark Vito se casa con una tiktoker en un ritual ancestral. Perú nunca defrauda.",
+      "source": "Trome / La República",
+      "url": "https://larepublica.pe/espectaculos/2026/06/12/mark-vito-se-casa-con-leslie-echevarria-en-boda-ancestral-tras-un-ano-de-relacion-nuestro-amor-ha-ido-creciendo-685164",
+      "date": "2026-06-12"
+    },
+    {
+      "headline": "Melcochita, 89 años, revela un posible embarazo de su novia de 22",
+      "summary": "Según Infobae Perú (9-jun), Pablo Villanueva 'Melcochita' contó que su pareja Heydi Amado tiene una semana de retraso; se mostró entusiasmado: 'Quiero dejar un montón de Melcochas en Perú'. Su hija Susan cuestionó públicamente la noticia.",
+      "scope": "peru",
+      "hook": "A los 89 años y con 8 hijos, Melcochita quiere más: el posible bebé número nueve dividió a todo el Perú.",
+      "source": "Infobae Perú",
+      "url": "https://www.infobae.com/peru/2026/06/09/melcochita-cuenta-que-su-pareja-de-22-anos-tiene-una-semana-de-retraso-y-deja-abierta-la-idea-de-ser-papa-otra-vez-a-los-89/",
+      "date": "2026-06-09"
+    },
+    {
+      "headline": "Diego Chavarri anuncia ruptura definitiva con Thalía Bentín por coqueteos en 'La Granja VIP'",
+      "summary": "Según La República y Trome (11-13 jun), 'El Diablito' confirmó el fin de su relación mediante un comunicado, tras los coqueteos captados con Gabriela Herrera dentro del reality. La separación se anunció en la noche de la gran final, ganada por Shirley Arica.",
+      "scope": "peru",
+      "hook": "Entró al reality con novia y salió con ruptura confirmada en vivo: La Granja VIP como detector de infidelidades.",
+      "source": "La República / Trome",
+      "url": "https://larepublica.pe/espectaculos/2026/06/11/diego-chavarri-anuncia-el-final-definitivo-de-su-relacion-con-thalia-bentin-tras-coqueteos-con-gabriela-herrera-despues-de-un-tiempo-de-reflexion-177320",
+      "date": "2026-06-11"
+    }
+  ],
+  "meta": {
+    "sources_used": [
+      "elcomercio.pe",
+      "gestion.pe",
+      "infobae.com/peru",
+      "rpp.pe",
+      "larepublica.pe",
+      "bcrp.gob.pe",
+      "cnbc.com",
+      "bls.gov",
+      "federalreserve.gov",
+      "npr.org",
+      "cbsnews.com",
+      "thestreet.com",
+      "tradingeconomics.com",
+      "scmp.com",
+      "aei.org",
+      "taxfoundation.org",
+      "ustr.gov",
+      "ecb.europa.eu",
+      "euronews.com",
+      "who.int",
+      "paho.org",
+      "digemid.minsa.gob.pe",
+      "dge.gob.pe",
+      "elperuano.pe",
+      "showme.missouri.edu",
+      "sciencedaily.com",
+      "nejm.org",
+      "goodgoodgood.co",
+      "playbill.com",
+      "espn.com",
+      "tmz.com",
+      "cbssports.com",
+      "trome.com"
+    ],
+    "thin_sections": [
+      "Bolsa de Valores de Lima (IGBVL/SPBVL): sin cierre confirmado del vie 12-jun en fuente verificable; omitido por regla anti-fabricación.",
+      "Salud mental global: sin anuncio OMS específico dentro de la ventana de 48h; se usaron las señales verificadas más recientes (Perú/EE.UU.).",
+      "CSI 300: dato del 10-jun (más reciente disponible), no del cierre del 12-jun."
+    ],
+    "notes": "Domingo 14-jun-2026: no hubo sesión bursátil. Todos los precios de acciones, FX y commodities corresponden al cierre del viernes 12-jun-2026 (BTC cotiza 24/7, valor al 13-jun). El día es denso en señales reales: segunda vuelta peruana sin proclamar (margen ~18k votos), dos emergencias sanitarias mayores (sarampión Perú con cobertura vacunal en 18% + Ébola Bundibugyo PHEIC en RDC/Uganda), CPI EE.UU. en 4,2% (máximo de 3 años), primera alza del BCE desde 2023, escalada marítima China–Taiwán y nuevo arancel USTR del 12,5%. El acuerdo EE.UU.–Irán (Estrecho de Ormuz) es el driver dominante de los mercados de energía. Anti-fabricación aplicada: cada cifra, alerta y norma se ancló a una búsqueda real con URL; lo no confirmado se omitió o se marcó en thin_sections. Fuentes oficiales chinas (Xinhua/MOFCOM/PBoC) solo se usaron con contraste de agencia independiente."
+  }
+}
