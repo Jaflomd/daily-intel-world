@@ -1,0 +1,662 @@
+{
+  "date": "2026-06-17",
+  "generated_at_utc": "2026-06-17T12:17:44Z",
+  "observances": [
+    {
+      "name": "Día Mundial de Lucha contra la Desertificación y la Sequía",
+      "scope": "ONU",
+      "note": "Establecido por la ONU (Res. A/RES/49/115). Tema 2026: 'Rangelands: Recognize. Respect. Restore.' — los pastizales cubren más de la mitad de la superficie terrestre y sustentan a ~2,000 millones de personas; 2026 es Año Internacional de los Pastizales y el Pastoralismo."
+    },
+    {
+      "name": "17 de junio de 1956: las mujeres peruanas votaron por primera vez",
+      "scope": "Perú",
+      "note": "Amparadas por la Ley 12391 (1955), ~500,000 mujeres sufragaron por primera vez en elecciones generales; ese mismo día fueron elegidas 9 mujeres al Congreso. Efeméride con eco directo en el limbo electoral de hoy."
+    }
+  ],
+  "metrics": [
+    {
+      "label": "S&P 500",
+      "value": "7,519.71",
+      "change": "-0,57%",
+      "direction": "down",
+      "asof": "intradía 17-jun (pendiente FOMC)",
+      "source": "Trading Economics",
+      "url": "https://tradingeconomics.com/united-states/stock-market"
+    },
+    {
+      "label": "Nasdaq Composite",
+      "value": "26,376.34",
+      "change": "-1,15%",
+      "direction": "down",
+      "asof": "cierre 16-jun",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/%5EIXIC/history/"
+    },
+    {
+      "label": "Dow Jones",
+      "value": "51,999.67",
+      "change": "+0,64% (récord intradía)",
+      "direction": "up",
+      "asof": "cierre 16-jun",
+      "source": "Yahoo Finance / TheStreet",
+      "url": "https://finance.yahoo.com/quote/%5EDJI/history/"
+    },
+    {
+      "label": "VIX",
+      "value": "16.34",
+      "change": "-0,07",
+      "direction": "down",
+      "asof": "17-jun",
+      "source": "Trading Economics",
+      "url": "https://tradingeconomics.com/united-states/stock-market"
+    },
+    {
+      "label": "UST 10y",
+      "value": "4.448%",
+      "change": "+0,003 pp",
+      "direction": "flat",
+      "asof": "17-jun",
+      "source": "Trading Economics",
+      "url": "https://tradingeconomics.com/united-states/government-bond-yield"
+    },
+    {
+      "label": "DXY (índice dólar)",
+      "value": "~99.5",
+      "change": "mínimo de +1 semana",
+      "direction": "down",
+      "asof": "17-jun",
+      "source": "Forex.com / Trading Economics",
+      "url": "https://tradingeconomics.com/dxy:cur"
+    },
+    {
+      "label": "Brent",
+      "value": "US$ 79.45/bbl",
+      "change": "+0,63% (5ª sesión a la baja en tendencia)",
+      "direction": "up",
+      "asof": "17-jun",
+      "source": "Trading Economics",
+      "url": "https://tradingeconomics.com/commodity/brent-crude-oil"
+    },
+    {
+      "label": "Oro",
+      "value": "US$ 4,345/oz",
+      "change": "+2% sesión previa",
+      "direction": "up",
+      "asof": "17-jun",
+      "source": "JM Bullion",
+      "url": "https://www.jmbullion.com/charts/gold-price/"
+    },
+    {
+      "label": "Bitcoin (BTC)",
+      "value": "US$ 65,829",
+      "change": "rango $64.9k-$65.9k (pausa pre-FOMC)",
+      "direction": "flat",
+      "asof": "17-jun",
+      "source": "LatestLY / Gemini",
+      "url": "https://www.latestly.com/business/bitcoin-price-today-june-17-2026-btc-price-stable-around-usd-65829-as-market-pauses-ahead-of-decisive-fomc-interest-rate-decision-7476716.html"
+    },
+    {
+      "label": "USD/PEN",
+      "value": "S/ 3.39",
+      "change": "-0,09% vs día previo",
+      "direction": "down",
+      "asof": "cierre 16-jun",
+      "source": "RPP / BCRP",
+      "url": "https://rpp.pe/economia/economia/precio-del-dolar-peru-y-tipo-de-cambio-hoy-16-de-junio-del-2026-noticia-1693241"
+    },
+    {
+      "label": "S&P/BVL Perú General",
+      "value": "34,836.62 pts",
+      "change": "cerca de máximo histórico",
+      "direction": "flat",
+      "asof": "17-jun",
+      "source": "Trading Economics",
+      "url": "https://tradingeconomics.com/peru/stock-market"
+    },
+    {
+      "label": "USD/CNY (offshore)",
+      "value": "6.7608",
+      "change": "yuan +6% en 12m (más fuerte desde feb-23)",
+      "direction": "down",
+      "asof": "17-jun",
+      "source": "Trading Economics / PBoC",
+      "url": "https://tradingeconomics.com/china/currency"
+    }
+  ],
+  "flags": [
+    {
+      "severity": "critical",
+      "title": "Perú sigue sin presidente electo: Fujimori gana por 36,349 votos, JNE proclamaría en julio",
+      "detail": "Al 99.15% de actas, Keiko Fujimori (50.10%) supera a Roberto Sánchez (49.90%) por 0.20 pp. Riesgo de recursos de nulidad. Perú opera con presidente interino (Balcázar) hasta el traspaso del 28 de julio.",
+      "region": "Perú",
+      "source": "Infobae Perú / El Comercio / JNE",
+      "url": "https://www.infobae.com/peru/2026/06/15/resultados-onpe-en-vivo-keiko-fujimori-y-roberto-sanchez-en-historica-definicion-electoral-en-peru/"
+    },
+    {
+      "severity": "critical",
+      "title": "Emergencia sanitaria activa por sarampión en Perú (DS 008-2026-SA, 90 días)",
+      "detail": "Transmisión comunitaria en Puno (379+ confirmados; Juliaca 225), Lima, Callao y 12 regiones. Cobertura de 2ª dosis en Puno apenas 12.7% en 2026. PAHO urge campañas. Emergencia vigente hasta ~agosto.",
+      "region": "Salud",
+      "source": "MINSA / DGE / PAHO",
+      "url": "https://www.infobae.com/peru/2026/05/17/el-peru-declara-emergencia-sanitaria-por-brote-de-sarampion-en-lima-el-callao-y-otras-12-regiones/"
+    },
+    {
+      "severity": "high",
+      "title": "FOMC decide hoy bajo Kevin Warsh: el dot plot borró el recorte de 2026",
+      "detail": "Con CPI en 4.2% (máximo desde abr-23) y empleo sólido, ≥3 miembros del FOMC proyectan alzas en 2026. Primera reunión de Warsh como chair. Tasa esperada sin cambio, pero el tono puede mover bonos, chips y cripto esta tarde.",
+      "region": "USA",
+      "source": "IndexBox / REX Shares / Kiplinger",
+      "url": "https://www.rexshares.com/fomc-june-2026-preview-the-decision-is-settled-the-dot-plot-isnt/"
+    },
+    {
+      "severity": "high",
+      "title": "EE.UU. e Irán firmarían acuerdo el 19-jun: petróleo bajo presión de oferta",
+      "detail": "MOU de 14 puntos (cese de hostilidades, reapertura de Ormuz, liberación de ~US$24-300 mil M en activos iraníes). Irán retomaría exportaciones de crudo de inmediato; Brent ya en mínimos de 3 meses (~US$79). Riesgo de fractura: el 16-jun Israel atacó el sur del Líbano.",
+      "region": "Global",
+      "source": "Bloomberg / Reuters / Al Jazeera",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-17/iran-to-gain-major-financial-relief-under-interim-deal-with-us"
+    },
+    {
+      "severity": "high",
+      "title": "China despliega plataforma flotante en Scarborough Shoal; Filipinas en alerta máxima",
+      "detail": "Imágenes satelitales del 10-jun confirman una estructura china en el bajo Scarborough (a 124 mn de Filipinas). Manila declaró 'cero tolerancia' el 16-jun. En paralelo, primera incursión de buques chinos en la zona prohibida de la isla Taiping (Taiwán) el 14-jun. Patrón de militarización encubierta.",
+      "region": "China",
+      "source": "South China Morning Post",
+      "url": "https://www.scmp.com/week-asia/politics/article/3357335/philippines-vows-block-structures-scarborough-shoal-amid-fears-chinese-expansion"
+    },
+    {
+      "severity": "high",
+      "title": "Crimen organizado: extorsiones +20% en Perú, la mayor herencia para el próximo gobierno",
+      "detail": "26,748 denuncias de extorsión en 2025; pequeños negocios destinan hasta 10% de ingresos a seguridad. Alzas regionales: Madre de Dios +105%, Tumbes +91%, Puno +57%. Analistas lo señalan como el reto #1 desde el 28 de julio.",
+      "region": "Perú",
+      "source": "La República / Infobae",
+      "url": "https://larepublica.pe/sociedad/2026/06/03/extorsiones-se-disparan-20-en-peru-miles-de-bodegas-y-pequenos-negocios-destinan-hasta-10-de-sus-ingresos-en-seguridad-segun-estudio-294792"
+    }
+  ],
+  "regions": [
+    {
+      "key": "peru",
+      "title": "Perú",
+      "stable": false,
+      "items": [
+        {
+          "headline": "Segunda vuelta: Fujimori lidera por 36,349 votos al 99.15% — JNE proclamaría en julio",
+          "summary": "Con 99.152% de actas, Keiko Fujimori (Fuerza Popular) obtiene 50.10% vs 49.90% de Roberto Sánchez (Juntos por el Perú). La brecha de 0.20 puntos es de las más ajustadas de la historia peruana.",
+          "category": "política",
+          "hook": "Perú lleva 10 días sin saber quién es su próximo presidente — ¿la proclamación del JNE zanja algo o vienen más recursos de nulidad?",
+          "source": "Infobae Perú / El Comercio",
+          "url": "https://www.infobae.com/peru/2026/06/15/resultados-onpe-en-vivo-keiko-fujimori-y-roberto-sanchez-en-historica-definicion-electoral-en-peru/",
+          "date": "2026-06-15"
+        },
+        {
+          "headline": "Balcázar gobierna en interinato hasta que el JNE proclame al ganador",
+          "summary": "José María Balcázar, presidente del Congreso, asumió la presidencia interina el 18 de febrero de 2026 tras la salida de Boluarte. Votó en la segunda vuelta y espera transferir la banda el 28 de julio.",
+          "category": "política",
+          "hook": "Perú tiene un presidente interino que ya votó por su sucesor — ¿qué margen real de acción le queda a Balcázar en este limbo?",
+          "source": "El Peruano",
+          "url": "https://elperuano.pe/noticia/297460-segunda-vuelta-2026-presidente-balcazar-emite-su-voto-en-colegio-de-chiclayo",
+          "date": "2026-06-07"
+        },
+        {
+          "headline": "MEF: la economía peruana creció 3.73% en abril y suma 25 meses de expansión",
+          "summary": "Crecimiento de 3.73% en abril y 3.6% acumulado en el primer cuatrimestre. La inversión pública subió 11.4% entre enero y mayo (S/ 21,591 millones). Proyección 2026 en 3.2–3.5%.",
+          "category": "economía",
+          "hook": "La economía sigue creciendo pese al interinato y la disputa electoral — ¿hasta cuándo aguanta la inercia macro sin gobierno legitimado?",
+          "source": "TVPerú / El Comercio",
+          "url": "https://tvperu.gob.pe/noticias/economia/mef-economia-peruana-crece-373-en-abril-y-suma-25-meses-de-expansion-ininterrumpida",
+          "date": "2026-06"
+        },
+        {
+          "headline": "Inflación anual de Lima en 3.91% (mayo), aún sobre el techo meta del BCRP",
+          "summary": "El IPC de Lima cayó 0.16% en mayo (primer dato negativo del año), por baja en alimentos (-1.76%). Pero la variación anual de 3.91% sigue por encima del techo de 3% del rango meta del BCRP.",
+          "category": "economía",
+          "hook": "Los precios bajaron un mes, pero la inflación anual aún incumple la meta — ¿mueve eso la tasa del BCRP en su próxima reunión?",
+          "source": "INEI / El Comercio",
+          "url": "https://elcomercio.pe/economia/peru/inei-precios-al-consumidor-de-lima-disminuyeron-016-en-mayo-de-2026-y-la-inflacion-anual-se-situo-en-391-noticia/",
+          "date": "2026-06-01"
+        },
+        {
+          "headline": "Extorsiones suben 20% en 2025: pequeños negocios pagan hasta 10% de sus ingresos en seguridad",
+          "summary": "26,748 denuncias por extorsión en 2025. Bodegas, farmacias y talleres destinan hasta 10% de ingresos a seguridad. Mayores alzas: Madre de Dios (+105%), Tumbes (+91%), Puno (+57%).",
+          "category": "social",
+          "hook": "La extorsión ya es un impuesto informal para miles de pymes peruanas — ¿será prioridad de Fujimori o Sánchez desde el día uno?",
+          "source": "La República",
+          "url": "https://larepublica.pe/sociedad/2026/06/03/extorsiones-se-disparan-20-en-peru-miles-de-bodegas-y-pequenos-negocios-destinan-hasta-10-de-sus-ingresos-en-seguridad-segun-estudio-294792",
+          "date": "2026-06-03"
+        }
+      ]
+    },
+    {
+      "key": "usa",
+      "title": "USA",
+      "stable": false,
+      "items": [
+        {
+          "headline": "El FOMC mantiene tasas y Warsh da su primera conferencia como nuevo chair de la Fed",
+          "summary": "Cuarta reunión consecutiva sin cambios. Con CPI en 4.2% (máximo desde abr-23) y +172k empleos en mayo, el dot plot eliminó el recorte proyectado para 2026. Al menos tres miembros del FOMC proyectan alzas.",
+          "category": "economía",
+          "hook": "El nuevo chair Warsh dejó abierta la puerta a subir tasas en 2026, algo que el mercado no esperaba hace tres meses. ¿Qué señaló hoy?",
+          "source": "IndexBox / StockTitan / FXStreet",
+          "url": "https://www.indexbox.io/blog/fed-holds-rates-as-inflation-hits-42-warshs-first-fomc-press-conference-in-focus/",
+          "date": "2026-06-17"
+        },
+        {
+          "headline": "EE.UU. e Irán firmarían un MOU de 14 puntos el viernes 19 en Ginebra",
+          "summary": "Mediado por Pakistán y Qatar: cese permanente de hostilidades, fin del bloqueo naval en 30 días, reapertura del Estrecho de Ormuz y liberación de activos iraníes. El 16-jun strikes israelíes en el sur del Líbano (4 muertos) tensan el cierre.",
+          "category": "política",
+          "hook": "Trump cumplió 80 anunciando el acuerdo — ¿puede sostenerse un cese de fuego que deja fuera el programa nuclear y los misiles iraníes?",
+          "source": "Al Jazeera / Axios",
+          "url": "https://www.aljazeera.com/news/2026/6/15/us-iran-to-sign-a-peace-deal-on-friday-what-we-know-so-far",
+          "date": "2026-06-17"
+        },
+        {
+          "headline": "Nasdaq cae 1.2% por semiconductores mientras el Dow marca récord, a la espera del FOMC",
+          "summary": "Jornada mixta el 16-jun: Dow +0.64% (récord intradía), S&P 500 -0.57%, Nasdaq -1.2%. Toma de ganancias en chips: AMD -7.3%, Intel -8.5%, Micron -6.2%, Nvidia -2.4%.",
+          "category": "mercados",
+          "hook": "El Dow bate récord mientras el Nasdaq cae el mismo día — ¿rotación de growth a value o solo toma de ganancias pre-Fed?",
+          "source": "Trading Economics / CNBC",
+          "url": "https://tradingeconomics.com/united-states/stock-market",
+          "date": "2026-06-17"
+        },
+        {
+          "headline": "Migración neta negativa en EE.UU. por primera vez en medio siglo",
+          "summary": "ICE reporta +605,000 deportaciones y 1.9 millones de autodeportaciones; más de 2.5 millones salieron desde que Trump asumió. EE.UU. tuvo migración neta negativa en 2025, primera vez en al menos 50 años.",
+          "category": "política",
+          "hook": "Migración neta negativa por primera vez en generaciones — ¿qué le hace eso a un mercado laboral con inflación ya en 4.2%?",
+          "source": "NBC News / NPR",
+          "url": "https://www.nbcnews.com/data-graphics/us-immigration-tracker-follow-arrests-detentions-border-crossings-rcna189148",
+          "date": "2026-06-17"
+        },
+        {
+          "headline": "Tras anular la Corte los aranceles IEEPA, Trump opera con la Sección 122 al 15% (tope 150 días)",
+          "summary": "En fallo 6-3 (feb-26) la Corte Suprema declaró inconstitucionales los aranceles recíprocos vía IEEPA. Trump reencauzó a la Sección 122: arancel global del 15% que caduca en 150 días salvo voto del Congreso. Tax Foundation estima hasta US$1,300 por hogar en 2026.",
+          "category": "economía",
+          "hook": "El reloj corre sobre el arancel del 15% — ¿tiene Trump los votos en el Congreso para extenderlo antes de que expire?",
+          "source": "WilmerHale / Brookings",
+          "url": "https://www.wilmerhale.com/en/insights/client-alerts/20260220-supreme-court-strikes-down-ieepa-tariffs-what-now",
+          "date": "2026-06-17"
+        }
+      ]
+    },
+    {
+      "key": "china",
+      "title": "China",
+      "stable": false,
+      "items": [
+        {
+          "headline": "El PBoC lanza una facilidad repo en yuan para bancos centrales extranjeros",
+          "summary": "El gobernador Pan Gongsheng anunció el 17-jun la FIMA RMB repo facility, que da liquidez en yuan a bancos centrales usando bonos chinos como colateral, en paralelo a señales de que mantener el ritmo de crédito previo es 'difícil e innecesario'.",
+          "category": "economía",
+          "hook": "China clonó la facilidad repo de la Fed pero en yuanes — ¿arranque serio de la desdolarización o arquitectura sin masa crítica?",
+          "source": "FXStreet / InvestingLive",
+          "url": "https://www.fxstreet.com/news/pbocs-pan-will-act-if-money-market-overnight-rate-persistently-deviates-from-operation-rates-202606170320",
+          "date": "2026-06-17"
+        },
+        {
+          "headline": "El PMI manufacturero chino cae a 50 en mayo: los nuevos pedidos se contraen",
+          "summary": "El PMI oficial bajó a 50.0 en mayo (desde 50.3), con nuevos pedidos en 49.9 pese a producción en 51.2. La inversión inmobiliaria sigue cayendo (-11.1% en ene-feb).",
+          "category": "economía",
+          "hook": "El PMI rozó la frontera de contracción — la recuperación que Pekín vendía como sólida luce más frágil de lo anunciado.",
+          "source": "NBS China / FocusEconomics",
+          "url": "https://www.stats.gov.cn/english/PressRelease/202606/t20260601_1963851.html",
+          "date": "2026-06-01"
+        },
+        {
+          "headline": "Buques chinos entran por primera vez en la zona prohibida cerca de la isla Taiping (Taiwán)",
+          "summary": "Entre el 5 y 14 de junio, los 'Sansha Zhifa 301' y 'Sansha No. 2' entraron en aguas restringidas a 3.2 millas de Taiping y fueron repelidos por la Guardia Costera de Taiwán. Taipéi confirmó que fue la primera incursión de buques del gobierno continental en esa zona.",
+          "category": "geopolítica",
+          "hook": "Primera incursión china en la zona prohibida de Taiping — ¿ensayo del mismo patrón de 'normalización' que usaron en el Mar del Sur?",
+          "source": "South China Morning Post",
+          "url": "https://www.scmp.com/news/china/military/article/3357065/quiet-escalation-unfolding-around-taiwans-remote-outposts-beijing-sends-ships",
+          "date": "2026-06-14"
+        },
+        {
+          "headline": "Filipinas promete bloquear estructuras chinas en Scarborough Shoal tras detectar una plataforma flotante",
+          "summary": "El 16-jun Manila declaró 'ni una pulgada' de concesión tras imágenes satelitales del 10-jun que mostraban una plataforma flotante desplegada por buques de investigación chinos; analistas advierten militarización bajo cobertura científica.",
+          "category": "geopolítica",
+          "hook": "China llama 'científica' a su plataforma en Scarborough — ¿qué tan parecido es esto al Arrecife Mischief en los 90?",
+          "source": "South China Morning Post",
+          "url": "https://www.scmp.com/week-asia/politics/article/3357335/philippines-vows-block-structures-scarborough-shoal-amid-fears-chinese-expansion",
+          "date": "2026-06-16"
+        },
+        {
+          "headline": "El yuan toca su nivel más fuerte desde febrero de 2023 tras las medidas del PBoC",
+          "summary": "El yuan cotizó a 6.76 por dólar el 17-jun, +6% en 12 meses, impulsado por la FIMA RMB repo facility y la autorización a seis bancos para operar en divisas offshore en la zona franca de Shanghái.",
+          "category": "economía",
+          "hook": "El yuan en máximos de tres años justo cuando Pekín monta arquitectura para sustituir al dólar en reservas — ¿timing calculado?",
+          "source": "Trading Economics / InvestingLive",
+          "url": "https://tradingeconomics.com/china/currency",
+          "date": "2026-06-17"
+        }
+      ]
+    },
+    {
+      "key": "global",
+      "title": "Global",
+      "stable": false,
+      "items": [
+        {
+          "headline": "EE.UU. e Irán firmarían el acuerdo provisional el 19-jun: el petróleo cae por quinta sesión",
+          "summary": "El memorándum ya fue firmado electrónicamente y se formalizaría en Suiza el 19-jun. Irán podría reanudar exportaciones de crudo de inmediato y acceder a un programa económico de gran escala, derrumbando los precios del crudo.",
+          "category": "geopolítica",
+          "hook": "Si Irán vuelca medio millón de barriles diarios al mercado, ¿quién absorbe el shock de oferta y quién pierde más?",
+          "source": "Bloomberg / Reuters",
+          "url": "https://www.bloomberg.com/news/articles/2026-06-17/iran-to-gain-major-financial-relief-under-interim-deal-with-us",
+          "date": "2026-06-17"
+        },
+        {
+          "headline": "El G7 de Evian cierra con declaración sobre Irán, IA y el brote de Ébola en África Central",
+          "summary": "El G7 calificó el acuerdo EE.UU.-Irán de 'oportunidad histórica' y emitió una alerta coordinada sobre el brote de Ébola (Bundibugyo) en RDC y Uganda. CEOs de IA discutieron riesgos con los líderes.",
+          "category": "geopolítica",
+          "hook": "Un G7 con Trump, jefes de IA y una alerta de Ébola en la misma sala — ¿qué salió realmente acordado de Evian?",
+          "source": "Consejo de la UE / Bloomberg",
+          "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/06/17/g7-leaders-joint-statements-evian-france-16-17-june-2026/",
+          "date": "2026-06-17"
+        },
+        {
+          "headline": "Rusia lanza 1,065 ataques en Donetsk en 24 horas mientras el foco mundial mira a Irán",
+          "summary": "Las fuerzas rusas intensificaron los golpes en Donetsk: 4 muertos, 17 heridos y 166 estructuras civiles dañadas. Ucrania reporta impacto en la capacidad refinadora rusa tras ataques de largo alcance.",
+          "category": "geopolítica",
+          "hook": "Mientras el mundo celebra un deal en Medio Oriente, la guerra que ya no es titular no baja de intensidad en el este de Ucrania.",
+          "source": "Ukrinform",
+          "url": "https://www.ukrinform.net/rubric-ato",
+          "date": "2026-06-17"
+        },
+        {
+          "headline": "El oro supera los US$4,345/oz y el dólar (DXY) cede a 99.5 por el acuerdo iraní",
+          "summary": "El oro cotiza sobre US$4,345 tras subir más de 2% en la sesión previa. El DXY cayó a mínimos de más de una semana (~99.5) a medida que el acuerdo EE.UU.-Irán reduce la prima de riesgo energético.",
+          "category": "mercados",
+          "hook": "El oro sube y el dólar cede justo con un deal de paz — ¿los mercados descontaron el escenario optimista demasiado rápido?",
+          "source": "JM Bullion / Forex.com",
+          "url": "https://www.jmbullion.com/charts/gold-price/",
+          "date": "2026-06-17"
+        },
+        {
+          "headline": "Bitcoin se estabiliza en ~US$65,800 a la espera del primer FOMC de Kevin Warsh",
+          "summary": "BTC cotiza en un rango de US$64,900-65,900 mientras los mercados esperan la decisión de tasas del FOMC bajo el nuevo chair de la Fed. El consenso espera tasas sin cambio.",
+          "category": "mercados",
+          "hook": "El nuevo timonel de la Fed estrena reunión hoy — ¿cómo reacciona BTC si el mensaje sale más hawkish de lo previsto?",
+          "source": "LatestLY / Gemini",
+          "url": "https://www.latestly.com/business/bitcoin-price-today-june-17-2026-btc-price-stable-around-usd-65829-as-market-pauses-ahead-of-decisive-fomc-interest-rate-decision-7476716.html",
+          "date": "2026-06-17"
+        }
+      ]
+    }
+  ],
+  "health": {
+    "normativas": [
+      {
+        "headline": "RM N° 561-2026/MINSA: nuevo Esquema Nacional de Inmunizaciones con 23 vacunas y nirsevimab",
+        "summary": "MINSA oficializó la NT N° 246-MINSA/DGIESP-2026, que amplía el calendario de 18 a 23 biológicos. Incorpora 5 nuevas vacunas y el anticuerpo monoclonal nirsevimab (contra VRS) para neonatos. Reemplaza el esquema de 2022.",
+        "region": "Perú",
+        "source": "MINSA / El Peruano",
+        "url": "https://larepublica.pe/sociedad/2026/06/13/gobierno-oficializa-nuevo-esquema-nacional-de-inmunizacion-incorpora-5-vacunas-y-un-anticuerpo-monoclonal-425906",
+        "date": "2026-06-13"
+      },
+      {
+        "headline": "Alerta DIGEMID N° 63-2026: POLCEM (ivermectina) falsificado incautado",
+        "summary": "DIGEMID reportó la incautación de POLCEM (ivermectina) como producto farmacéutico falsificado en operaciones de control sanitario. Se insta a no adquirir ni usar el producto.",
+        "region": "Perú",
+        "source": "DIGEMID / MINSA",
+        "url": "https://www.digemid.minsa.gob.pe/webDigemid/alertas-modificaciones/2026/alerta-digemid-no-63-2026/",
+        "date": "2026-06-12"
+      },
+      {
+        "headline": "DIGEMID: NIFEMEDIC (nifedipino) y APRONAX 550 mg (naproxeno) identificados como falsificados",
+        "summary": "Alertas de junio 2026 sobre NIFEMEDIC (nifedipino 10 mg) y APRONAX 550 mg detectados como falsificados en establecimientos farmacéuticos. Se ordena su no comercialización.",
+        "region": "Perú",
+        "source": "DIGEMID / MINSA",
+        "url": "https://www.digemid.minsa.gob.pe/webDigemid/publicaciones/alertas-modificaciones/alertas/",
+        "date": "2026-06-12"
+      },
+      {
+        "headline": "DS N° 008-2026-SA: emergencia sanitaria de 90 días por sarampión en 14 regiones",
+        "summary": "Publicado el 17 de mayo de 2026. Cubre Lima Metropolitana, Callao y 12 regiones (Puno, Arequipa, Cusco, Loreto, Tacna, entre otras) por transmisión local activa y bajas coberturas de vacunación. Vigente en junio.",
+        "region": "Perú",
+        "source": "MINSA / El Peruano",
+        "url": "https://reliefweb.int/report/peru/emergencia-biologica-05-2026-emergencia-sanitaria-por-el-brote-de-sarampion-2026-05-21",
+        "date": "2026-05-17"
+      }
+    ],
+    "epi_alerts": [
+      {
+        "headline": "Sarampión activo en Perú: emergencia sanitaria y 379+ casos confirmados en Puno",
+        "summary": "Emergencia de 90 días (desde mayo) por brote con transmisión local. Al 28-may, Puno reportó 379 confirmados (Juliaca: 225) y hay +1,400 sospechosos a nivel nacional. Cobertura de 2ª dosis en Puno: 12.7% en 2026. PAHO urge campañas.",
+        "severity": "critical",
+        "region": "Perú (Puno, Lima, 14 regiones)",
+        "source": "MINSA / DGE / PAHO",
+        "url": "https://www.infobae.com/peru/2026/05/17/el-peru-declara-emergencia-sanitaria-por-brote-de-sarampion-en-lima-el-callao-y-otras-12-regiones/",
+        "date": "2026-06-01"
+      },
+      {
+        "headline": "PAHO alerta por difteria en alza en las Américas; Perú entre los afectados",
+        "summary": "163 casos confirmados y 5 muertes en las primeras 21 semanas de 2026, más del doble que en 2025. Haití concentra 159 casos y todas las muertes. Más de la mitad de casos en no vacunados. PAHO urge reforzar vacunación.",
+        "severity": "high",
+        "region": "Américas (Haití, Brasil, Perú)",
+        "source": "PAHO/OPS",
+        "url": "https://www.paho.org/en/news/15-6-2026-paho-urges-countries-strengthen-vaccination-efforts-diphtheria-cases-rise-americas",
+        "date": "2026-06-15"
+      },
+      {
+        "headline": "Sarampión en las Américas: 21,431 casos confirmados y 31 muertes a la SE21",
+        "summary": "Brote multipaís con +234% respecto a 2025. México, Guatemala, EE.UU. y Canadá concentran el 97% de casos; Perú es excepción con casos en aumento (Puno). 85% de casos en no vacunados.",
+        "severity": "high",
+        "region": "Américas",
+        "source": "PAHO/OPS",
+        "url": "https://www.paho.org/en/documents/situation-report-4-measles-americas-region-4-june-2026",
+        "date": "2026-06-04"
+      },
+      {
+        "headline": "Ébola (Bundibugyo) en RDC y Uganda: PHEIC de la OMS; PAHO activa preparación en las Américas",
+        "summary": "808 confirmados y 192 muertos en RDC; 19 casos y 2 muertes en Uganda al 16-jun. La OMS declaró PHEIC el 17-may. PAHO activó su sistema de gestión de incidentes; riesgo para las Américas calificado como BAJO, sin casos en la región.",
+        "severity": "watch",
+        "region": "África Central (brote); Américas (preparación)",
+        "source": "PAHO/OPS / OMS",
+        "url": "https://www.paho.org/en/news/4-6-2026-paho-steps-preparedness-across-americas-amid-ebola-outbreak-africa",
+        "date": "2026-06-04"
+      },
+      {
+        "headline": "Dengue en Perú 2026: 7,457 casos y 12 muertes a la SE08 (menos que en 2025)",
+        "summary": "Alerta epidemiológica por dengue activa desde inicios de año. A la semana 8, 7,457 casos acumulados y 12 fallecidos. Más afectadas: San Martín (1,848), Ucayali (1,513) y Loreto (968). Cifra menor al mismo período de 2025 (9,589).",
+        "severity": "watch",
+        "region": "Perú (Amazonía)",
+        "source": "CDC Perú / DGE",
+        "url": "https://www.dge.gob.pe/portalnuevo/informacion-publica/situacion-del-dengue-en-el-peru/",
+        "date": "2026-01-01"
+      }
+    ],
+    "mental_health": [
+      {
+        "headline": "Ley 32575 (Perú, abril 2026): el diagnóstico de salud mental deja de ser exclusivo de psiquiatras",
+        "summary": "Aprobada con 90 votos, modifica el art. 25 de la Ley 30947 y reconoce el diagnóstico en salud mental como proceso integral y multidisciplinario; psicólogos y médicos no especialistas pueden participar según competencias. Responde a la escasez crítica de psiquiatras (294 para 33M de peruanos).",
+        "source": "Congreso de la República / Infobae",
+        "url": "https://www.infobae.com/peru/2026/04/08/es-oficial-el-diagnostico-de-salud-mental-en-peru-dejara-de-ser-exclusivo-de-psiquiatras/",
+        "date": "2026-04-08"
+      },
+      {
+        "headline": "Crisis de salud mental juvenil en Perú: 40% de jóvenes con dificultades clínicas (Sapien Labs 2026)",
+        "summary": "El estudio global de Sapien Labs 2026 ubica al 40% de peruanos de 18-24 años con dificultades clínicas, vinculadas a inestabilidad política crónica y falta de oportunidades. El sistema cubre <20% de la demanda y recibe <3% del presupuesto de salud.",
+        "source": "Sapien Labs / CHNM Perú",
+        "url": "https://chnm.com.pe/2026/03/06/crisis-de-salud-mental-en-peru-2026-40-de-los-jovenes-presentan-dificultades-clinicas-segun-estudio-global/",
+        "date": "2026-03-06"
+      },
+      {
+        "headline": "APA Journals (junio 2026): nuevos estudios sobre depresión, psicosis, guerra y suicidio en veteranos",
+        "summary": "Las revistas de la APA destacan atención integrada para depresión, trayectorias laborales en trastornos mentales, espiritualidad y búsqueda de ayuda en psicosis, terapia cognitiva orientada a recuperación, efectos longitudinales de la guerra y suicidio en veteranos con enfermedad mental grave.",
+        "source": "American Psychiatric Association",
+        "url": "https://www.psychiatry.org/News-room/News-Releases/June-2026-Issues-of-APA-Journals",
+        "date": "2026-06-01"
+      }
+    ]
+  },
+  "good_news": [
+    {
+      "headline": "Hamilton gana su primera carrera con Ferrari a los 41 años en Barcelona",
+      "summary": "Lewis Hamilton ejecutó un undercut impecable en el GP de España (15-jun) para su victoria 106 y la primera con Ferrari tras 31 intentos. Kimi Antonelli abandonó desde el 2.º lugar por fallo de motor.",
+      "category": "deporte",
+      "hook": "A los 41 se volvió el ganador más veterano de F1 desde Jack Brabham en 1970. ¿Quién dijo que la edad importa?",
+      "source": "Formula1.com",
+      "url": "https://www.formula1.com/en/latest/article/hamilton-claims-stellar-maiden-grand-prix-victory-for-ferrari-in-barcelona-as-antonelli-suffers-shock-retirement.4yCXiPLHUdcnl2BwNpqUIa",
+      "date": "2026-06-15"
+    },
+    {
+      "headline": "Los Knicks son campeones de la NBA por primera vez desde 1973",
+      "summary": "Nueva York venció a San Antonio 94-90 en el Juego 5 (13-jun) y levantó el Larry O'Brien tras 53 años. Brunson anotó 45 puntos. El partido lo vieron 24.5 millones, la final más vista en casi tres décadas.",
+      "category": "deporte",
+      "hook": "Nueva York esperó 53 años por esto — y la sequía terminó con 45 puntos de locura de Brunson.",
+      "source": "NBA.com",
+      "url": "https://www.nba.com/news/live-updates-2026-nba-finals-game-5-knicks-seek-first-title-since-1973",
+      "date": "2026-06-13"
+    },
+    {
+      "headline": "'Project Hail Mary' arrasa: US$342M domésticos y 95% en Rotten Tomatoes",
+      "summary": "La adaptación de la novela de Andy Weir, dirigida por Lord y Miller con Ryan Gosling, es el mayor estreno de Amazon MGM de la historia (US$80.5M en su debut) y el segundo film más taquillero de 2026.",
+      "category": "cine",
+      "hook": "Un astronauta solo en el espacio que debe salvar la Tierra — y el público no puede dejar de verlo. ¿Ya la viste?",
+      "source": "Variety",
+      "url": "https://variety.com/2026/film/box-office/project-hail-mary-box-office-biggest-debut-2026-amazon-mgm-record-1236696247/",
+      "date": "2026-06-01"
+    },
+    {
+      "headline": "Harvard: 90 minutos de pesas por semana reducen la mortalidad 13% (y la cardiovascular 19%)",
+      "summary": "Megaestudio de 30 años con 147,000 participantes (British Journal of Sports Medicine, 12-jun): el 'punto óptimo' de fuerza es 90-120 min semanales; más tiempo no suma. Combinado con cardio, el riesgo baja hasta 53-58%.",
+      "category": "salud",
+      "hook": "Menos de 2 horas de pesas a la semana y bajas tu riesgo de morir de casi todo. ¿Cuánto llevas posponiéndolo?",
+      "source": "ScienceDaily / BJSM",
+      "url": "https://www.sciencedaily.com/releases/2026/06/260611024609.htm",
+      "date": "2026-06-12"
+    },
+    {
+      "headline": "JUNO, el mayor detector de neutrinos del mundo, publica su primer resultado en Nature",
+      "summary": "El observatorio chino JUNO (Guangdong, 700 m bajo tierra) publicó en Nature (11-jun) sus primeras mediciones de oscilación de neutrinos con precisión 1.6 veces superior a todas las anteriores combinadas, acercando a resolver el ordenamiento de masas.",
+      "category": "ciencia",
+      "hook": "Un detector del tamaño de un edificio enterrado en China midió algo que la física lleva décadas persiguiendo. ¿Qué son los neutrinos?",
+      "source": "CGTN / Nature",
+      "url": "https://news.cgtn.com/news/2026-06-11/China-s-JUNO-publishes-first-physics-result-in-Nature-1NSZqCaE1ri/p.html",
+      "date": "2026-06-11"
+    },
+    {
+      "headline": "Stanford revierte la pérdida de cartílago en ratones viejos y regenera tejido de rodilla humana",
+      "summary": "Estudio en Science (12-jun): bloquear la enzima del envejecimiento 15-PGDH revierte la degradación del cartílago en ratones, previene artritis post-lesión y regenera cartílago humano de cirugías de reemplazo de rodilla.",
+      "category": "ciencia",
+      "hook": "Tras décadas diciendo que el cartílago 'no se regenera', Stanford lo logró en tejido humano real.",
+      "source": "ScienceDaily / Science",
+      "url": "https://www.sciencedaily.com/releases/2026/06/260611024609.htm",
+      "date": "2026-06-12"
+    }
+  ],
+  "farandula": [
+    {
+      "headline": "Tom Holland confirma en Esquire que ya se casó con Zendaya",
+      "summary": "En la portada de Esquire publicada el 16-jun, Holland confirmó su matrimonio secreto con Zendaya: sus familias 'estuvieron todas ahí'. Al pedirle más, respondió: 'Eso es todo lo que tendrán'. La boda habría sido en privado meses antes.",
+      "scope": "mundial",
+      "hook": "Llevan meses casados en secreto y él lo soltó casi de pasada, como si fuera lo más normal del mundo.",
+      "source": "Variety / E! Online",
+      "url": "https://variety.com/2026/film/news/tom-holland-zendaya-wedding-married-1236782468/",
+      "date": "2026-06-16"
+    },
+    {
+      "headline": "Jelly Roll presenta el divorcio de Bunnie XO tras casi 10 años",
+      "summary": "TMZ reportó el 15-jun que el cantante de country Jelly Roll presentó documentos de divorcio en Tennessee (separación: 9-may). Fuentes lo describen como mutuo y 'un asunto familiar privado', aunque hubo camiones de mudanza frente a la casa.",
+      "scope": "mundial",
+      "hook": "Se fueron mudando en silencio y nadie lo vio venir: uno de los romances más celebrados del country terminó.",
+      "source": "TMZ",
+      "url": "https://www.tmz.com/2026/06/15/jelly-roll-bunnie-xo-divorce/",
+      "date": "2026-06-15"
+    },
+    {
+      "headline": "Simone Biles revela que 'casi muere' en una emergencia médica misteriosa",
+      "summary": "La gimnasta confirmó el 6-jun haber vivido 'una de las experiencias más aterradoras de mi vida', mostrando tres pulseras de hospital, sin revelar diagnóstico. Días después apareció ya recuperada vacacionando en Belice con su esposo.",
+      "scope": "mundial",
+      "hook": "Casi muere, no dijo de qué, y una semana después ya estaba en el Caribe. ¿Qué pasó exactamente?",
+      "source": "E! Online / Fox News",
+      "url": "https://www.eonline.com/news/1432725/simone-biles-says-she-almost-died-after-near-fatal-experience",
+      "date": "2026-06-06"
+    },
+    {
+      "headline": "Jefferson Farfán desafía a Magaly Medina a probar si cumplió su servicio comunitario",
+      "summary": "El 16-jun, Farfán retó por Instagram a Magaly a responder si completó los 138 días de trabajo comunitario que le impuso el Poder Judicial, con la canción 'Alimaña' del Grupo 5 de fondo. Magaly respondió en vivo que sí cumple y lo retó a presentar pruebas.",
+      "scope": "peru",
+      "hook": "Ponerle 'Alimaña' del Grupo 5 de fondo fue el detalle más peruano posible. Esta guerra no tiene fin.",
+      "source": "La República / Infobae Perú",
+      "url": "https://larepublica.pe/espectaculos/2026/06/16/jefferson-farfan-desafia-a-magaly-medina-tras-su-indignacion-por-exposicion-de-su-servicio-comunitario-ahora-pides-privacidad-943776",
+      "date": "2026-06-16"
+    },
+    {
+      "headline": "El padre de Said Palao defiende el ampay de su hijo en un yate: 'Casarse no es estar amarrado'",
+      "summary": "Steve Palao apareció en 'Amor y Fuego' el 16-jun y, sobre el ampay de Said en un yate en Buenos Aires sin Alejandra Baigorria, dijo: 'Si te casas con alguien, eso no quiere decir que estés amarrado'. La frase encendió las redes.",
+      "scope": "peru",
+      "hook": "El suegro de Alejandra Baigorria básicamente justificó el ampay. Ella perdona hace meses; él, sin filtros.",
+      "source": "Infobae Perú",
+      "url": "https://www.infobae.com/peru/2026/06/17/steve-palao-defiende-a-said-palao-tras-ampay-en-el-yate-y-lanza-polemica-frase-si-te-casas-no-quiere-decir-que-estes-amarrado/",
+      "date": "2026-06-17"
+    },
+    {
+      "headline": "Muere a los 40 años James Barker, productor ejecutivo de 'Love Island USA', durante la grabación en Fiyi",
+      "summary": "Barker, productor ejecutivo de la temporada 8 de 'Love Island USA', falleció tras una emergencia médica mientras el programa se grababa en Fiyi. El episodio del 16-jun incluyó un tributo. Trabajó en 110 episodios desde 2020.",
+      "scope": "mundial",
+      "hook": "El reality siguió grabándose con el equipo de luto en Fiyi — ¿cuándo se para un show en estas circunstancias?",
+      "source": "Deadline / Variety",
+      "url": "https://deadline.com/2026/06/james-barker-dead-love-island-usa-executive-producer-1236956367/",
+      "date": "2026-06-16"
+    }
+  ],
+  "meta": {
+    "sources_used": [
+      "Al Jazeera",
+      "American Psychiatric Association",
+      "Andina",
+      "Axios",
+      "Bloomberg",
+      "Brookings",
+      "CDC Perú / DGE",
+      "CGTN",
+      "CNBC",
+      "Congreso de la República del Perú",
+      "Consejo de la UE",
+      "DIGEMID",
+      "Deadline",
+      "E! Online",
+      "El Comercio",
+      "El Peruano",
+      "FXStreet",
+      "FocusEconomics",
+      "Forex.com",
+      "Formula1.com",
+      "Fox News",
+      "INEI",
+      "IndexBox",
+      "Infobae Perú",
+      "InvestingLive",
+      "JM Bullion",
+      "La República",
+      "LatestLY",
+      "MINSA",
+      "NBA.com",
+      "NBC News",
+      "NBS China",
+      "NPR",
+      "Nature",
+      "OMS",
+      "PAHO/OPS",
+      "PBoC",
+      "REX Shares",
+      "RPP",
+      "Reuters",
+      "Sapien Labs / CHNM",
+      "Science",
+      "ScienceDaily",
+      "South China Morning Post",
+      "StockTitan",
+      "TMZ",
+      "TVPerú",
+      "Trading Economics",
+      "Ukrinform",
+      "Variety",
+      "WilmerHale",
+      "Yahoo Finance"
+    ],
+    "thin_sections": [],
+    "notes": "Día cargado: (1) Perú en limbo electoral — Fujimori gana por 36,349 votos al 99.15%, JNE proclamaría en julio, gobierno interino de Balcázar; (2) emergencia sanitaria activa por sarampión (DS 008-2026-SA); (3) decisión del FOMC HOY, primer FOMC bajo Kevin Warsh — métricas USA son intradía/cierre previo, pendientes de la reacción al anuncio; (4) acuerdo EE.UU.-Irán a firmarse el 19-jun, petróleo a la baja. Flags curados a los 6 más significativos (la página tolera más, pero se priorizó señal sobre ruido). Datos de mercado del 16-17 jun con asof explícito. Salud mental: Ley 32575 y crisis juvenil (Sapien Labs) por su relevancia para el lector."
+  }
+}
