@@ -1,0 +1,593 @@
+{
+  "date": "2026-08-28",
+  "generated_at_utc": "2026-08-28T12:35:00Z",
+  "observances": [
+    {
+      "name": "Reincorporación de Tacna al Perú (1929)",
+      "scope": "Perú",
+      "note": "Tras 49 años de ocupación chilena posteriores a la Guerra del Pacífico, Tacna volvió al territorio peruano el 28 de agosto de 1929."
+    },
+    {
+      "name": "Fundación de la Biblioteca Nacional del Perú (1821)",
+      "scope": "Perú",
+      "note": "José de San Martín la fundó como pilar del patrimonio cultural del Perú independiente."
+    }
+  ],
+  "metrics": [
+    {
+      "label": "S&P 500",
+      "value": "7.730,99",
+      "change": "+0,7%",
+      "direction": "up",
+      "asof": "cierre jue 27-ago",
+      "source": "Yahoo Finance / CNBC",
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-august-27-dow-sp-500-nasdaq-082144520.html"
+    },
+    {
+      "label": "Nasdaq Composite",
+      "value": "26.541,35",
+      "change": "+1,6%",
+      "direction": "up",
+      "asof": "cierre jue 27-ago",
+      "source": "Yahoo Finance / CNBC",
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-august-27-dow-sp-500-nasdaq-082144520.html"
+    },
+    {
+      "label": "Dow Jones",
+      "value": "53.569,44",
+      "change": "+0,2%",
+      "direction": "up",
+      "asof": "cierre jue 27-ago",
+      "source": "Yahoo Finance / CNBC",
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-august-27-dow-sp-500-nasdaq-082144520.html"
+    },
+    {
+      "label": "VIX",
+      "value": "14,44",
+      "change": "-0,48%",
+      "direction": "down",
+      "asof": "vie 28-ago 08:14 ET",
+      "source": "Investing.com",
+      "url": "https://www.investing.com/indices/volatility-s-p-500"
+    },
+    {
+      "label": "UST 10 años",
+      "value": "4,69%",
+      "change": "+0,02 pp",
+      "direction": "up",
+      "asof": "vie 28-ago",
+      "source": "Trading Economics",
+      "url": "https://tradingeconomics.com/united-states/government-bond-yield"
+    },
+    {
+      "label": "DXY",
+      "value": "99,20",
+      "change": "+0,04%",
+      "direction": "up",
+      "asof": "vie 28-ago",
+      "source": "Trading Economics",
+      "url": "https://tradingeconomics.com/dxy:cur"
+    },
+    {
+      "label": "USD/PEN",
+      "value": "3,3500",
+      "change": "s/d",
+      "direction": "flat",
+      "asof": "vie 28-ago 6:05am (BCRP referencial)",
+      "source": "RPP Noticias",
+      "url": "https://rpp.pe/economia/economia/precio-del-dolar-peru-y-tipo-de-cambio-hoy-28-de-agosto-del-2026-noticia-1704178"
+    },
+    {
+      "label": "USD/CNY (fixing PBOC)",
+      "value": "6,7840",
+      "change": "leve depreciación del yuan",
+      "direction": "flat",
+      "asof": "jue 27-ago (fixing PBOC)",
+      "source": "South China Morning Post",
+      "url": "https://www.scmp.com/economy/policy/article/3365461/china-keeps-yuan-check-pboc-resists-sharp-rise-against-weaker-us-dollar-analysts"
+    },
+    {
+      "label": "Petróleo Brent",
+      "value": "US$ 89,68",
+      "change": "+2,59%",
+      "direction": "up",
+      "asof": "jue 27-ago 7:15am ET",
+      "source": "Fortune",
+      "url": "https://fortune.com/article/price-of-oil-08-27-2026/"
+    },
+    {
+      "label": "Petróleo WTI",
+      "value": "US$ 82,90",
+      "change": "-0,91%",
+      "direction": "down",
+      "asof": "vie 28-ago",
+      "source": "Trading Economics",
+      "url": "https://tradingeconomics.com/commodity/crude-oil"
+    },
+    {
+      "label": "Oro",
+      "value": "US$ 4.589,28/oz",
+      "change": "-0,56%",
+      "direction": "down",
+      "asof": "jue 27-ago 7:15am ET",
+      "source": "Fortune",
+      "url": "https://fortune.com/article/current-price-of-gold-08-27-2026/"
+    },
+    {
+      "label": "Bitcoin (BTC)",
+      "value": "US$ 79.707,18",
+      "change": "+1,22%",
+      "direction": "up",
+      "asof": "jue 27-ago 7:15am ET",
+      "source": "Fortune",
+      "url": "https://fortune.com/article/price-of-bitcoin-08-27-2026/"
+    }
+  ],
+  "flags": [
+    {
+      "severity": "critical",
+      "title": "Sarampión se dispara en Perú y las Américas: emergencia sanitaria prorrogada 90 días",
+      "detail": "Perú supera 1.780 casos (concentrados en Puno y Arequipa por brechas de vacunación) dentro de un brote regional de 47.459 casos y 44 muertes en las Américas, el peor nivel en 22 años; el Gobierno amplió la Emergencia Sanitaria (DS 013-2026-SA) a 11 regiones.",
+      "region": "Salud",
+      "source": "OPS/PAHO · La República",
+      "url": "https://www.paho.org/en/documents/epidemiological-alert-measles-americas-region-7-august-2026"
+    },
+    {
+      "severity": "high",
+      "title": "Ejecutivo pide facultades legislativas por 120 días tras prorrogar emergencia en Lima y Callao",
+      "detail": "El Consejo de Ministros remitió al Congreso un pedido de 66 facultades legislativas centradas en seguridad ciudadana y El Niño, el mismo día en que el Interior extendió 60 días más el estado de emergencia en Lima Metropolitana y Callao.",
+      "region": "Perú",
+      "source": "La República · Gestión",
+      "url": "https://larepublica.pe/politica/2026/08/27/consejo-de-ministros-aprueba-facultades-legislativas-y-presentaria-el-pedido-manana-ante-el-congreso-hnews-824040"
+    },
+    {
+      "severity": "watch",
+      "title": "La extorsión al transporte urbano de Lima y Callao sigue sin resolverse",
+      "detail": "Gremios que representan más del 80% de las rutas regulares (~15.000 unidades) pararon el 25 de agosto por la ola de extorsión y sicariato contra choferes; es la causa directa de la nueva prórroga del estado de emergencia.",
+      "region": "Perú",
+      "source": "Infobae Perú",
+      "url": "https://www.infobae.com/peru/2026/08/19/paro-de-transportistas-de-lima-y-callao-del-25-de-agosto-estos-son-los-gremios-que-acatan-la-medida-por-la-ola-de-extorsiones/"
+    },
+    {
+      "severity": "high",
+      "title": "Kevin Warsh da su primer discurso como jefe de la Fed en Jackson Hole",
+      "detail": "A tres meses de asumir la presidencia de la Reserva Federal, Warsh habló el 28 de agosto en el simposio de Jackson Hole con inflación en 3,4% y el mercado a la espera de señales sobre la trayectoria de tasas.",
+      "region": "USA",
+      "source": "NPR · CNN Business",
+      "url": "https://www.npr.org/2026/08/27/nx-s1-5945044/federal-reserve-kevin-warsh-jackson-hole-wyoming-bond-markets"
+    },
+    {
+      "severity": "high",
+      "title": "Beijing promete represalias por sanciones de EE.UU. a entidades chinas ligadas a Irán",
+      "detail": "Washington sancionó a ~60 entidades vinculadas a Irán, incluyendo más de una docena en Hong Kong y China continental; Beijing calificó la medida de 'ilícita' en la antesala de una posible cumbre Xi-Trump.",
+      "region": "China",
+      "source": "South China Morning Post · Washington Post",
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3365355/china-vows-payback-us-iran-sanctions-testing-stability-ahead-xi-trump-summit"
+    },
+    {
+      "severity": "high",
+      "title": "EE.UU. dice haber desarticulado una red china de espionaje cibernético contra NASA, la Fed y el Senado",
+      "detail": "El Departamento de Justicia incautó plataformas de hackeo vinculadas a una firma de Nanjing cuyos clientes incluirían al Ministerio de Seguridad del Estado chino; las intrusiones datarían desde 2018. La embajada china lo negó.",
+      "region": "China",
+      "source": "Reuters (vía Yahoo News)",
+      "url": "https://www.yahoo.com/news/us/articles/us-says-chinese-hackers-broke-into-justice-department-nasa-federal-reserve-senate-224727358.html"
+    }
+  ],
+  "regions": [
+    {
+      "key": "peru",
+      "title": "Perú",
+      "stable": false,
+      "items": [
+        {
+          "headline": "Ejecutivo remite pedido de facultades legislativas por 120 días al Congreso",
+          "summary": "El Consejo de Ministros aprobó 66 solicitudes de facultades para legislar, centradas en inseguridad ciudadana y el Fenómeno El Niño.",
+          "category": "política",
+          "hook": "El Gobierno pide poderes especiales por 120 días justo cuando la extorsión y El Niño están en su punto más álgido: ¿control necesario o atajo político?",
+          "source": "La República",
+          "url": "https://larepublica.pe/politica/2026/08/27/consejo-de-ministros-aprueba-facultades-legislativas-y-presentaria-el-pedido-manana-ante-el-congreso-hnews-824040",
+          "date": "2026-08-27"
+        },
+        {
+          "headline": "Gobierno prorroga 60 días el estado de emergencia en Lima y Callao",
+          "summary": "El ministro del Interior, César Astudillo, confirmó la extensión para que PNP y Fuerzas Armadas mantengan el patrullaje conjunto contra la criminalidad.",
+          "category": "social",
+          "hook": "Ya es la enésima prórroga del estado de emergencia en Lima: ¿la militarización de las calles está funcionando o solo se ha vuelto rutina?",
+          "source": "Gestión",
+          "url": "https://gestion.pe/peru/estado-de-emergencia-en-lima-y-callao-continuara-por-60-dias-confirma-ministro-del-interior-noticia/",
+          "date": "2026-08-27"
+        },
+        {
+          "headline": "Juntos por el Perú plantea comisión de verdad sobre las protestas del sur (2022-2023)",
+          "summary": "La bancada propone una Comisión Especial para investigar la represión de las protestas en Apurímac, Ayacucho, Puno, Cusco y otras regiones durante el gobierno de Boluarte.",
+          "category": "política",
+          "hook": "Tres años después, el Congreso recién debate investigar las muertes de las protestas del sur: ¿llega tarde la verdad?",
+          "source": "La República",
+          "url": "https://larepublica.pe/politica/2026/08/27/juntos-por-el-peru-plantea-comision-de-verdad-y-justicia-para-investigar-las-protestas-del-sur-de-20222023-hnews-1672785",
+          "date": "2026-08-27"
+        },
+        {
+          "headline": "JNE confirma que los debates electorales regionales y municipales arrancan el 13 de septiembre",
+          "summary": "El debate específico para la alcaldía de Lima Metropolitana se realizará el 21 y 22 de septiembre, según el presidente del JNE, Roberto Burneo.",
+          "category": "política",
+          "hook": "Falta un mes para las municipales y recién arrancan los debates: ¿alcanzará el tiempo para que Lima conozca a sus candidatos?",
+          "source": "Infobae Perú",
+          "url": "https://www.infobae.com/peru/2026/08/26/debates-electorales-erm-2026-encuentros-entre-candidatos-regionales-y-municipales-comienzan-el-13-de-septiembre/",
+          "date": "2026-08-26"
+        },
+        {
+          "headline": "Exportaciones mineras crecen 58,6% y superan los US$36.000 millones",
+          "summary": "Entre enero y mayo de 2026 la minería representó el 76,1% de todo lo exportado por el Perú, según cifras del sector.",
+          "category": "economía",
+          "hook": "La minería vuelve a ser el motor casi único de las exportaciones peruanas: ¿qué tan sano es depender tanto de un solo sector?",
+          "source": "Energiminas / Diario El Pueblo",
+          "url": "https://energiminas.com/2026/08/24/exportaciones-mineras-crecieron-58-6-y-superan-los-us-36-mil-millones-a-mayo/",
+          "date": "2026-08-24"
+        },
+        {
+          "headline": "BCRP mantiene la tasa de referencia en 4,25% por doceavo mes consecutivo",
+          "summary": "La inflación mensual de julio fue 0,29% y la subyacente 0,28%; la próxima decisión del Directorio será el 10 de septiembre.",
+          "category": "economía",
+          "hook": "El BCRP lleva casi un año sin mover la tasa: ¿cauto ante la inflación o quedándose corto frente a una economía que pide impulso?",
+          "source": "Infobae Perú / Gestión",
+          "url": "https://www.infobae.com/peru/2026/08/14/bcr-deja-tasa-de-referencia-en-425-y-ya-van-12-meses-que-se-mantiene/",
+          "date": "2026-08-14"
+        }
+      ]
+    },
+    {
+      "key": "usa",
+      "title": "USA",
+      "stable": false,
+      "items": [
+        {
+          "headline": "Wall Street repunta con Nvidia: S&P 500 +0,7%, Nasdaq +1,6%",
+          "summary": "Nvidia, Salesforce y otras tecnológicas superaron expectativas; Nvidia proyectó un crecimiento de ingresos de ~70% para 2028, muy por encima del 44% que esperaban los analistas.",
+          "category": "mercados",
+          "source": "CNBC / Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-august-27-dow-sp-500-nasdaq-082144520.html",
+          "date": "2026-08-27"
+        },
+        {
+          "headline": "Las peticiones de desempleo caen a 203.000, por debajo de lo esperado",
+          "summary": "El dato semanal del Departamento de Trabajo (vs. 208.000 previstos) se leyó como señal de fortaleza laboral justo antes del discurso de Warsh en Jackson Hole.",
+          "category": "economía",
+          "source": "Reuters/AP (vía yournews.com)",
+          "url": "https://yournews.com/2026/08/27/7178667/u-s-jobless-claims-fall-to-203000-as-markets-await-major/",
+          "date": "2026-08-27"
+        },
+        {
+          "headline": "Jueza federal bloquea temporalmente la orden de Trump que restringe el voto por correo",
+          "summary": "La jueza Indira Talwani (Boston) frenó por 14 días el plan del Servicio Postal de aplicar la orden ejecutiva; hay audiencia clave el 3 de septiembre, a semanas de las midterms.",
+          "category": "política",
+          "source": "U.S. News & World Report",
+          "url": "https://www.usnews.com/news/politics/articles/2026-08-27/judge-blocks-rule-implementing-trump-plan-to-restrict-mail-in-voting",
+          "date": "2026-08-27"
+        },
+        {
+          "headline": "Demócratas de la Cámara investigan a Donald Trump Jr. y 1789 Capital por presunto uso de información privilegiada",
+          "summary": "El representante Jamie Raskin exige respuestas sobre inversiones de la firma —valuada en ~US$3.000 millones— con retornos que coinciden con contratos y políticas federales.",
+          "category": "política",
+          "source": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-08-27/top-house-democrat-probes-1789-capital-over-trump-family-ties",
+          "date": "2026-08-27"
+        },
+        {
+          "headline": "Kevin Warsh da su primer discurso como presidente de la Fed en Jackson Hole",
+          "summary": "En su primera intervención pública extensa desde que asumió el 22 de mayo, el mercado esperaba señales sobre la trayectoria de tasas con la inflación en 3,4%.",
+          "category": "economía",
+          "source": "NPR / CNN Business",
+          "url": "https://www.npr.org/2026/08/27/nx-s1-5945044/federal-reserve-kevin-warsh-jackson-hole-wyoming-bond-markets",
+          "date": "2026-08-28"
+        }
+      ]
+    },
+    {
+      "key": "china",
+      "title": "China",
+      "stable": false,
+      "items": [
+        {
+          "headline": "EE.UU. dice haber desarticulado una red china de espionaje cibernético contra Justicia, NASA, la Fed y el Senado",
+          "summary": "El DOJ incautó plataformas de hackeo vinculadas a una firma de Nanjing cuyos clientes incluirían al Ministerio de Seguridad del Estado y al Ejército chino; Beijing lo negó y acusó a Washington de usar la ciberseguridad para desprestigiar a China.",
+          "category": "geopolítica",
+          "source": "Reuters (vía Yahoo News)",
+          "url": "https://www.yahoo.com/news/us/articles/us-says-chinese-hackers-broke-into-justice-department-nasa-federal-reserve-senate-224727358.html",
+          "date": "2026-08-26"
+        },
+        {
+          "headline": "China e India sostienen conversaciones fronterizas y logran un consenso de 8 puntos",
+          "summary": "Wang Yi y Ajit Doval acordaron en Beijing buscar un arreglo 'justo y razonable' a la disputa fronteriza; la próxima ronda será en India en 2027.",
+          "category": "geopolítica",
+          "source": "Reuters (vía Kathmandu Post)",
+          "url": "https://kathmandupost.com/world/2026/08/26/china-india-hold-border-talks-agree-to-continue-search-for-boundary-settlement",
+          "date": "2026-08-26"
+        },
+        {
+          "headline": "El PBOC frena la apreciación del yuan pese a la debilidad del dólar",
+          "summary": "El fixing USD/CNY se ubicó en 6,7840, resistiéndose a una apreciación rápida aunque el índice dólar cayó más de 2% desde fines de julio.",
+          "category": "economía",
+          "source": "South China Morning Post",
+          "url": "https://www.scmp.com/economy/policy/article/3365461/china-keeps-yuan-check-pboc-resists-sharp-rise-against-weaker-us-dollar-analysts",
+          "date": "2026-08-27"
+        },
+        {
+          "headline": "El viceprimer ministro Ding Xuexiang señala una reforma fiscal para aliviar a los gobiernos locales",
+          "summary": "Beijing 'aumentará los recursos fiscales discrecionales' de las provincias, ninguna de las cuales cubre hoy todo su gasto con ingresos propios, según Huachuang Securities.",
+          "category": "política",
+          "source": "South China Morning Post",
+          "url": "https://www.scmp.com/economy/china-economy/article/3365455/china-vice-premier-signals-reform-reshape-central-local-finances-amid-funding-pressure",
+          "date": "2026-08-27"
+        },
+        {
+          "headline": "Acciones de energía chinas se desploman tras la prohibición de EE.UU. a equipos de red eléctrica extranjeros",
+          "summary": "Sungrow Power cayó 12,24% y Sieyuan Electric tocó el límite de baja tras la orden de Trump que declara emergencia nacional sobre equipos de energía de origen extranjero.",
+          "category": "economía",
+          "source": "South China Morning Post",
+          "url": "https://www.scmp.com/economy/global-economy/article/3365554/chinese-power-stocks-slump-after-us-grid-ban-sell-warranted",
+          "date": "2026-08-28"
+        },
+        {
+          "headline": "Beijing promete represalias por las sanciones de EE.UU. a entidades chinas ligadas a Irán",
+          "summary": "Washington sancionó cerca de 60 entidades por presunto envío de petróleo iraní; China calificó la medida de 'ilícita', a semanas de una posible cumbre Xi-Trump.",
+          "category": "geopolítica",
+          "source": "South China Morning Post / Washington Post",
+          "url": "https://www.scmp.com/news/china/diplomacy/article/3365355/china-vows-payback-us-iran-sanctions-testing-stability-ahead-xi-trump-summit",
+          "date": "2026-08-26"
+        }
+      ]
+    },
+    {
+      "key": "global",
+      "title": "Global",
+      "stable": false,
+      "items": [
+        {
+          "headline": "El petróleo Brent cae por debajo de US$88 en su tercera sesión de pérdidas",
+          "summary": "Con una caída semanal de más de 7%, el mercado sopesa mejores perspectivas de suministro por el Estrecho de Ormuz frente a más disrupciones a las exportaciones rusas.",
+          "category": "mercados",
+          "source": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-08-26/latest-oil-market-news-and-analysis-for-aug-27",
+          "date": "2026-08-27"
+        },
+        {
+          "headline": "El oro se mantiene cerca de US$4.600 a la espera del discurso de Warsh",
+          "summary": "El metal acumula un alza superior a 13% en agosto mientras los inversores esperan señales de política monetaria del nuevo jefe de la Fed en Jackson Hole.",
+          "category": "mercados",
+          "source": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-08-27/gold-holds-near-4-600-as-investors-focus-on-fed-rate-hike-path",
+          "date": "2026-08-27"
+        },
+        {
+          "headline": "Irán y Omán acuerdan compartir ingresos del tránsito por el Estrecho de Ormuz",
+          "summary": "Según un vocero de la Guardia Revolucionaria, ambos países pactaron un 'marco interino'; Teherán condiciona cualquier normalización al cumplimiento por EE.UU. del memorando de junio.",
+          "category": "geopolítica",
+          "source": "Bloomberg (vía Yahoo Finance)",
+          "url": "https://finance.yahoo.com/energy/articles/iran-oman-agree-share-strait-115050034.html",
+          "date": "2026-08-26"
+        },
+        {
+          "headline": "Trump firma orden para renombrar el Lago Ontario como 'Lake America' en plena guerra comercial con Canadá",
+          "summary": "La medida llega tras la ruptura de negociaciones comerciales y nuevos aranceles de represalia entre ambos países.",
+          "category": "geopolítica",
+          "source": "CNBC / Washington Post",
+          "url": "https://www.cnbc.com/2026/08/27/trump-canada-lake-america-ontario.html",
+          "date": "2026-08-27"
+        }
+      ]
+    }
+  ],
+  "health": {
+    "normativas": [
+      {
+        "headline": "Gobierno amplía 90 días la emergencia sanitaria por sarampión en 11 regiones",
+        "summary": "El Decreto Supremo 013-2026-SA extiende la emergencia por transmisión local en Puno y riesgo de propagación en Lima, Callao, Arequipa, Cusco y otras 7 regiones; a la SE 30 hay casos en 40 provincias y 118 distritos.",
+        "region": "Perú",
+        "source": "El Peruano / La República",
+        "url": "https://larepublica.pe/sociedad/2026/08/15/amplian-por-90-dias-emergencia-sanitaria-por-brote-de-sarampion-y-riesgo-de-contagio-en-11-regiones-745725",
+        "date": "2026-08-15"
+      },
+      {
+        "headline": "DIGEMID e INDECOPI ordenan el retiro de un medicamento oncológico y un dispositivo médico",
+        "summary": "Se dispuso retirar y destruir un lote de ifosfamida inyectable (uso oncológico) y un lote de cánulas intravenosas 'Safety I.V.' que no superaron controles de calidad.",
+        "region": "Perú",
+        "source": "La República (INDECOPI/DIGEMID)",
+        "url": "https://larepublica.pe/sociedad/2026/08/09/alerta-sanitaria-digemid-e-indecopi-ordenan-el-retiro-y-destruccion-de-estos-productos-medicos-contra-el-cancer-por-riesgos-a-la-salud-491463",
+        "date": "2026-08-09"
+      }
+    ],
+    "epi_alerts": [
+      {
+        "headline": "Sarampión: 47.459 casos y 44 muertes en las Américas, el peor nivel en 22 años",
+        "summary": "Perú ya supera 1.780 casos, concentrados en Puno y Arequipa por coberturas de vacunación por debajo del 95% en zonas como Juliaca.",
+        "severity": "critical",
+        "region": "Américas / Perú",
+        "source": "OPS/PAHO · La República",
+        "url": "https://www.paho.org/en/documents/epidemiological-alert-measles-americas-region-7-august-2026",
+        "date": "2026-08-07"
+      },
+      {
+        "headline": "Leptospirosis en Perú alcanza su peor cifra en 5 años: 8.511 casos y 34 muertes",
+        "summary": "MINSA/CDC Perú reportan 1.057 hospitalizados (+145% interanual) y emitió alerta epidemiológica por incremento de riesgo en 24 departamentos afectados por lluvias intensas.",
+        "severity": "high",
+        "region": "Perú",
+        "source": "La República / MINSA-CDC Perú",
+        "url": "https://larepublica.pe/sociedad/2026/08/10/leptospirosis-en-peru-alcanza-cifra-record-de-muertes-y-hospitalizados-en-2026-el-nino-agravaria-panorama-622480",
+        "date": "2026-08-10"
+      },
+      {
+        "headline": "Gripe aviar A(H5): los brotes animales bajan 25,7% en las Américas, sin casos humanos en la región",
+        "summary": "OPS reporta 455 brotes en animales entre enero y julio (10 países); a nivel global van 9 casos humanos y 2 muertes en lo que va de 2026, sin casos en las Américas.",
+        "severity": "watch",
+        "region": "Américas",
+        "source": "OPS/PAHO",
+        "url": "https://www.paho.org/en/news/27-8-2026-avian-influenza-americas-animal-outbreaks-decline-paho-calls-continued-vigilance",
+        "date": "2026-08-27"
+      }
+    ],
+    "mental_health": [
+      {
+        "headline": "OMS y Lions Clubs amplían servicios de salud mental en Jordania y Nepal",
+        "summary": "Acuerdo de 3 años para ampliar el acceso a atención de salud mental y neurológica; la brecha de tratamiento supera 95% en algunos países, según la OMS.",
+        "source": "OMS",
+        "url": "https://www.who.int/news/item/14-08-2026-who-lions-clubs-partner-to-expand-mental-health-services-in-jordan-and-nepal",
+        "date": "2026-08-14"
+      },
+      {
+        "headline": "MINSA entrega 1.070 equipos tecnológicos a centros de salud mental de Lima",
+        "summary": "Inversión de S/2,75 millones para mejorar el registro clínico y el seguimiento de pacientes en las 4 DIRIS de Lima Metropolitana.",
+        "source": "Consultorsalud",
+        "url": "https://consultorsalud.com/salud-mental-en-lima-1070-equipos-tecnologicos/",
+        "date": "2026-08-24"
+      },
+      {
+        "headline": "El juicio de Lindsay Clancy reabre el debate sobre la psicosis posparto",
+        "summary": "El caso (EE.UU.) puso en agenda las señales de alarma, el tratamiento de emergencia y los vacíos de diagnóstico de una condición que afecta a 1-2 de cada 1.000 mujeres.",
+        "source": "Psychiatric Times",
+        "url": "https://www.psychiatrictimes.com/view/postpartum-psychosis-on-trial-what-the-lindsay-clancy-case-can-teach-us",
+        "date": "2026-08-27"
+      }
+    ]
+  },
+  "good_news": [
+    {
+      "headline": "Un eclipse lunar parcial de más de 5 horas iluminó los cielos de medio mundo",
+      "summary": "La 'luna carmesí' fue visible entre el 27 y 28 de agosto para millones de personas alrededor del planeta.",
+      "category": "curiosidad",
+      "hook": "¿Viste la luna roja anoche? Medio planeta se detuvo a mirar el cielo al mismo tiempo.",
+      "source": "Space.com",
+      "url": "https://www.space.com/news/live/partial-lunar-eclipse-tonight-august-27-28-2026-live-updates",
+      "date": "2026-08-28"
+    },
+    {
+      "headline": "La NASA está a horas de lanzar un telescopio que podría hallar 100.000 mundos nuevos",
+      "summary": "El telescopio Nancy Grace Roman despegará el 30 de agosto en un Falcon Heavy; tiene un campo de visión 100 veces mayor que el Hubble.",
+      "category": "ciencia",
+      "hook": "En unos días la NASA lanza un telescopio que podría encontrar más planetas que todos los que conocemos juntos.",
+      "source": "Space.com / NASA Science",
+      "url": "https://www.space.com/news/live/nancy-grace-roman-telescope-live-updates-nasa-readies-roman-for-launch-august-26-2026",
+      "date": "2026-08-28"
+    },
+    {
+      "headline": "Nanopartículas de 'doble golpe' iluminan y destruyen el cáncer cerebral que deja la cirugía",
+      "summary": "Científicos de Sídney, Harvard y Henan lograron 100% de supervivencia a 60 días en ratones con glioblastoma usando partículas activadas por luz.",
+      "category": "ciencia",
+      "hook": "Imagina una partícula que te muestra dónde está el cáncer y luego lo destruye: ya funcionó en ratones.",
+      "source": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/08/260826060617.htm",
+      "date": "2026-08-26"
+    },
+    {
+      "headline": "Bruno Fernandes y Bunny Shaw, mejores jugadores de la Premier League y la WSL",
+      "summary": "El capitán del Manchester United y la delantera del Manchester City ganaron los premios PFA Player of the Year 2026; Fernandes es el primer ganador del United desde Rooney.",
+      "category": "premiación",
+      "hook": "El United no ganaba este premio desde la época de Rooney. ¿Se lo merecía Bruno Fernandes?",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/sports/2026/8/26/man-uniteds-fernandes-citys-shaw-named-pfa-players-of-the-year",
+      "date": "2026-08-26"
+    },
+    {
+      "headline": "Un estudio de 30 años halla el 'punto dulce' del entrenamiento de fuerza para vivir más",
+      "summary": "Con más de 147.000 personas seguidas, 90-120 minutos semanales de pesas se asociaron a 13% menos riesgo de muerte y 27% menos riesgo de muerte por enfermedad neurológica.",
+      "category": "salud",
+      "hook": "No necesitas vivir en el gimnasio: con dos horas de pesas a la semana ya estás ganando años de vida.",
+      "source": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/08/260808234959.htm",
+      "date": "2026-08-08"
+    },
+    {
+      "headline": "Cine peruano: 'Mañana me caso' le hace frente a Shrek en la cartelera",
+      "summary": "La comedia nacional con Flavia Laos, Mayra Goñi y Alessandra Fuller compite en salas peruanas contra el estreno de Shrek.",
+      "category": "cine",
+      "hook": "Flavia Laos, Mayra Goñi y Alessandra Fuller le compitieron a Shrek en el cine peruano. ¿La viste?",
+      "source": "Yahoo Noticias",
+      "url": "https://es-us.noticias.yahoo.com/revelan-taquilla-estreno-ma%C3%B1ana-caso-040855276.html",
+      "date": "2026-08-13"
+    }
+  ],
+  "farandula": [
+    {
+      "headline": "Kim Kardashian y Lewis Hamilton, el romance 'Kimilton' sigue sumando apariciones juntos",
+      "summary": "Según medios de espectáculo, la pareja lleva meses reconociéndose públicamente; el piloto compartió fotos de sus vacaciones de verano junto a ella.",
+      "scope": "mundial",
+      "hook": "¿'Kimilton' va en serio? Kim Kardashian y Lewis Hamilton ya se dejan ver juntos hasta en vacaciones.",
+      "source": "AOL Entertainment / IBTimes UK",
+      "url": "https://www.aol.com/entertainment/kim-kardashian-lewis-hamilton-confirm-134602573.html",
+      "date": "2026-08-17"
+    },
+    {
+      "headline": "Jordyn Woods y Karl-Anthony Towns se casaron en una ceremonia frente al mar en Malibú",
+      "summary": "Tras cinco años de relación, la influencer y el basquetbolista de la NBA se dieron el sí con invitados de Hollywood y del mundo del deporte.",
+      "scope": "mundial",
+      "hook": "Boda de cuento frente al mar: ¿ya viste el vestido de Jordyn Woods para casarse con Karl-Anthony Towns?",
+      "source": "TMZ",
+      "url": "https://www.tmz.com/2026/08/16/jordyn-woods-karl-anthony-towns-wedding/",
+      "date": "2026-08-15"
+    },
+    {
+      "headline": "Ana de Armas confirmaría romance con Beto Montenegro, vocalista de Rawayana",
+      "summary": "Fotos que circularon en medios de espectáculos muestran a la actriz cubana y al cantante venezolano besándose durante una escapada en Formentera.",
+      "scope": "regional",
+      "hook": "Ana de Armas con el vocalista de Rawayana: ¿el romance más inesperado del verano latino?",
+      "source": "Diario Libre / Listín Diario",
+      "url": "https://www.diariolibre.com/revista/farandula/2026/08/14/ana-de-armas-y-el-vocalista-de-rawayana-captados-besandose/3629024",
+      "date": "2026-08-14"
+    },
+    {
+      "headline": "Magaly Medina y Yahaira Plasencia hacen las paces tras años de pleito legal",
+      "summary": "Según Infobae Perú, ambas firmaron una conciliación que puso fin al juicio por difamación entre ellas, con disculpas mutuas y sin pago de dinero de por medio.",
+      "scope": "peru",
+      "hook": "Después de años de guerra en TV, Magaly Medina y Yahaira Plasencia se dieron la mano. ¿Se lo esperaban?",
+      "source": "Infobae Perú",
+      "url": "https://www.infobae.com/peru/2026/08/26/el-fin-de-una-guerra-magaly-medina-y-yahaira-plasencia-firmaron-la-conciliacion-adios-al-juicio-por-difamacion/",
+      "date": "2026-08-26"
+    },
+    {
+      "headline": "Curwen cancela su boda tras el ampay de Carla Campos en una disco de Miraflores",
+      "summary": "El programa de Magaly Medina difundió un video de la novia del streamer bailando con otro joven; Curwen confirmó la cancelación definitiva ('me cegué', dijo).",
+      "scope": "peru",
+      "hook": "Se canceló la boda por un ampay: ¿qué se rumorea que pasó realmente entre Curwen y Carla Campos?",
+      "source": "Infobae Perú / La República",
+      "url": "https://www.infobae.com/peru/2026/08/20/curwen-termino-definitivamente-con-carla-campos-ampay-boda-cancelada-y-todo-lo-que-se-sabe-sobre-la-pareja/",
+      "date": "2026-08-20"
+    }
+  ],
+  "meta": {
+    "sources_used": [
+      "La República",
+      "Gestión",
+      "El Comercio",
+      "RPP",
+      "Infobae Perú",
+      "Energiminas",
+      "El Peruano",
+      "OPS/PAHO",
+      "MINSA/CDC Perú",
+      "DIGEMID/INDECOPI",
+      "OMS",
+      "Consultorsalud",
+      "Psychiatric Times",
+      "Reuters",
+      "Bloomberg",
+      "CNBC",
+      "NPR",
+      "CNN Business",
+      "U.S. News",
+      "Yahoo Finance",
+      "Fortune",
+      "Trading Economics",
+      "Investing.com",
+      "South China Morning Post",
+      "Washington Post",
+      "Kathmandu Post",
+      "TMZ",
+      "Space.com",
+      "ScienceDaily",
+      "Al Jazeera",
+      "Diario Libre",
+      "AOL Entertainment"
+    ],
+    "thin_sections": [],
+    "notes": "No se encontró día mundial oficial de la OMS/ONU con fecha exacta 28 de agosto de 2026 (verificado en who.int/campaigns y un.org/es/observances); se reportan solo efemérides nacionales de Perú con fuente verificable. No se incluyó el valor de cierre del IGBVL/BVL por no encontrar una cifra puntual del 27-28 de agosto con URL verificable de agencia; se omitió en vez de estimarla."
+  }
+}
