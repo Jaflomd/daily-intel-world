@@ -1,7 +1,14 @@
 {
-  "generated": 25,
-  "latest": "2026-09-10",
+  "generated": 26,
+  "latest": "2026-09-11",
   "editions": [
+    {
+      "date": "2026-09-11",
+      "flags": 5,
+      "regions": 15,
+      "thin": false,
+      "href": "archive/2026-09-11.html"
+    },
     {
       "date": "2026-09-10",
       "flags": 5,
